@@ -85,16 +85,27 @@ class FirecrawlScraper:
         self.logger.info(f"🔥 Scraping URL: {url}")
         
         try:
-            # Call Firecrawl API
-            scrape_result = self.client.scrape_url(
-                url,
-                params={
-                    'formats': formats,
-                    'onlyMainContent': True,  # Skip navigation, footer, ads
-                    'waitFor': 2000,  # Wait for dynamic content to load
-                    'timeout': 30000  # 30 second timeout
-                }
-            )
+            # Call Firecrawl API (newer version uses different method)
+            # Try new API first (v1+)
+            try:
+                scrape_result = self.client.scrape_url(
+                    url,
+                    params={
+                        'formats': formats,
+                        'onlyMainContent': True,
+                        'waitFor': 2000,
+                        'timeout': 30000
+                    }
+                )
+            except AttributeError:
+                # Fallback to newer API method
+                scrape_result = self.client.scrape(
+                    url=url,
+                    formats=formats,
+                    only_main_content=True,
+                    wait_for=2000,
+                    timeout=30000
+                )
             
             # Extract data from response
             markdown = scrape_result.get('markdown', '')
