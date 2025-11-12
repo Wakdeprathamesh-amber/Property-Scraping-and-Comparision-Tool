@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Comparison Tool - Amber</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>🏠 Property Comparison Tool</h1>
+                <p class="subtitle">AI-powered property listing analysis</p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Upload Section -->
+            <section class="upload-section" id="uploadSection">
+                <div class="card">
+                    <h2>📊 Compare Properties</h2>
+                    <p class="description">Upload property data from Amber and a competitor to generate comprehensive comparison reports with AI-powered insights.</p>
+                    
+                    <!-- Input Mode Toggle -->
+                    <div class="input-mode-toggle">
+                        <button type="button" class="mode-btn active" data-mode="file" id="fileModeBtn">
+                            📁 Upload Files
+                        </button>
+                        <button type="button" class="mode-btn" data-mode="paste" id="pasteModeBtn">
+                            📝 Paste Data
+                        </button>
+                        <button type="button" class="mode-btn" data-mode="url" id="urlModeBtn">
+                            🔥 Paste URLs
+                        </button>
+                    </div>
+
+                    <form id="comparisonForm" class="upload-form">
+                        <!-- File Upload Mode -->
+                        <div id="fileUploadMode" class="input-mode">
+                            <!-- Amber File -->
+                            <div class="file-input-group">
+                                <label for="amberFile">
+                                    <span class="label-icon">🟠</span>
+                                    <span class="label-text">Amber Property Data (JSON)</span>
+                                </label>
+                                <div class="file-input-wrapper">
+                                    <input 
+                                        type="file" 
+                                        id="amberFile" 
+                                        name="amber_file" 
+                                        accept=".json"
+                                        class="file-input"
+                                    >
+                                    <span class="file-name" id="amberFileName">No file chosen</span>
+                                </div>
+                            </div>
+
+                            <!-- Competitor File -->
+                            <div class="file-input-group">
+                                <label for="competitorFile">
+                                    <span class="label-icon">🔵</span>
+                                    <span class="label-text">Competitor Property Data (JSON)</span>
+                                </label>
+                                <div class="file-input-wrapper">
+                                    <input 
+                                        type="file" 
+                                        id="competitorFile" 
+                                        name="competitor_file" 
+                                        accept=".json"
+                                        class="file-input"
+                                    >
+                                    <span class="file-name" id="competitorFileName">No file chosen</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Paste Input Mode -->
+                        <div id="pasteJsonMode" class="input-mode" style="display: none;">
+                            <!-- Format Selection -->
+                            <div class="format-selector">
+                                <label>
+                                    <span class="label-text">Input Format:</span>
+                                    <select id="inputFormat" class="format-select">
+                                        <option value="auto">🔍 Auto-detect</option>
+                                        <option value="json">📋 JSON</option>
+                                        <option value="text">📄 Plain Text</option>
+                                        <option value="markdown">📝 Markdown</option>
+                                    </select>
+                                </label>
+                                <p class="format-hint">
+                                    You can paste JSON, plain text, or Markdown. The system will automatically detect and parse the format.
+                                </p>
+                            </div>
+
+                            <!-- Amber Input Paste -->
+                            <div class="paste-input-group">
+                                <label for="amberJsonPaste">
+                                    <span class="label-icon">🟠</span>
+                                    <span class="label-text">Amber Property Data</span>
+                                    <span class="format-badge" id="amberFormatBadge"></span>
+                                </label>
+                                <div class="json-paste-wrapper">
+                                    <textarea 
+                                        id="amberJsonPaste" 
+                                        name="amber_json"
+                                        class="json-textarea"
+                                        placeholder='Paste your data here (JSON, Text, or Markdown)...
+
+JSON Example:
+{
+  "property_name": "iQ Sterling Court",
+  "url": "https://...",
+  "extracted_content": {
+    "text": "Property description...",
+    "images": [],
+    "links": []
+  }
+}
+
+Text/Markdown Example:
+Property Name: iQ Sterling Court
+URL: https://amberstudent.com/properties/...
+Location: Wembley, London
+
+Description:
+Property description goes here...
+Amenities: WiFi, Laundry, etc.'
+                                        rows="14"
+                                    ></textarea>
+                                    <div class="json-actions">
+                                        <button type="button" class="btn-small" id="validateAmberJson">
+                                            ✓ Validate
+                                        </button>
+                                        <button type="button" class="btn-small" id="formatAmberJson">
+                                            🎨 Format (JSON only)
+                                        </button>
+                                        <button type="button" class="btn-small" id="loadSampleAmber">
+                                            📝 Load Sample
+                                        </button>
+                                        <button type="button" class="btn-small" id="clearAmberJson">
+                                            🗑️ Clear
+                                        </button>
+                                    </div>
+                                    <div class="json-status" id="amberJsonStatus"></div>
+                                </div>
+                            </div>
+
+                            <!-- Competitor Input Paste -->
+                            <div class="paste-input-group">
+                                <label for="competitorJsonPaste">
+                                    <span class="label-icon">🔵</span>
+                                    <span class="label-text">Competitor Property Data</span>
+                                    <span class="format-badge" id="competitorFormatBadge"></span>
+                                </label>
+                                <div class="json-paste-wrapper">
+                                    <textarea 
+                                        id="competitorJsonPaste" 
+                                        name="competitor_json"
+                                        class="json-textarea"
+                                        placeholder='Paste your data here (JSON, Text, or Markdown)...
+
+JSON Example:
+{
+  "property_name": "iQ Sterling Court",
+  "url": "https://...",
+  "extracted_content": {
+    "text": "Property description...",
+    "images": [],
+    "links": []
+  }
+}
+
+Text/Markdown Example:
+Property Name: iQ Sterling Court
+URL: https://competitor.com/properties/...
+Location: Wembley, London
+
+Description:
+Property description goes here...
+Special Offers: £500 cashback...'
+                                        rows="14"
+                                    ></textarea>
+                                    <div class="json-actions">
+                                        <button type="button" class="btn-small" id="validateCompetitorJson">
+                                            ✓ Validate
+                                        </button>
+                                        <button type="button" class="btn-small" id="formatCompetitorJson">
+                                            🎨 Format (JSON only)
+                                        </button>
+                                        <button type="button" class="btn-small" id="loadSampleCompetitor">
+                                            📝 Load Sample
+                                        </button>
+                                        <button type="button" class="btn-small" id="clearCompetitorJson">
+                                            🗑️ Clear
+                                        </button>
+                                    </div>
+                                    <div class="json-status" id="competitorJsonStatus"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- URL Input Mode -->
+                        <div id="urlInputMode" class="input-mode" style="display: none;">
+                            <div class="firecrawl-info-banner">
+                                <h3>🔥 Automatic Web Scraping with Firecrawl</h3>
+                                <p>Paste property URLs and we'll automatically scrape the content for you!</p>
+                            </div>
+
+                            <!-- Amber URL -->
+                            <div class="url-input-group">
+                                <label for="amberUrl">
+                                    <span class="label-icon">🟠</span>
+                                    <span class="label-text">Amber Property URL</span>
+                                </label>
+                                <div class="url-input-wrapper">
+                                    <input 
+                                        type="url" 
+                                        id="amberUrl" 
+                                        name="amber_url"
+                                        class="url-input"
+                                        placeholder="https://amberstudent.com/places/property-name-123"
+                                    >
+                                    <div class="json-status" id="amberUrlStatus"></div>
+                                </div>
+                                <p class="input-hint">
+                                    Example: https://amberstudent.com/places/1ten-on-whyte-edmonton-2406117194533
+                                </p>
+                            </div>
+
+                            <!-- Competitor URL -->
+                            <div class="url-input-group">
+                                <label for="competitorUrl">
+                                    <span class="label-icon">🔵</span>
+                                    <span class="label-text">Competitor Property URL</span>
+                                </label>
+                                <div class="url-input-wrapper">
+                                    <input 
+                                        type="url" 
+                                        id="competitorUrl" 
+                                        name="competitor_url"
+                                        class="url-input"
+                                        placeholder="https://universityliving.com/property/name or https://apartments.com/property"
+                                    >
+                                    <div class="json-status" id="competitorUrlStatus"></div>
+                                </div>
+                                <p class="input-hint">
+                                    Example: https://www.apartments.com/1ten-on-whyte-student-living-edmonton-ab/0fl02z0/
+                                </p>
+                            </div>
+
+                            <div class="url-note">
+                                <strong>⚡ Note:</strong> Scraping typically takes 2-5 seconds per URL. 
+                                The system will automatically extract all property details.
+                            </div>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary" id="submitBtn">
+                            <span class="btn-text">🚀 Start Comparison</span>
+                            <span class="btn-loader" style="display: none;">
+                                <span class="spinner"></span> Processing...
+                            </span>
+                        </button>
+                    </form>
+
+                    <!-- Sample Data Option -->
+                    <div class="sample-data-option">
+                        <button class="btn btn-secondary" id="useSampleBtn">
+                            📝 Use Sample Data
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Processing Section -->
+            <section class="processing-section" id="processingSection" style="display: none;">
+                <div class="card">
+                    <h2>⚙️ Processing Comparison</h2>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progressFill"></div>
+                        </div>
+                        <p class="progress-text" id="progressText">Initializing...</p>
+                    </div>
+                    
+                    <div class="stage-info">
+                        <div class="stage-item" data-stage="validation">
+                            <span class="stage-icon">⏳</span>
+                            <span class="stage-name">Input Validation</span>
+                        </div>
+                        <div class="stage-item" data-stage="extraction">
+                            <span class="stage-icon">⏳</span>
+                            <span class="stage-name">Section Extraction</span>
+                        </div>
+                        <div class="stage-item" data-stage="analysis">
+                            <span class="stage-icon">⏳</span>
+                            <span class="stage-name">Deep Analysis</span>
+                        </div>
+                        <div class="stage-item" data-stage="comparison">
+                            <span class="stage-icon">⏳</span>
+                            <span class="stage-name">Comparison</span>
+                        </div>
+                        <div class="stage-item" data-stage="reporting">
+                            <span class="stage-icon">⏳</span>
+                            <span class="stage-name">Report Generation</span>
+                        </div>
+                    </div>
+
+                    <p class="estimated-time">Estimated time: 2-3 minutes</p>
+                </div>
+            </section>
+
+            <!-- Results Section -->
+            <section class="results-section" id="resultsSection" style="display: none;">
+                <div class="card">
+                    <h2>✅ Comparison Complete!</h2>
+                    
+                    <!-- Summary Stats -->
+                    <div class="stats-grid" id="statsGrid">
+                        <div class="stat-card">
+                            <div class="stat-value" id="statSimilarity">--</div>
+                            <div class="stat-label">Content Similarity</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="statAmberScore">--</div>
+                            <div class="stat-label">Amber Richness</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="statCompetitorScore">--</div>
+                            <div class="stat-label">Competitor Richness</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="statInsights">--</div>
+                            <div class="stat-label">Insights Generated</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="statRecommendations">--</div>
+                            <div class="stat-label">Recommendations</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="statTime">--</div>
+                            <div class="stat-label">Processing Time</div>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="action-buttons">
+                        <button class="btn btn-outline" id="newComparisonBtn">
+                            ➕ New Comparison
+                        </button>
+                        <div class="download-options">
+                            <span class="download-label">Download:</span>
+                            <button class="btn btn-secondary btn-small" id="downloadCsvBtn" title="Download CSV">
+                                📊 CSV
+                            </button>
+                            <button class="btn btn-secondary btn-small" id="downloadJsonBtn" title="Download JSON">
+                                📋 JSON
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Full Report Preview -->
+                    <div class="preview-section">
+                        <div class="preview-header">
+                            <h3>📋 Full Report Preview</h3>
+                            <button class="btn-icon" id="toggleFullscreen" title="Toggle Fullscreen">
+                                ⛶
+                            </button>
+                        </div>
+                        <div id="previewContent" class="preview-content html-preview">
+                            <!-- HTML report will be displayed here -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Error Section -->
+            <section class="error-section" id="errorSection" style="display: none;">
+                <div class="card error-card">
+                    <h2>❌ Error Occurred</h2>
+                    <p id="errorMessage" class="error-message"></p>
+                    <button class="btn btn-primary" id="retryBtn">
+                        🔄 Try Again
+                    </button>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Built with ❤️ using LangGraph & AI • Amber Student</p>
+        </footer>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
+
