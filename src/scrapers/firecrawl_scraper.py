@@ -107,10 +107,35 @@ class FirecrawlScraper:
                     timeout=30000
                 )
             
-            # Extract data from response
-            markdown = scrape_result.get('markdown', '')
-            html = scrape_result.get('html', '')
-            metadata = scrape_result.get('metadata', {})
+            # Extract data from response (handle both dict and Document object)
+            # New Firecrawl API returns Document objects with attributes
+            # Old API returns dictionaries
+            
+            def safe_extract(obj, key, default=''):
+                """Extract data from dict or Document object"""
+                if hasattr(obj, key):
+                    return getattr(obj, key, default)
+                elif isinstance(obj, dict):
+                    return obj.get(key, default)
+                else:
+                    return default
+            
+            markdown = safe_extract(scrape_result, 'markdown', '')
+            html = safe_extract(scrape_result, 'html', '')
+            metadata = safe_extract(scrape_result, 'metadata', {})
+            
+            # Handle metadata as dict or object
+            if not isinstance(metadata, dict):
+                # Convert metadata object to dict
+                metadata = {
+                    'title': safe_extract(metadata, 'title', 'Unknown Property'),
+                    'description': safe_extract(metadata, 'description', ''),
+                    'images': safe_extract(metadata, 'images', []),
+                    'links': safe_extract(metadata, 'links', []),
+                    'ogTags': safe_extract(metadata, 'ogTags', {}),
+                    'language': safe_extract(metadata, 'language', None),
+                    'sourceURL': safe_extract(metadata, 'sourceURL', '')
+                }
             
             # Extract images and links from metadata
             images = []
