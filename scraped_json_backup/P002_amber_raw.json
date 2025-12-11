@@ -1,0 +1,935 @@
+{
+  "message": "success",
+  "data": {
+    "id": 165558,
+    "source": "Chapter Greystar",
+    "source_id": "98179164993793759356",
+    "source_dump": null,
+    "source_link": "https://www.chapter-living.com/properties/spitalfields/",
+    "name": "Chapter Spitalfields, London",
+    "parent_id": null,
+    "pricing": {
+      "currency": "pound",
+      "duration": "weekly",
+      "max_price": 885,
+      "min_price": 384,
+      "price_per_person": true,
+      "refundable_token": 25,
+      "max_available_price": 838,
+      "min_available_price": 469
+    },
+    "owner": {
+      "emails": [
+        "spitalfields@chapter-living.com"
+      ],
+      "phones": [
+        "+44 0203 675 9210"
+      ]
+    },
+    "meta": {
+      "facts": [
+        {
+          "name": "recent_booking",
+          "count": 2,
+          "value": "manan +2 booked this property recently"
+        },
+        {
+          "name": "enquires_in_15days",
+          "count": 4,
+          "value": "4 students enquired about this property in last 15 days"
+        },
+        {
+          "name": "shortlisted_in_30days",
+          "count": 1066,
+          "value": "1066 students shortlisted this property in last 30 days"
+        },
+        {
+          "name": "view_in_24hr",
+          "count": 56,
+          "value": "56 students viewed this property in last 24 hours"
+        }
+      ],
+      "floor": "27, 9, 9, 2, 4, 2, 1, 1, 19, 16, 21, 5",
+      "types": [
+        "shared_kitchen",
+        "shared_bathroom",
+        "private_room",
+        "private_kitchen",
+        "private_bathroom",
+        "entire_place"
+      ],
+      "facing": "South, North, South, North, South, West, East, West",
+      "payment": true,
+      "ranking": "17",
+      "cro_tags": {
+        "cashback": 300,
+        "amber_sale": {
+          "offer": "Pocket £500 cashback exclusively during Amber Student Housing Fest!",
+          "status": "true"
+        },
+        "has_discounts": true,
+        "near_university": true,
+        "is_student_choice": "false",
+        "is_amber_exclusive": "true",
+        "is_filling_fast_v2": "false",
+        "is_immediate_move_in": "false",
+        "is_breakfast_included": "false",
+        "is_property_of_the_day": "false"
+      },
+      "max_area": 37.0,
+      "min_area": 10.0,
+      "area_unit": "sqm",
+      "distances": [
+        {
+          "place": "city center",
+          "distance": "2.3 mi"
+        },
+        {
+          "place": "Northumbria University (London Campus)",
+          "distance": "0.1 mi"
+        },
+        {
+          "place": "Coventry University",
+          "distance": "0.1 mi"
+        },
+        {
+          "place": "Middlesex University",
+          "distance": "0.1 mi"
+        },
+        {
+          "place": "Istituto Marangoni",
+          "distance": "0.2 mi"
+        },
+        {
+          "place": "Glasgow Caledonian University (London Campus)",
+          "distance": "0.2 mi"
+        }
+      ],
+      "unit_type": "student_accommodation",
+      "jotform_id": "81192082916458",
+      "meta_title": "Chapter Spitalfields Student Accommodation In London UK | Amber",
+      "unit_count": 1017,
+      "unit_types": [
+        "non_ensuite",
+        "studio",
+        "ensuite",
+        "student_accommodation"
+      ],
+      "is_internal": false,
+      "is_partnered": true,
+      "payment_type": "refundable_token",
+      "meta_keywords": "chapter spitalfields\nchapter spitalfields london\nchapter spitalfields student accommodation\nchapter spitalfields accommodation\nstudent accommodation in london\nbest student accommodation in london\nstudent accommodation near northumbria university\nstudent accommodation near coventry university\nstudent apartments in london",
+      "sort_priority": 4.0,
+      "amenity_prices": {
+        "gas": {
+          "price": 5.0,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "country_average",
+          "display_name": "Gas"
+        },
+        "gym": {
+          "price": 7.5,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "country_average",
+          "display_name": "Gym"
+        },
+        "wifi": {
+          "price": 7.37,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "",
+          "display_name": "WiFi"
+        },
+        "water": {
+          "price": 2.53,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "",
+          "display_name": "Water"
+        },
+        "coffee": {
+          "price": 26.25,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "country_average",
+          "display_name": "Coffee"
+        },
+        "cooling": {
+          "price": 0.63,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "",
+          "display_name": "Cooling"
+        },
+        "garbage": {
+          "price": 1.27,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "",
+          "display_name": "Garbage"
+        },
+        "heating": {
+          "price": 3.17,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "",
+          "display_name": "Heating"
+        },
+        "laundry": {
+          "price": 5.0,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "country_average",
+          "display_name": "Laundry"
+        },
+        "breakfast": {
+          "price": 50.0,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "country_average",
+          "display_name": "Breakfast"
+        },
+        "tv licence": {
+          "price": 3.6,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "country_average",
+          "display_name": "TV Licence"
+        },
+        "electricity": {
+          "price": 5.07,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "",
+          "display_name": "Electricity"
+        },
+        "cleaning service": {
+          "price": 12.5,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "country_average",
+          "display_name": "Cleaning Service"
+        },
+        "content insurance": {
+          "price": 2.8,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "country_average",
+          "display_name": "Content Insurance"
+        }
+      },
+      "dual_occupancy": true,
+      "available_types": [
+        "shared_kitchen",
+        "shared_bathroom",
+        "private_room",
+        "private_kitchen",
+        "private_bathroom",
+        "entire_place"
+      ],
+      "community_facts": {
+        "IN": [
+          {
+            "name": "previous_year_booking",
+            "count": 28
+          },
+          {
+            "name": "bookings_in_90days",
+            "count": 7
+          },
+          {
+            "name": "enquires_in_30days",
+            "count": 2
+          }
+        ]
+      },
+      "is_seo_optimised": true,
+      "meta_description": "Book Chapter Spitalfields London, a top student accommodation near Northumbria University. It offers studio, non ensuite & ensuite rooms with amenities like games area and gym.",
+      "max_bedroom_count": 4,
+      "min_bedroom_count": 1,
+      "guarantor_required": "international_local",
+      "max_available_from": "05-09-2026",
+      "max_bathroom_count": 2,
+      "max_lease_duration": 51,
+      "min_available_from": "10-11-2025",
+      "min_bathroom_count": 1,
+      "min_lease_duration": 4,
+      "property_info_tags": [
+        {
+          "type": "total_units",
+          "value": 1017
+        },
+        {
+          "type": "highest_floor",
+          "value": 33
+        },
+        {
+          "type": "build_in_year",
+          "value": 2009
+        }
+      ],
+      "total_videos_count": 9,
+      "amenity_prices_type": "country_based",
+      "featured_image_path": "https://assets.amberstudent.com/inventories/213996/cee109c2.jpg",
+      "lease_duration_unit": "week",
+      "non_students_allowed": false,
+      "year_of_construction": 2003,
+      "amenity_prices_source": "csv_import",
+      "average_property_price": 0,
+      "last_month_leads_count": 142,
+      "max_new_available_from": "05-09-2026",
+      "min_new_available_from": "10-11-2025",
+      "amenity_prices_location": "United Kingdom",
+      "booking_process_doc_url": "https://docs.google.com/document/d/1Fw9U8vJPpC_p_qgNAYg_d_2BbVa5XRM98XJgUikpsvQ/edit",
+      "max_lease_duration_days": 357,
+      "min_lease_duration_days": 28,
+      "amenity_prices_updated_at": "2025-12-04T20:00:17.000+00:00",
+      "total_virtual_views_count": 6,
+      "average_property_commission": 0.0,
+      "max_available_lease_duration": 51,
+      "min_available_lease_duration": 6,
+      "booking_process_doc_updated_at": "2025-11-13T10:48:16+00:00",
+      "max_available_lease_duration_days": 357,
+      "min_available_lease_duration_days": 42,
+      "lead_to_booking_conversion_tag_90d": "low_converting",
+      "lead_to_booking_conversion_rate_90d": "0.0400",
+      "booking_process_doc_recently_updated": false
+    },
+    "description": [
+      {
+        "name": "about",
+        "value": "<p>Situated at Frying Pan Alley, London, E1 7HS, <a href=\"https://amberstudent.com/places/search/united-kingdom-1811011902157\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>United Kingdom</strong></a>, <strong>Chapter Spitalfields</strong> offers premium<a href=\"https://amberstudent.com/places/search/london-1811028205760\" rel=\"noopener noreferrer\" target=\"_blank\"><strong> London student accommodation</strong></a>. It is one of the best student accommodation, offering a variety of room types, including <strong>studios</strong>, <strong>ensuites</strong>, <strong>non-ensuites</strong>, and <strong>shared apartments</strong>. All rooms are fully furnished, providing a comfortable and convenient living space. Students of the <a href=\"https://amberstudent.com/places/search/into-london-world-education-centre-2507038826580\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>INTO LONDON WORLD EDUCATION CENTRE</strong></a><strong> (10 min drive away) </strong>and <a href=\"https://amberstudent.com/places/search/city-st-george-s-university-of-london-tooting-2504245201685\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>INTO City St George's</strong></a><strong> (7 min drive to campus)</strong>, among many others, find Chapter Spitalfields London perfectly positioned for easy access to their campuses.</p>\n<p><br></p>\n<p>London is a global student magnet, home to roughly <strong>9.8 million people</strong> and over <strong>550,000 students</strong> across world-class institutions. The city boasts outstanding transport connectivity via the Underground, buses, and cycling infrastructure, delivering easy access to student districts like <a href=\"https://amberstudent.com/places/search/bloomsbury-1811024209979\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>Bloomsbury</strong></a><strong>, </strong><a href=\"https://amberstudent.com/places/search/shoreditch-1811024527259\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>Shoreditch</strong></a><strong>, and </strong><a href=\"https://amberstudent.com/places/search/camden-1811021514723\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>Camden</strong></a>. London records an overall crime rate of around <strong>80 crimes per 1,000 people (~8.0 %)</strong>. While some areas have elevated crime rates, many student-friendly neighbourhoods maintain smart safety measures and a strong community vibe. Students benefit from a vast range of part-time jobs and internship opportunities, especially in sectors like<strong> finance, technology, media, and hospitality,</strong> driven by London’s status as a major global business hub. London’s unmatched cultural scene, prestigious education, and career-oriented environment make it a top choice for student life.</p>",
+        "display_name": "About"
+      },
+      {
+        "name": "features",
+        "value": "<p>The rooms at Chapter Spitalfields London offer a comprehensive range of room types such as <strong>2/4 bed apartment shared,</strong> <strong>bronze studio shared/private, gold studio private, silver studio private, diamond studio private, platinum studio private</strong> and many more. Each room at Chapter Spitafields features a comfortable <strong>double bed</strong> and a dedicated <strong>study area</strong>, perfect for both rest and academic focus. Ample <strong>storage space </strong>is provided to keep belongings organised. Many rooms also include a <strong>toilet</strong>, <strong>sink</strong>, and <strong>shower </strong>for privacy and convenience. For culinary needs, the rooms are equipped with <strong>two induction hobs</strong> and <strong>two combination microwaves</strong>, allowing for versatile cooking options. Some studio rooms at Chapter Spitalfields accommodation also provide <strong>2 ring induction hobs</strong> for much better convenience. Additionally, <strong>two under-counter fridges</strong> <strong>with</strong> <strong>freezer drawers </strong>ensure ample space for food storage, making it easy for students to prepare and store meals in the comfort of their own space. Depending on the room type, it also offers a <strong>shared bathroom or a private bathroom</strong>. Chapter Spitalfields also offers <strong>shared kitchen </strong>in each room.</p>\n<p><br></p>\n<p>Chapter Spitalfields London boasts an impressive array of common amenities and social spaces that cater to diverse student needs and interests. The <strong>ground floor</strong> features a bar for socialising, while an <strong>auditorium </strong>provides space for events and presentations. For entertainment, students can enjoy <strong>karaoke rooms</strong>, a <strong>games room</strong>, and a <strong>cinema</strong>. Fitness enthusiasts at Chapter Spitalfields student accommodation will appreciate the <strong>onsite gym</strong>. The <strong>32nd-floor lounge</strong> offers a space to relax and potentially enjoy panoramic views. Practical amenities include <strong>post and parcel services</strong> and <strong>onsite laundry facilities</strong>. To support students' digital needs, these student apartments in London offer up to <strong>200 MB dual-band Wi-Fi</strong>, <strong>electricity</strong>, and <strong>water </strong>facilities throughout the building to provide and convenience of everything in one place. Security measures are also ensured at Chapter Spitalfields through the <strong>24/7 onsite team.</strong></p>",
+        "display_name": "Features"
+      },
+      {
+        "name": "nearby_places",
+        "value": "<p>With Chapter Spitalfields, students will always have a London student accommodation with a welcoming atmosphere. You'll find a range of universities fostering a truly academic atmosphere. Students of the<a href=\"https://amberstudent.com/places/search/northumbria-university-london-campus-1904181012873\" rel=\"noopener noreferrer\" target=\"_blank\"><strong> Northumbria University (London Campus)</strong></a>, <strong>Coventry University</strong>, and<a href=\"https://amberstudent.com/places/search/into-city-1811287003318\" rel=\"noopener noreferrer\" target=\"_blank\"><strong> INTO City</strong></a>, among many others, find Chapter Spitalfields London perfectly positioned for easy access to their campuses.</p>\n<p><br></p>\n<p>Chapter Spitalfields is ideally situated in the heart of London's lively East End, offering students easy access to a diverse array of attractions and nearby properties. Food lovers can indulge in local eateries like <strong>Phoenix Blend</strong> for coffee, <strong>Kastner &amp; Ovens</strong> for casual fare, or <strong>La Tagliata</strong> for authentic Italian cuisine. <strong>The Hummingbird Bakery</strong> satisfies sweet cravings, while <strong>Pizza Union</strong> offers quick, affordable pizzas. For nightlife, <strong>The Star By Liverpool Street</strong> provides karaoke entertainment. The bustling <strong>Spitalfields Sunday Market</strong> is perfect for weekend browsing, offering unique finds and local produce. <strong>Sainsbury's Local </strong>provides convenient grocery shopping. <strong>The Culpeper</strong>, a stylish gastropub with a rooftop bar, provides a more upscale experience. <strong>Nightjar</strong>, though slightly further, is renowned for its prohibition-era cocktails and live jazz. For craft beer enthusiasts, <strong>BrewDog Spitalfields </strong>offers a wide selection of unique brews. Within a short journey, residents can explore the <strong>Museum of London</strong>, the <strong>Whitechapel Gallery</strong>, and the iconic<strong> Tower of London</strong>. The nearby Brick Lane area is famous for its curry houses and street art, while Old Spitalfields Market offers an exciting shopping experience. For panoramic views, the <strong>Sky Garden</strong> is just a short walk away. This eclectic neighbourhood seamlessly blends modern amenities with historic charm, placing students at the centre of London's cultural tapestry, with easy connections to the city's world-renowned British museums and tourist attractions just a short journey away.</p>",
+        "display_name": "Nearby places"
+      },
+      {
+        "name": "commute",
+        "value": "<p>Chapter Spitalfields London offers excellent commute options for students, with several transport links well-connected in close proximity. <strong>Liverpool Street Station</strong>, a major transport hub, is conveniently located nearby, providing access to National Rail services, <a href=\"https://amberstudent.com/blog/post/how-to-use-london-underground\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>London Underground</strong></a> (Central, Circle, Hammersmith &amp; City, and Metropolitan lines), and London Overground connections. Bus services are easily accessible, with<strong> </strong>various bus stations like <strong>Liverpool Street stops L</strong> <strong>and F </strong>offering routes to various parts of the city. For those preferring eco-friendly travel, Santander Cycles docking stations at <strong>Bell Lane</strong> and Liverpool Street provide a convenient bike-sharing option near Chapter Spitalfields accommodation. This comprehensive network of public transport ensures that students can easily navigate Chapter Spitalfields London, whether for academic pursuits or exploring the city's numerous attractions.</p>",
+        "display_name": "Commute"
+      },
+      {
+        "tag": "fully_refundable_holding_fee",
+        "name": "payment",
+        "value": "<ul>\n  <li>This <strong>holding fee</strong> of £25 <strong>prioritises &amp; fast-tracks</strong> your application with our partners.</li>\n  <li>The <strong>£25 holding fee </strong>is <strong>fully refundable</strong> within <strong>6 days of payment</strong>. Full refund is applicable whether your booking is finalized with Amber or even if we're unable to find a suitable match for you.</li>\n</ul>",
+        "display_name": "Fully refundable holding fee",
+        "policy_applicable": "true"
+      },
+      {
+        "tag": "cooling_off_period",
+        "name": "cancellation_policy",
+        "value": "<p>To secure your Room prior to 31st July, you must do the following within 3 days of receipt of the Tenancy Agreement (these 3 days is known as the \"Decision Making Period\"):</p>\n<p>1. Pay your Holding Fee (which will be deducted from your first instalment of Rent if your booking is not cancelled).</p>\n<p>2. Both the Tenant and the Guarantor must sign the Tenancy Agreement.</p>\n<p>If you have not paid the first instalment of Rent on the date of booking, this must be paid on or before 31 July, otherwise, the property reserves the right to cancel your booking.</p>\n<p>For bookings made after 31st July, to secure your Room you must do the following within the Decision-Making Period:</p>\n<p>1. Pay your first instalment of Rent.</p>\n<p>2. Both the Tenant and the Guarantor must sign the Tenancy Agreement.</p>\n<p>A Holding Fee will not be required for bookings made on or after 1st August.</p>\n<p>Failure to secure your Room within the required timescales may result in the cancellation of your booking by the property.</p>\n<p><strong>Cancelling within the Decision Making Period</strong></p>\n<p>The Holding Fee is refundable if you provide the property with notice of your intention to cancel within the Decision Making Period.</p>\n<p><strong>Cancelling after the Decision Making Period</strong></p>\n<p>If you cancel your booking after the Decision Making Period but prior to 31st July, any advance payment of Rent will be refunded to you less your Holding Fee, which will not be refunded.</p>\n<p><strong>Taking no action throughout the Decision Making Period</strong></p>\n<p>If at the end of the Decision Making Period you have taken no action, i.e. not signed and accepted your Tenancy Agreement and/or not paid your Holding Fee and/or your first instalment of Rent then your offer will be cancelled on their system and your Room will be made available for someone else to book.</p>\n<p><strong>Cancelling on or after 1 August after accepting your Tenancy Agreement and having paid your first instalment of Rent</strong></p>\n<p>Any decision made to release you from your Tenancy Agreement for any reason that does not fall within the Cancellation Criteria is made by the property, at their sole discretion on a case-by-case basis.</p>",
+        "short_text": "This property <strong>offers</strong> cooling-off period.",
+        "display_name": "Cooling Off Period",
+        "policy_applicable": "true"
+      },
+      {
+        "tag": "no_visa_no_pay",
+        "name": "cancellation_policy",
+        "value": "<p>To request to cancel your booking outside of the Decision Making Period on or after 31st July but prior to the Tenancy Start Date as set out in the Tenancy Agreement, you must meet the following criteria:</p>\n<p><strong>Your application for a visa has been declined.</strong> Please note that this does not include situations where your visa has been granted and subsequently withdrawn.</p>\n<p>If you meet the above Cancellation Criteria and can provide the property with evidence demonstrating that you meet the above criteria, your request for cancellation will be granted. If you have already accepted your Tenancy Agreement and paid your first instalment of Rent at the date your cancellation request is granted, they will refund you the first instalment of Rent less any Holding Fee paid (or an amount equivalent to the Holding Fee if you booked your room after 31st July).</p>\n<p><strong>Please note: </strong>The relevant visa rejection documents must be provided to the property <strong>within 48 hours </strong>of receiving the same.</p>",
+        "short_text": "This property <strong>allows</strong> cancellation due to visa rejection.",
+        "display_name": "No Visa No Pay",
+        "policy_applicable": "true"
+      },
+      {
+        "tag": "no_place_no_pay",
+        "name": "cancellation_policy",
+        "value": "<p>To request to cancel your booking outside of the Decision Making Period on or after 31st July but prior to the Tenancy Start Date as set out in the Tenancy Agreement, you must meet the following criteria:</p>\n<p><strong>You have failed to obtain your grades to study at university and as such do not have student status.</strong></p>\n<p>If you meet the above Cancellation Criteria and can provide the property with evidence demonstrating that you meet the above criteria, your request for cancellation will be granted. If you have already accepted your Tenancy Agreement and paid your first instalment of Rent at the date your cancellation request is granted, they will refund you the first instalment of Rent less any Holding Fee paid (or an amount equivalent to the Holding Fee if you booked your room after 31st July).</p>\n<p><strong>Please note: </strong>The relevant university rejection documents must be provided to the property <strong>within 48 hours </strong>of receiving the same.</p>",
+        "short_text": "This property <strong>allows</strong> cancellation if admission is not secured.",
+        "display_name": "No Place No Pay",
+        "policy_applicable": "true"
+      },
+      {
+        "tag": "replacement_tenant_found",
+        "name": "cancellation_policy",
+        "value": "<p>If you need to cancel your booking outside of the Decision-Making Period on or after 31st July but prior to the Tenancy Start Date as set out in the Tenancy Agreement after accepting your Tenancy Agreement and having paid your first instalment of Rent but cannot meet the Cancellation Criteria <strong>(no visa no pay, no place no pay, cancellation during the decision making period)</strong> you will remain liable in full for the Rent for the full term of the Tenancy Agreement. This is unless a suitable replacement tenant can be found by you, acceptance of which will be at the property's sole discretion. Please note that they will not agree to a replacement tenant unless all outstanding accounts with them are settled.</p>\n<p>After the Tenancy Start Date as set out in the Tenancy Agreement, requests for room moves or for them to accept a replacement tenant to take over your tenancy will be managed based on availability and at their sole discretion. An Administration Fee of <strong>GBP 50</strong> will be payable in each instance if agreed to by them and you will be responsible for cleaning the room in accordance with the terms of the Tenancy Agreement.</p>\n<p>Requests for replacement tenants received after 1 June within the Tenancy Period will not be accepted.</p>",
+        "short_text": "This property <strong>allows</strong> cancellation upon finding replacement tenant.",
+        "display_name": "Replacement Tenant Accepted",
+        "policy_applicable": "true"
+      },
+      {
+        "tag": "payment_instalment_plan",
+        "name": "payment",
+        "value": "<p>1. You can choose to pay for your lease in <strong>1, 2, or 4 instalments.</strong></p>\n<p>1.1. If you pay in <strong>1 instalment</strong>, your total amount payable will be <strong>2% cheaper</strong> than if you chose to pay in 2 instalments.</p>\n<p>1.2. If you pay in <strong>4 instalments</strong>, your total amount payable will be<strong> 2% more expensive</strong> than if you chose to pay in 2 instalments.</p>",
+        "short_text": "This property offers <strong>1, 2, 4</strong> flexible instalment plans.",
+        "display_name": "Pay In Instalment",
+        "policy_applicable": "true",
+        "payment_installment_option": [
+          1,
+          2,
+          4
+        ]
+      },
+      {
+        "tag": "mode_of_payment",
+        "name": "payment",
+        "value": "<p>You can make payment using a credit or debit card, either on the internet or over the phone. You can also make a payment via bank transfer.</p>\n<p><strong>Please note, that the property does not accept American Express.</strong></p>",
+        "short_text": "Payment via easy transaction modes.",
+        "display_name": "Mode Of Payment",
+        "policy_applicable": "true"
+      },
+      {
+        "tag": "guarantor_requirement",
+        "name": "payment",
+        "value": "<p>1. A guarantor is required for every lease, even if you intend to pay in 1 instalment. This is because they will take responsibility for any unpaid arrears or damage during your tenancy period.</p>\n<p>2. They <strong>do not need to be a UK resident.</strong></p>\n<p>3. Your guarantor will need to be someone who is not in full time education, or living in student housing. Most residents use a parent, guardian, or family member.</p>",
+        "short_text": "Guarantor requirements and policy.",
+        "display_name": "Guarantor Requirement",
+        "policy_applicable": "true"
+      },
+      {
+        "tag": "booking_deposit",
+        "name": "payment",
+        "value": "<p>Property Management is <strong>currently not accepting booking deposits.</strong> To confirm your booking, the first instalment must be paid.</p>",
+        "short_text": "This property <strong>requires</strong> booking deposit.",
+        "display_name": "Booking Deposit",
+        "policy_applicable": "true"
+      }
+    ],
+    "images": [
+      {
+        "path": "https://assets.amberstudent.com/inventories/213996/cee109c2.jpg",
+        "type": "bedroom",
+        "caption": "1 Bed Studio Upper Level Horizon View - Bedroom",
+        "featured": true,
+        "base_path": "https://assets.amberstudent.com/inventories/213996/cee109c2.jpg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/f4a88256.jpeg",
+        "type": "common_area",
+        "caption": "Common Area",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/f4a88256.jpeg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/a7113761.jpeg",
+        "type": "common_area",
+        "caption": "Common Area",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/a7113761.jpeg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/3a692e2b.jpeg",
+        "type": "exterior",
+        "caption": "Exterior",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/3a692e2b.jpeg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/e912629a.jpeg",
+        "type": "common_area",
+        "caption": "Common Area",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/e912629a.jpeg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/f8f94ee8.jpeg",
+        "type": "common_area",
+        "caption": "Common Area",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/f8f94ee8.jpeg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/e52f51ec.jpeg",
+        "type": "amenities",
+        "caption": "Amenities",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/e52f51ec.jpeg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/794438f4.jpeg",
+        "type": "amenities",
+        "caption": "Amenities",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/794438f4.jpeg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/2278b3b7.jpeg",
+        "type": "amenities",
+        "caption": "Amenities",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/2278b3b7.jpeg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/5d732724.jpeg",
+        "type": "common_area",
+        "caption": "Common Area",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/5d732724.jpeg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/6b3b979c.jpeg",
+        "type": "common_area",
+        "caption": "Common Area",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/6b3b979c.jpeg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/965a9e42.jpeg",
+        "type": "amenities",
+        "caption": "Amenities",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/965a9e42.jpeg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/22af9adb.jpeg",
+        "type": "amenities",
+        "caption": "Amenities",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/22af9adb.jpeg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/8bf51586.webp",
+        "type": "exterior",
+        "caption": "Exterior",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/8bf51586.webp"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/4e9c47d1.webp",
+        "type": "common_area",
+        "caption": "Common Area",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/4e9c47d1.webp"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/42c3ca9f.webp",
+        "type": "common_area",
+        "caption": "Common Area",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/42c3ca9f.webp"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/a35009ac.webp",
+        "type": "amenities",
+        "caption": "Amenities",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/a35009ac.webp"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/dca14b03.webp",
+        "type": "exterior",
+        "caption": "Exterior",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/dca14b03.webp"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/a18fefc0.webp",
+        "type": "amenities",
+        "caption": "Amenities",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/a18fefc0.webp"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/3882d083.webp",
+        "type": "amenities",
+        "caption": "Amenities",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/3882d083.webp"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/35dcdb5c.webp",
+        "type": "amenities",
+        "caption": "Amenities",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/35dcdb5c.webp"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/5d4f3cd7.webp",
+        "type": "amenities",
+        "caption": "Amenities",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/5d4f3cd7.webp"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/904d7101.webp",
+        "type": "amenities",
+        "caption": "Amenities",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/904d7101.webp"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/5bbdf7ba.webp",
+        "type": "amenities",
+        "caption": "Amenities",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/5bbdf7ba.webp"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/b4a036c0.webp",
+        "type": "exterior",
+        "caption": "Exterior",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/b4a036c0.webp"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/64838322.webp",
+        "type": "room",
+        "caption": "Room",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/64838322.webp"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/de7afecd.webp",
+        "type": "common_area",
+        "caption": "Common Area",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/de7afecd.webp"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/efd2bb0e.webp",
+        "type": "common_area",
+        "caption": "Common Area",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/efd2bb0e.webp"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/c4bb9a74.webp",
+        "type": "common_area",
+        "caption": "Common Area",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/c4bb9a74.webp"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/12678b55.webp",
+        "type": "exterior",
+        "caption": "Exterior",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/12678b55.webp"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/a46f3d61.webp",
+        "type": "amenities",
+        "caption": "Amenities",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/a46f3d61.webp"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/165558/2a07d91b.webp",
+        "type": "amenities",
+        "caption": "Amenities",
+        "base_path": "https://assets.amberstudent.com/inventories/165558/2a07d91b.webp"
+      }
+    ],
+    "videos": [
+      {
+        "path": "https://videos.amberstudent.com/res/amberstudent/video/upload/inventories/t9obgnsjbwlhqofvrcto/1692816716.mp4?h=720",
+        "type": "live_tour",
+        "caption": "Property Tour",
+        "duration": "37.070375",
+        "platform": "gumlet",
+        "upload_date": "2023-08-23",
+        "thumbnail_url": "https://videos.amberstudent.com/res/amberstudent/video/upload/inventories/t9obgnsjbwlhqofvrcto/1692816716.mp4?h=720&thumbnail=true&thumbnail-height=300"
+      },
+      {
+        "path": "https://videos.amberstudent.com/res/amberstudent/video/upload/inventories/crmxw6tvbykkkdtd6cau/1741869340.mp4?h=720",
+        "type": "live_tour",
+        "caption": "Property Tour",
+        "duration": "87.053633",
+        "platform": "gumlet",
+        "upload_date": "2025-03-13",
+        "thumbnail_url": "https://videos.amberstudent.com/res/amberstudent/video/upload/inventories/crmxw6tvbykkkdtd6cau/1741869340.mp4?h=720&thumbnail=true&thumbnail-height=300"
+      },
+      {
+        "path": "https://videos.amberstudent.com/res/amberstudent/video/upload/inventories/vpy8gco1jyzxdyp3bpio/1748948185.mp4?h=720",
+        "type": "live_tour",
+        "caption": "Property Tour",
+        "duration": "51.3",
+        "platform": "gumlet",
+        "upload_date": "2025-06-03",
+        "thumbnail_url": "https://videos.amberstudent.com/res/amberstudent/video/upload/inventories/vpy8gco1jyzxdyp3bpio/1748948185.mp4?h=720&thumbnail=true&thumbnail-height=300"
+      },
+      {
+        "path": "https://videos.amberstudent.com/res/amberstudent/video/upload/inventories/ipvxvxh2zi709lftwybh/1748948303.mp4?h=720",
+        "type": "tour",
+        "caption": "Property Tour",
+        "duration": "18.966667",
+        "platform": "gumlet",
+        "upload_date": "2025-06-03",
+        "thumbnail_url": "https://videos.amberstudent.com/res/amberstudent/video/upload/inventories/ipvxvxh2zi709lftwybh/1748948303.mp4?h=720&thumbnail=true&thumbnail-height=300"
+      },
+      {
+        "path": "https://videos.amberstudent.com/res/videos/8e4667e1.mp4?h=720",
+        "type": "tour",
+        "caption": "Property Tour",
+        "duration": "",
+        "platform": "gumlet",
+        "upload_date": "2025-09-12",
+        "thumbnail_url": "https://videos.amberstudent.com/res/videos/8e4667e1.mp4?h=720&thumbnail=true&thumbnail-height=300"
+      }
+    ],
+    "location_coordinates": "POINT (-0.0768013 51.51771549999999)",
+    "location": {
+      "name": "Chapter Spitalfields",
+      "route": {
+        "long_name": "Frying Pan Alley",
+        "short_name": "Frying Pan Alley"
+      },
+      "state": {
+        "long_name": "England",
+        "short_name": "England"
+      },
+      "country": {
+        "long_name": "United Kingdom",
+        "short_name": "GB"
+      },
+      "primary": "9 Frying Pan Alley",
+      "district": {
+        "long_name": "Greater London",
+        "short_name": "Greater London"
+      },
+      "locality": {
+        "long_name": "London",
+        "short_name": "London"
+      },
+      "secondary": "London E1 7HS, UK",
+      "postal_code": {
+        "long_name": "E1 7HS",
+        "short_name": "E1 7HS"
+      },
+      "street_number": {
+        "long_name": "9",
+        "short_name": "9"
+      },
+      "location_bounds": {
+        "northeast": {
+          "lat": 51.51917578029149,
+          "lng": -0.07517636970849796
+        },
+        "southwest": {
+          "lat": 51.5164778197085,
+          "lng": -0.07787433029150202
+        }
+      },
+      "location_place_id": "ChIJlZaMg7McdkgR50X8iBssHMQ",
+      "location_coordinates": {
+        "lat": 51.51771549999999,
+        "lng": -0.0768013
+      }
+    },
+    "created_at": "2020-11-05T20:12:04.484+05:30",
+    "updated_at": "2025-12-09T05:31:51.655+05:30",
+    "canonical_name": "chapter-spitalfields-london-2011057254881",
+    "inventory_no": "2011057254881",
+    "status": "active",
+    "features": [
+      {
+        "name": "Common Amenities",
+        "type": "common_amenities",
+        "values": [
+          {
+            "name": "Social Spaces",
+            "type": "Common Social Area",
+            "icon": "https://prod-static-assets.amberstudent.com/images/common-social-area.svg"
+          },
+          {
+            "name": "Ground Floor Bar",
+            "type": "Others",
+            "icon": "https://prod-static-assets.amberstudent.com/images/floor.svg"
+          },
+          {
+            "name": "32nd Floor Bar",
+            "type": "Others",
+            "icon": "https://prod-static-assets.amberstudent.com/images/floor.svg"
+          },
+          {
+            "name": "24hr 33rd Floor Library",
+            "type": "Library & Study Area",
+            "icon": "https://prod-static-assets.amberstudent.com/images/floor.svg"
+          },
+          {
+            "name": "Auditorium",
+            "type": "Others",
+            "icon": "https://prod-static-assets.amberstudent.com/images/tick-mark.svg"
+          },
+          {
+            "name": "Karaoke Rooms",
+            "type": "Others",
+            "icon": "https://prod-static-assets.amberstudent.com/images/tick-mark.svg"
+          },
+          {
+            "name": "Games Area",
+            "type": "Games Area",
+            "icon": "https://prod-static-assets.amberstudent.com/images/games-area.svg"
+          },
+          {
+            "name": "Cinema ",
+            "type": "Cinema Room",
+            "icon": "https://prod-static-assets.amberstudent.com/images/cinema-room.svg"
+          },
+          {
+            "name": "Onsite Gym",
+            "type": "Gym & Fitness",
+            "icon": "https://prod-static-assets.amberstudent.com/images/reception-staff.svg"
+          },
+          {
+            "name": "32nd Floor Lounge",
+            "type": "Lounge",
+            "icon": "https://prod-static-assets.amberstudent.com/images/floor.svg"
+          },
+          {
+            "name": "33rd floor Balcony",
+            "type": "Balcony or Patios",
+            "icon": "https://prod-static-assets.amberstudent.com/images/floor.svg"
+          },
+          {
+            "name": "Post & Parcel Services",
+            "type": "Parcel Collection",
+            "icon": "https://prod-static-assets.amberstudent.com/images/parcel-collection.svg"
+          },
+          {
+            "name": "Onsite Laundry",
+            "type": "Laundry Facility",
+            "icon": "https://prod-static-assets.amberstudent.com/images/reception-staff.svg"
+          },
+          {
+            "name": "Upto 200 MB Dual Band Wifi",
+            "type": "Wifi",
+            "icon": "https://prod-static-assets.amberstudent.com/images/dual-occupancy.svg"
+          },
+          {
+            "name": "Free Bi-Weekly Cleaning",
+            "type": "Others ",
+            "icon": "https://prod-static-assets.amberstudent.com/images/tick-mark.svg"
+          }
+        ]
+      },
+      {
+        "name": "Safety and Security",
+        "type": "safety_security",
+        "values": [
+          {
+            "name": "24/7 Onsite Team",
+            "type": "Reception & Staff",
+            "icon": "https://prod-static-assets.amberstudent.com/images/reception-staff.svg"
+          }
+        ]
+      },
+      {
+        "name": "Bills Included",
+        "type": "bills_included",
+        "values": [
+          {
+            "name": "Water",
+            "type": "Basic Essentials",
+            "price": "2.53",
+            "currency": "GBP",
+            "duration": "weekly",
+            "icon": "https://prod-static-assets.amberstudent.com/images/water.svg"
+          },
+          {
+            "name": "Electricity",
+            "type": "Basic Essentials",
+            "price": "5.07",
+            "currency": "GBP",
+            "duration": "weekly",
+            "icon": "https://prod-static-assets.amberstudent.com/images/electricity.svg"
+          },
+          {
+            "name": "Gas",
+            "type": "Basic Essentials",
+            "price": "5",
+            "currency": "GBP",
+            "duration": "weekly",
+            "icon": "https://prod-static-assets.amberstudent.com/images/gas.svg"
+          },
+          {
+            "name": "Internet",
+            "type": "Internet Access",
+            "price": "7.37",
+            "currency": "GBP",
+            "duration": "weekly",
+            "icon": "https://prod-static-assets.amberstudent.com/images/wifi.svg"
+          },
+          {
+            "name": "Gym Facility ",
+            "type": "Gym & Fitness",
+            "icon": "https://prod-static-assets.amberstudent.com/images/gym.svg"
+          },
+          {
+            "name": "Use of all the social spaces",
+            "type": "Common Social Area",
+            "icon": "https://prod-static-assets.amberstudent.com/images/common-social-area.svg"
+          }
+        ]
+      }
+    ],
+    "message": null,
+    "offers": [],
+    "tags": [
+      "Auditorium",
+      "Karaoke Rooms",
+      "Onsite Gym"
+    ],
+    "stats": {},
+    "region_id": 14,
+    "source_details": {},
+    "faqs": [
+      {
+        "answer": "All your utility bills – water, electric, gas, internet, gym and use of all the social spaces – are included in the price. There are no hidden charges, what you see on your contract is what you pay (besides any damage to the room or fees you incur).",
+        "question": "What’s included in the price?"
+      },
+      {
+        "answer": "You are welcome to have guests through the daytime, and an overnight guest for a reasonable amount of nights. You'll need to get permission from management for an extended period. They will need to provide a form of ID to check in through your resident portal, and you will be responsible for them throughout their stay. Please note, you will also need written consent from management if your overnight guest is under 18 years of age.",
+        "question": "Am I allowed to have guests to stay?"
+      },
+      {
+        "answer": "They have CCTV in and around each property, an electronic key entry system for the main entrance, common areas, each flat and bedroom. There is also staff on site 24 hours a day, 7 days a week.",
+        "question": "How secure is the accommodation?"
+      },
+      {
+        "answer": "In the UK, students are exempt from paying council tax – you won’t need to pay this, but if the council do mistakenly bill you, you will need to provide details to prove that you are in full time education.",
+        "question": "Will I need to pay council tax?"
+      },
+      {
+        "answer": "If you bring your own TV, or want to watch or record programmes as they are shown live (including on mobile phones, tablets or computers), you will need to apply and pay for a TV License. This also includes TV's provided by the management.",
+        "question": "Do I need a tv licence?"
+      },
+      {
+        "answer": "If you’re having any problems with your room, a shared living space, or one of the communal areas, you have two options. You can log the issue via the Resident portal, providing details so their maintenance team can get this sorted for you as soon as possible. Alternatively, you can come down to the front desk and talk to a member of the team so they can log it on your behalf.",
+        "question": "What if something in my apartment breaks down?"
+      },
+      {
+        "answer": "Unfortunately, you are not allowed to keep any pets in your room or any shared living spaces.",
+        "question": "Can I have pets?"
+      },
+      {
+        "answer": "They want your university experience to be as positive as possible – if you are having any issues with your flat mates, please let them know. They will do their best to help resolve any problems you might be having.",
+        "question": "What happens if I don’t get on with my new flat mates?"
+      },
+      {
+        "answer": "Lockable mailboxes located in the lobby (or speak to the front desk team to locate yours) - your room keycard may also give you access to this (please check with the front desk team to know more). If any larger packages, or anything that requires a signature arrives for you, they’ll hold onto it and let you know via text or email so you can come and collect it. For security reasons, you will need to provide photo ID and give a signature to confirm collection. Post will not be given out to other residents on your behalf without written authorisation",
+        "question": "Can I receive post and parcels?"
+      },
+      {
+        "answer": "They are more than happy to accommodate groups as well as individuals. Let them know who you’re planning to live with, and they’ll do their best to accommodate you in the same flat.",
+        "question": "Can I live with my friends?"
+      },
+      {
+        "answer": "As a minimum age requirement, property residents need to be or have turned 18 during their tenancy with them. This is due to the legally binding tenancy agreement that each resident is required to sign before arrival. They have no upper age limits on their accommodation, so long as the resident is in full time education for the duration of their stay.",
+        "question": "Is there an age limit for booking accommodation with the management?"
+      },
+      {
+        "answer": "All rooms come with a bed, desk and chair. Extras such as kettles, toasters and lamps are not provided.",
+        "question": "What appliances and furniture are included in my room?"
+      }
+    ],
+    "connect_details": {},
+    "virtual_views": [
+      {
+        "id": "https://captur3d.io/view/vrpm/chapter-spitalfields",
+        "type": "Virtual Tour"
+      }
+    ],
+    "provider_id": 328,
+    "entities": [],
+    "message_1": "- Commissionable for 26-27 AY (40 weeks to 51 weeks)\n-Rebooking is commissionable for 26-27 AY (40-51 weeks)\n\n- Commissionable for 25-26 AY (36 weeks to 51 weeks)\n- Commissionable for 25-26 AY Semester Stay 1 (4 weeks to 20 weeks)\n- Commissionable for 25-26 AY Semester Stay 2 (4 weeks to 35 weeks) - Please highlight to the POC if any tenancies beyond 31st March 2026 is visible on the website.\n\n- Rebooking is commissionable for 25-26 AY.\n\n- The 39-week tenancy option for Chapter is not eligible to Agents. Only undergraduate students enrolled at UCL for the 2025/26 academic year qualify for this tenancy length- This is an exclusive offer between Greystar and UCL and we cannot take these bookings. Please ask students to book directly should they want 39 weeks.\n\n- From 15th June- 30th June- 2 codes are to be added for every booking under the fest- AmberFest & the referral code AMBER2526\n\n- Free Bi-Weekly Cleaning (https://amberstudent.freshdesk.com/a/tickets/486892)",
+    "check_updated_at": "2025-12-06T01:36:07.500+05:30",
+    "available": true,
+    "custom_form_id": null,
+    "check_interval": 4,
+    "next_check_due_date": "2025-12-10T01:36:07.500+05:30",
+    "recent_bookings_count": 2,
+    "is_local_non_commissionable": null,
+    "payment_before_bookform": null,
+    "links": {},
+    "weekly_price": 469,
+    "highlights": [
+      "Prime Location – Conveniently located near top universities and major transport links in the heart of East London.",
+      "All-Inclusive Living – Affordable rates with all utility bills and high-speed internet included in the rent.",
+      "Dynamic Social Environment – Features such as a bar, cinema, karaoke rooms, and a games area foster a vibrant community.",
+      "Enhanced Safety Features – Enjoy peace of mind with 24/7 onsite team, CCTV, and key entry systems for security.",
+      "Study-Friendly Spaces – Each room is equipped with a dedicated study area and ample storage, ideal for academic success."
+    ],
+    "payment_types": [
+      "refundable_token"
+    ],
+    "show_in_search_results": true,
+    "inventory_visits": 544,
+    "revenue": 1379.0385,
+    "is_whitelabel_inventory": null,
+    "supply_content_agent_id": 11491,
+    "inventory_featured_image_path": "https://assets.amberstudent.com/inventories/213996/cee109c2.jpg",
+    "images_with_featured": null,
+    "is_map_view_enabled": true
+  }
+}

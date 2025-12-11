@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Comparison Report - Chapter Highbury, London</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header .meta {
+            font-size: 1.1em;
+            opacity: 0.9;
+            margin-top: 10px;
+        }
+        
+        .section {
+            padding: 30px 40px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .section:last-child {
+            border-bottom: none;
+        }
+        
+        .section-title {
+            font-size: 1.8em;
+            color: #667eea;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+        
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .summary-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            border-left: 4px solid #667eea;
+        }
+        
+        .summary-card .value {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .summary-card .label {
+            color: #666;
+            margin-top: 5px;
+            font-size: 0.9em;
+        }
+        
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+        }
+        
+        .comparison-table th {
+            background: #667eea;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .comparison-table td {
+            padding: 12px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .comparison-table tr:hover {
+            background: #f8f9fa;
+        }
+        
+        .count-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        
+        .count-amber {
+            background: #e3f2fd;
+            color: #1976d2;
+        }
+        
+        .count-uhomes {
+            background: #fff3e0;
+            color: #f57c00;
+        }
+        
+        .count-diff {
+            background: #ffebee;
+            color: #c62828;
+        }
+        
+        .items-list {
+            max-height: 200px;
+            overflow-y: auto;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 4px;
+            margin: 10px 0;
+        }
+        
+        .items-list ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .items-list li {
+            padding: 5px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .items-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .missing-item {
+            color: #c62828;
+            font-weight: 600;
+        }
+        
+        .unique-item {
+            color: #2e7d32;
+            font-weight: 600;
+        }
+        
+        .common-item {
+            color: #666;
+        }
+        
+        .score-comparison {
+            display: flex;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .score-box {
+            flex: 1;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .score-box.amber {
+            background: #e3f2fd;
+            border: 2px solid #1976d2;
+        }
+        
+        .score-box.uhomes {
+            background: #fff3e0;
+            border: 2px solid #f57c00;
+        }
+        
+        .score-box .score-value {
+            font-size: 3em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        
+        .score-box.amber .score-value {
+            color: #1976d2;
+        }
+        
+        .score-box.uhomes .score-value {
+            color: #f57c00;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 20px 40px;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="header">
+            <h1>Property Comparison Report</h1>
+            <h2>Chapter Highbury, London</h2>
+            <div class="meta">
+                <p>Property ID: P001 | City: London</p>
+                <p>Generated: 2025-12-08 16:17:43</p>
+            </div>
+        </div>
+        
+        
+        <div class="section">
+            <h2 class="section-title">Executive Summary</h2>
+            
+            <div class="summary-grid">
+                <div class="summary-card">
+                    <div class="value">44.0</div>
+                    <div class="label">Amber Total Score</div>
+                </div>
+                <div class="summary-card">
+                    <div class="value">52.0</div>
+                    <div class="label">UHomes Total Score</div>
+                </div>
+                <div class="summary-card">
+                    <div class="value">-8.0</div>
+                    <div class="label">Score Gap</div>
+                </div>
+                <div class="summary-card">
+                    <div class="value">53</div>
+                    <div class="label">Missing Items</div>
+                </div>
+                <div class="summary-card">
+                    <div class="value">3</div>
+                    <div class="label">Sections Behind</div>
+                </div>
+                <div class="summary-card">
+                    <div class="value">2</div>
+                    <div class="label">Sections Ahead</div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="section">
+            <h2 class="section-title">Hero & Media</h2>
+            
+            <div class="score-comparison">
+                <div class="score-box amber">
+                    <div>Amber Score</div>
+                    <div class="score-value">2.5</div>
+                </div>
+                <div class="score-box uhomes">
+                    <div>UHomes Score</div>
+                    <div class="score-value">2.5</div>
+                </div>
+            </div>
+        
+            
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Amber</th>
+                        <th>UHomes</th>
+                        <th>Difference</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>Images</strong></td><td>0</td><td>0</td><td>+0</td></tr>
+<tr><td><strong>Videos</strong></td><td>4</td><td>11</td><td>+7</td></tr>
+<tr><td><strong>360° Virtual Tour</strong></td><td>❌</td><td>❌</td><td></td></tr>
+<tr><td><strong>3D Tour</strong></td><td>❌</td><td>❌</td><td></td></tr>
+<tr><td><strong>Video Tour</strong></td><td>✅</td><td>❌</td><td></td></tr>
+<tr><td><strong>Map</strong></td><td>❌</td><td>❌</td><td></td></tr>
+<tr><td><strong>Map Toggle</strong></td><td>❌</td><td>❌</td><td></td></tr>
+<tr><td><strong>Street View</strong></td><td>❌</td><td>❌</td><td></td></tr>
+<tr><td><strong>Price Display</strong></td><td>✅</td><td>❌</td><td></td></tr>
+<tr><td><strong>Image Gallery</strong></td><td>❌</td><td>❌</td><td></td></tr>
+                </tbody>
+            </table>
+        
+            
+            <h3>Media Features</h3>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0;">
+                <div>
+                    <h4>Amber Media Features (1)</h4>
+                    <ul>
+                        <li>Video Tour</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>UHomes Media Features (1)</h4>
+                    <ul>
+                        <li>Video Tour</li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+            <h3 style="color: #2e7d32;">✅ Unique Features - Amber Advantage (2)</h3>
+            <div class="items-list">
+                <ul>
+                    <li class="unique-item">Video Tour</li><li class="unique-item">Price Display</li>
+                </ul>
+            </div>
+            
+        </div>
+        
+
+        <div class="section">
+            <h2 class="section-title">Offers</h2>
+            
+            <div class="score-comparison">
+                <div class="score-box amber">
+                    <div>Amber Score</div>
+                    <div class="score-value">0.5</div>
+                </div>
+                <div class="score-box uhomes">
+                    <div>UHomes Score</div>
+                    <div class="score-value">2.5</div>
+                </div>
+            </div>
+        
+            
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Metric</th>
+                        <th>Amber</th>
+                        <th>UHomes</th>
+                        <th>Difference</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Count</strong></td>
+                        <td><span class="count-badge count-amber">2</span></td>
+                        <td><span class="count-badge count-uhomes">1</span></td>
+                        <td><span class="count-badge count-diff">-1</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0;">
+                <div>
+                    <h3>Amber Items - EXACT LIST (2)</h3>
+                    <div class="items-list">
+                        <ul>
+                            <li class="common-item">{'name': 'Cashback', 'description': '£300 cashback', 'amount': 300, 'type': 'cashback'}</li><li class="common-item">{'name': 'Amber Sale', 'description': 'Pocket £500 cashback exclusively during Amber Student Housing Fest!', 'type': 'amber_sale', 'status': 'true'}</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h3>UHomes Items - EXACT LIST (1)</h3>
+                    <div class="items-list">
+                        <ul>
+                            <li class="common-item">{'name': 'Exclusive offers up to ', 'description': 'Up to GBP824', 'type': 'exclusive_offer'}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <h3 style="color: #c62828;">⚠️ Missing Items - Amber Needs to Add (EXACT COUNT: 1)</h3>
+            <div class="items-list">
+                <ul>
+                    <li class="missing-item">{'name': 'Exclusive offers up to ', 'description': 'Up to GBP824', 'type': 'exclusive_offer'}</li>
+                </ul>
+            </div>
+            <p style="color: #c62828; font-weight: bold; margin-top: 10px;">
+                📊 Amber is behind by <strong>1</strong> offers
+            </p>
+            
+            <h3 style="color: #2e7d32;">✅ Unique to Amber - Competitive Advantage (EXACT COUNT: 2)</h3>
+            <div class="items-list">
+                <ul>
+                    <li class="unique-item">{'name': 'Cashback', 'description': '£300 cashback', 'amount': 300, 'type': 'cashback'}</li><li class="unique-item">{'name': 'Amber Sale', 'description': 'Pocket £500 cashback exclusively during Amber Student Housing Fest!', 'type': 'amber_sale', 'status': 'true'}</li>
+                </ul>
+            </div>
+            <p style="color: #2e7d32; font-weight: bold; margin-top: 10px;">
+                📊 Amber is ahead by <strong>2</strong> offers
+            </p>
+            
+        </div>
+        
+
+        <div class="section">
+            <h2 class="section-title">About Property</h2>
+            
+            <div class="score-comparison">
+                <div class="score-box amber">
+                    <div>Amber Score</div>
+                    <div class="score-value">3.0</div>
+                </div>
+                <div class="score-box uhomes">
+                    <div>UHomes Score</div>
+                    <div class="score-value">9.0</div>
+                </div>
+            </div>
+        
+            
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Metric</th>
+                        <th>Amber</th>
+                        <th>UHomes</th>
+                        <th>Difference</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Count</strong></td>
+                        <td><span class="count-badge count-amber">0</span></td>
+                        <td><span class="count-badge count-uhomes">0</span></td>
+                        <td><span class="count-badge count-diff">+0</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        
+            
+        </div>
+        
+
+        <div class="section">
+            <h2 class="section-title">Room Types</h2>
+            
+            <div class="score-comparison">
+                <div class="score-box amber">
+                    <div>Amber Score</div>
+                    <div class="score-value">9.0</div>
+                </div>
+                <div class="score-box uhomes">
+                    <div>UHomes Score</div>
+                    <div class="score-value">10.0</div>
+                </div>
+            </div>
+        
+            
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Metric</th>
+                        <th>Amber</th>
+                        <th>UHomes</th>
+                        <th>Difference</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Count</strong></td>
+                        <td><span class="count-badge count-amber">3</span></td>
+                        <td><span class="count-badge count-uhomes">13</span></td>
+                        <td><span class="count-badge count-diff">+10</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0;">
+                <div>
+                    <h3>Amber Items - EXACT LIST (3)</h3>
+                    <div class="items-list">
+                        <ul>
+                            <li class="common-item">Ensuite</li><li class="common-item">Studio</li><li class="common-item">Student Accommodation</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h3>UHomes Items - EXACT LIST (13)</h3>
+                    <div class="items-list">
+                        <ul>
+                            <li class="common-item">{'name': 'Bronze Ensuite', 'type_id': 8, 'price': 377, 'currency': 'GBP', 'area_sqm': {'min': 0, 'max': 13}, 'bed_count': 1, 'bathroom_count': 0, 'has_360_tour': True, 'image_count': 6, 'video_count': 0}</li><li class="common-item">{'name': '2 Bed Apartment', 'type_id': 8, 'price': 378, 'currency': 'GBP', 'area_sqm': {'min': 13, 'max': 0}, 'bed_count': 1, 'bathroom_count': 1, 'has_360_tour': False, 'image_count': 5, 'video_count': 0}</li><li class="common-item">{'name': 'Silver Ensuite', 'type_id': 8, 'price': 380, 'currency': 'GBP', 'area_sqm': {'min': 0, 'max': 14}, 'bed_count': 1, 'bathroom_count': 0, 'has_360_tour': False, 'image_count': 6, 'video_count': 0}</li><li class="common-item">{'name': 'Silver Ensuite - Extra Large', 'type_id': 8, 'price': 392, 'currency': 'GBP', 'area_sqm': {'min': 0, 'max': 14}, 'bed_count': 1, 'bathroom_count': 1, 'has_360_tour': False, 'image_count': 3, 'video_count': 0}</li><li class="common-item">{'name': 'Bronze Studio', 'type_id': 2, 'price': 392, 'currency': 'GBP', 'area_sqm': {'min': 13, 'max': 0}, 'bed_count': 1, 'bathroom_count': 0, 'has_360_tour': True, 'image_count': 8, 'video_count': 1}</li><li class="common-item">{'name': 'Gold Ensuite', 'type_id': 8, 'price': 401, 'currency': 'GBP', 'area_sqm': {'min': 0, 'max': 14}, 'bed_count': 0, 'bathroom_count': 0, 'has_360_tour': False, 'image_count': 5, 'video_count': 0}</li><li class="common-item">{'name': 'Bronze Studio -  Large', 'type_id': 2, 'price': 402, 'currency': 'GBP', 'area_sqm': {'min': 13, 'max': 0}, 'bed_count': 1, 'bathroom_count': 0, 'has_360_tour': True, 'image_count': 2, 'video_count': 0}</li><li class="common-item">{'name': 'Gold Studio', 'type_id': 2, 'price': 432, 'currency': 'GBP', 'area_sqm': {'min': 23, 'max': 25}, 'bed_count': 1, 'bathroom_count': 0, 'has_360_tour': False, 'image_count': 5, 'video_count': 0}</li><li class="common-item">{'name': 'Platinum Studio', 'type_id': 2, 'price': 479, 'currency': 'GBP', 'area_sqm': {'min': 26, 'max': 29}, 'bed_count': 1, 'bathroom_count': 0, 'has_360_tour': False, 'image_count': 4, 'video_count': 0}</li><li class="common-item">{'name': 'Platinum Studio - Large', 'type_id': 2, 'price': 486, 'currency': 'GBP', 'area_sqm': {'min': 26, 'max': 29}, 'bed_count': 1, 'bathroom_count': 1, 'has_360_tour': True, 'image_count': 4, 'video_count': 0}</li><li class="common-item">{'name': 'Diamond Studio', 'type_id': 2, 'price': 507, 'currency': 'GBP', 'area_sqm': {'min': 30, 'max': 0}, 'bed_count': 1, 'bathroom_count': 0, 'has_360_tour': False, 'image_count': 5, 'video_count': 1}</li><li class="common-item">{'name': 'Silver Studio', 'type_id': 2, 'price': 470, 'currency': 'GBP', 'area_sqm': {'min': 15, 'max': 0}, 'bed_count': 1, 'bathroom_count': 0, 'has_360_tour': False, 'image_count': 7, 'video_count': 0}</li><li class="common-item">{'name': 'Gold Studio - Large', 'type_id': 2, 'price': 478, 'currency': 'GBP', 'area_sqm': {'min': 23, 'max': 25}, 'bed_count': 1, 'bathroom_count': 0, 'has_360_tour': True, 'image_count': 5, 'video_count': 0}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <h3 style="color: #c62828;">⚠️ Missing Items - Amber Needs to Add (EXACT COUNT: 13)</h3>
+            <div class="items-list">
+                <ul>
+                    <li class="missing-item">{'name': 'Bronze Ensuite', 'type_id': 8, 'price': 377, 'currency': 'GBP', 'area_sqm': {'min': 0, 'max': 13}, 'bed_count': 1, 'bathroom_count': 0, 'has_360_tour': True, 'image_count': 6, 'video_count': 0}</li><li class="missing-item">{'name': '2 Bed Apartment', 'type_id': 8, 'price': 378, 'currency': 'GBP', 'area_sqm': {'min': 13, 'max': 0}, 'bed_count': 1, 'bathroom_count': 1, 'has_360_tour': False, 'image_count': 5, 'video_count': 0}</li><li class="missing-item">{'name': 'Silver Ensuite', 'type_id': 8, 'price': 380, 'currency': 'GBP', 'area_sqm': {'min': 0, 'max': 14}, 'bed_count': 1, 'bathroom_count': 0, 'has_360_tour': False, 'image_count': 6, 'video_count': 0}</li><li class="missing-item">{'name': 'Silver Ensuite - Extra Large', 'type_id': 8, 'price': 392, 'currency': 'GBP', 'area_sqm': {'min': 0, 'max': 14}, 'bed_count': 1, 'bathroom_count': 1, 'has_360_tour': False, 'image_count': 3, 'video_count': 0}</li><li class="missing-item">{'name': 'Bronze Studio', 'type_id': 2, 'price': 392, 'currency': 'GBP', 'area_sqm': {'min': 13, 'max': 0}, 'bed_count': 1, 'bathroom_count': 0, 'has_360_tour': True, 'image_count': 8, 'video_count': 1}</li><li class="missing-item">{'name': 'Gold Ensuite', 'type_id': 8, 'price': 401, 'currency': 'GBP', 'area_sqm': {'min': 0, 'max': 14}, 'bed_count': 0, 'bathroom_count': 0, 'has_360_tour': False, 'image_count': 5, 'video_count': 0}</li><li class="missing-item">{'name': 'Bronze Studio -  Large', 'type_id': 2, 'price': 402, 'currency': 'GBP', 'area_sqm': {'min': 13, 'max': 0}, 'bed_count': 1, 'bathroom_count': 0, 'has_360_tour': True, 'image_count': 2, 'video_count': 0}</li><li class="missing-item">{'name': 'Gold Studio', 'type_id': 2, 'price': 432, 'currency': 'GBP', 'area_sqm': {'min': 23, 'max': 25}, 'bed_count': 1, 'bathroom_count': 0, 'has_360_tour': False, 'image_count': 5, 'video_count': 0}</li><li class="missing-item">{'name': 'Platinum Studio', 'type_id': 2, 'price': 479, 'currency': 'GBP', 'area_sqm': {'min': 26, 'max': 29}, 'bed_count': 1, 'bathroom_count': 0, 'has_360_tour': False, 'image_count': 4, 'video_count': 0}</li><li class="missing-item">{'name': 'Platinum Studio - Large', 'type_id': 2, 'price': 486, 'currency': 'GBP', 'area_sqm': {'min': 26, 'max': 29}, 'bed_count': 1, 'bathroom_count': 1, 'has_360_tour': True, 'image_count': 4, 'video_count': 0}</li><li class="missing-item">{'name': 'Diamond Studio', 'type_id': 2, 'price': 507, 'currency': 'GBP', 'area_sqm': {'min': 30, 'max': 0}, 'bed_count': 1, 'bathroom_count': 0, 'has_360_tour': False, 'image_count': 5, 'video_count': 1}</li><li class="missing-item">{'name': 'Silver Studio', 'type_id': 2, 'price': 470, 'currency': 'GBP', 'area_sqm': {'min': 15, 'max': 0}, 'bed_count': 1, 'bathroom_count': 0, 'has_360_tour': False, 'image_count': 7, 'video_count': 0}</li><li class="missing-item">{'name': 'Gold Studio - Large', 'type_id': 2, 'price': 478, 'currency': 'GBP', 'area_sqm': {'min': 23, 'max': 25}, 'bed_count': 1, 'bathroom_count': 0, 'has_360_tour': True, 'image_count': 5, 'video_count': 0}</li>
+                </ul>
+            </div>
+            <p style="color: #c62828; font-weight: bold; margin-top: 10px;">
+                📊 Amber is behind by <strong>13</strong> room types
+            </p>
+            
+            <h3 style="color: #2e7d32;">✅ Unique to Amber - Competitive Advantage (EXACT COUNT: 3)</h3>
+            <div class="items-list">
+                <ul>
+                    <li class="unique-item">Ensuite</li><li class="unique-item">Studio</li><li class="unique-item">Student Accommodation</li>
+                </ul>
+            </div>
+            <p style="color: #2e7d32; font-weight: bold; margin-top: 10px;">
+                📊 Amber is ahead by <strong>3</strong> room types
+            </p>
+            
+        </div>
+        
+
+        <div class="section">
+            <h2 class="section-title">Amenities</h2>
+            
+            <div class="score-comparison">
+                <div class="score-box amber">
+                    <div>Amber Score</div>
+                    <div class="score-value">6.8</div>
+                </div>
+                <div class="score-box uhomes">
+                    <div>UHomes Score</div>
+                    <div class="score-value">5.0</div>
+                </div>
+            </div>
+        
+            
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Metric</th>
+                        <th>Amber</th>
+                        <th>UHomes</th>
+                        <th>Difference</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Total Amenities</strong></td>
+                        <td><span class="count-badge count-amber">18</span></td>
+                        <td><span class="count-badge count-uhomes">34</span></td>
+                        <td><span class="count-badge count-diff">+16</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Common Amenities</strong></td>
+                        <td colspan="3" style="text-align: center;"><strong>2</strong> amenities in both</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Amber Ahead By</strong></td>
+                        <td colspan="3" style="text-align: center; color: #2e7d32;"><strong>16</strong> unique amenities</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Amber Behind By</strong></td>
+                        <td colspan="3" style="text-align: center; color: #c62828;"><strong>32</strong> missing amenities</td>
+                    </tr>
+                </tbody>
+            </table>
+        
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0;">
+                <div>
+                    <h3>Amber Items - EXACT LIST (18)</h3>
+                    <div class="items-list">
+                        <ul>
+                            <li class="common-item">On-site Gym</li><li class="common-item">Study Spaces</li><li class="common-item">Social Spaces</li><li class="common-item">Games Area</li><li class="common-item">Cinema</li><li class="common-item">TV Snug</li><li class="common-item">Onsite Laundry</li><li class="common-item">Resident Events</li><li class="common-item">Courtyard</li><li class="common-item">Close to London Metropolitan University</li><li class="common-item">Close to Kings College</li><li class="common-item">Free Bi-Weekly Cleaning</li><li class="common-item">Electricity</li><li class="common-item">Water</li><li class="common-item">Gas</li><li class="common-item">Internet (Upto 200MB  Dual Band Wifi)</li><li class="common-item">Heating</li><li class="common-item">24/7 On Site Team</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h3>UHomes Items - EXACT LIST (34)</h3>
+                    <div class="items-list">
+                        <ul>
+                            <li class="common-item">CCTV</li><li class="common-item">Video Surveillance</li><li class="common-item">Controlled Access</li><li class="common-item">Reception</li><li class="common-item">Social events</li><li class="common-item">Housekeeping</li><li class="common-item">Wi-Fi</li><li class="common-item">Elevator</li><li class="common-item">Laundry Room</li><li class="common-item">Conference Room</li><li class="common-item">Lounge</li><li class="common-item">Study Room</li><li class="common-item">Bike Storage</li><li class="common-item">Gym</li><li class="common-item">Pool Table</li><li class="common-item">Cinema room</li><li class="common-item">Game Room</li><li class="common-item">Courtyard</li><li class="common-item">Patio</li><li class="common-item">Heating</li><li class="common-item">Desk</li><li class="common-item">Chairs</li><li class="common-item">Closets</li><li class="common-item">Storage room</li><li class="common-item">Microwave</li><li class="common-item">Oven</li><li class="common-item">Sink</li><li class="common-item">Refrigerator</li><li class="common-item">Shower</li><li class="common-item">Bed</li><li class="common-item">Toilet</li><li class="common-item">Electric Stove</li><li class="common-item">Dresser</li><li class="common-item">Window</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <h3 style="color: #1976d2;">🔄 Common Items - In Both (2)</h3>
+            <div class="items-list">
+                <ul>
+                    <li class="common-item">Courtyard</li><li class="common-item">Heating</li>
+                    
+                </ul>
+            </div>
+            
+            <h3 style="color: #c62828;">⚠️ Missing Items - Amber Needs to Add (EXACT COUNT: 32)</h3>
+            <div class="items-list">
+                <ul>
+                    <li class="missing-item">CCTV</li><li class="missing-item">Video Surveillance</li><li class="missing-item">Controlled Access</li><li class="missing-item">Reception</li><li class="missing-item">Social events</li><li class="missing-item">Housekeeping</li><li class="missing-item">Wi-Fi</li><li class="missing-item">Elevator</li><li class="missing-item">Laundry Room</li><li class="missing-item">Conference Room</li><li class="missing-item">Lounge</li><li class="missing-item">Study Room</li><li class="missing-item">Bike Storage</li><li class="missing-item">Gym</li><li class="missing-item">Pool Table</li><li class="missing-item">Cinema room</li><li class="missing-item">Game Room</li><li class="missing-item">Patio</li><li class="missing-item">Desk</li><li class="missing-item">Chairs</li><li class="missing-item">Closets</li><li class="missing-item">Storage room</li><li class="missing-item">Microwave</li><li class="missing-item">Oven</li><li class="missing-item">Sink</li><li class="missing-item">Refrigerator</li><li class="missing-item">Shower</li><li class="missing-item">Bed</li><li class="missing-item">Toilet</li><li class="missing-item">Electric Stove</li><li class="missing-item">Dresser</li><li class="missing-item">Window</li>
+                </ul>
+            </div>
+            <p style="color: #c62828; font-weight: bold; margin-top: 10px;">
+                📊 Amber is behind by <strong>32</strong> amenities
+            </p>
+            
+            <h3 style="color: #2e7d32;">✅ Unique to Amber - Competitive Advantage (EXACT COUNT: 16)</h3>
+            <div class="items-list">
+                <ul>
+                    <li class="unique-item">On-site Gym</li><li class="unique-item">Study Spaces</li><li class="unique-item">Social Spaces</li><li class="unique-item">Games Area</li><li class="unique-item">Cinema</li><li class="unique-item">TV Snug</li><li class="unique-item">Onsite Laundry</li><li class="unique-item">Resident Events</li><li class="unique-item">Close to London Metropolitan University</li><li class="unique-item">Close to Kings College</li><li class="unique-item">Free Bi-Weekly Cleaning</li><li class="unique-item">Electricity</li><li class="unique-item">Water</li><li class="unique-item">Gas</li><li class="unique-item">Internet (Upto 200MB  Dual Band Wifi)</li><li class="unique-item">24/7 On Site Team</li>
+                </ul>
+            </div>
+            <p style="color: #2e7d32; font-weight: bold; margin-top: 10px;">
+                📊 Amber is ahead by <strong>16</strong> amenities
+            </p>
+            
+        </div>
+        
+
+        <div class="section">
+            <h2 class="section-title">Payment</h2>
+            
+            <div class="score-comparison">
+                <div class="score-box amber">
+                    <div>Amber Score</div>
+                    <div class="score-value">12.0</div>
+                </div>
+                <div class="score-box uhomes">
+                    <div>UHomes Score</div>
+                    <div class="score-value">12.0</div>
+                </div>
+            </div>
+        
+            
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Metric</th>
+                        <th>Amber</th>
+                        <th>UHomes</th>
+                        <th>Difference</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Count</strong></td>
+                        <td><span class="count-badge count-amber">0</span></td>
+                        <td><span class="count-badge count-uhomes">0</span></td>
+                        <td><span class="count-badge count-diff">+0</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        
+            
+        </div>
+        
+
+        <div class="section">
+            <h2 class="section-title">Cancellation</h2>
+            
+            <div class="score-comparison">
+                <div class="score-box amber">
+                    <div>Amber Score</div>
+                    <div class="score-value">5.0</div>
+                </div>
+                <div class="score-box uhomes">
+                    <div>UHomes Score</div>
+                    <div class="score-value">5.0</div>
+                </div>
+            </div>
+        
+            
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Metric</th>
+                        <th>Amber</th>
+                        <th>UHomes</th>
+                        <th>Difference</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Count</strong></td>
+                        <td><span class="count-badge count-amber">0</span></td>
+                        <td><span class="count-badge count-uhomes">0</span></td>
+                        <td><span class="count-badge count-diff">+0</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        
+            
+        </div>
+        
+
+        <div class="section">
+            <h2 class="section-title">FAQs</h2>
+            
+            <div class="score-comparison">
+                <div class="score-box amber">
+                    <div>Amber Score</div>
+                    <div class="score-value">3.2</div>
+                </div>
+                <div class="score-box uhomes">
+                    <div>UHomes Score</div>
+                    <div class="score-value">0.5</div>
+                </div>
+            </div>
+        
+            
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Metric</th>
+                        <th>Amber</th>
+                        <th>UHomes</th>
+                        <th>Difference</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Count</strong></td>
+                        <td><span class="count-badge count-amber">12</span></td>
+                        <td><span class="count-badge count-uhomes">0</span></td>
+                        <td><span class="count-badge count-diff">-12</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0;">
+                <div>
+                    <h3>Amber Items - EXACT LIST (12)</h3>
+                    <div class="items-list">
+                        <ul>
+                            <li class="common-item">{'answer': 'All your utility bills – water, electric, gas, internet, gym and use of all the social spaces – are included in the price. There are no hidden charges, what you see on your contract is what you pay (besides any damage to the room or fees you incur).', 'question': 'What’s included in the price?'}</li><li class="common-item">{'answer': "You are welcome to have guests through the daytime, and an overnight guest for a reasonable amount of nights. You'll need to get permission from management for an extended period. They will need to provide a form of ID to check in through your resident portal, and you will be responsible for them throughout their stay. Please note, you will also need written consent from management if your overnight guest is under 18 years of age.", 'question': 'Am I allowed to have guests to stay?'}</li><li class="common-item">{'answer': 'They have CCTV in and around each property, an electronic key entry system for the main entrance, common areas, each flat and bedroom. There is also staff on site 24 hours a day, 7 days a week.', 'question': 'How secure is the accommodation?'}</li><li class="common-item">{'answer': 'In the UK, students are exempt from paying council tax – you won’t need to pay this, but if the council do mistakenly bill you, you will need to provide details to prove that you are in full time education.', 'question': 'Will I need to pay council tax?'}</li><li class="common-item">{'answer': "If you bring your own TV, or want to watch or record programmes as they are shown live (including on mobile phones, tablets or computers), you will need to apply and pay for a TV License. This also includes TV's provided by the management.", 'question': 'Do I need a tv licence?'}</li><li class="common-item">{'answer': 'If you’re having any problems with your room, a shared living space, or one of the communal areas, you have two options. You can log the issue via the Resident portal, providing details so their maintenance team can get this sorted for you as soon as possible. Alternatively, you can come down to the front desk and talk to a member of the team so they can log it on your behalf.', 'question': 'What if something in my apartment breaks down?'}</li><li class="common-item">{'answer': 'Unfortunately, you are not allowed to keep any pets in your room or any shared living spaces.', 'question': 'Can I have pets?'}</li><li class="common-item">{'answer': 'They want your university experience to be as positive as possible – if you are having any issues with your flat mates, please let them know. They will do their best to help resolve any problems you might be having.', 'question': 'What happens if I don’t get on with my new flat mates?'}</li><li class="common-item">{'answer': 'Lockable mailboxes located in the lobby (or speak to the front desk team to locate yours) - your room keycard may also give you access to this (please check with the front desk team to know more). If any larger packages, or anything that requires a signature arrives for you, they’ll hold onto it and let you know via text or email so you can come and collect it. For security reasons, you will need to provide photo ID and give a signature to confirm collection. Post will not be given out to other residents on your behalf without written authorisation', 'question': 'Can I receive post and parcels?'}</li><li class="common-item">{'answer': 'They are more than happy to accommodate groups as well as individuals. Let them know who you’re planning to live with, and they’ll do their best to accommodate you in the same flat.', 'question': 'Can I live with my friends?'}</li><li class="common-item">{'answer': 'As a minimum age requirement, property residents need to be or have turned 18 during their tenancy with them. This is due to the legally binding tenancy agreement that each resident is required to sign before arrival. They have no upper age limits on their accommodation, so long as the resident is in full time education for the duration of their stay.', 'question': 'Is there an age limit for booking accommodation with the management?'}</li><li class="common-item">{'answer': 'All rooms come with a bed, desk and chair. Extras such as kettles, toasters and lamps are not provided.', 'question': 'What appliances and furniture are included in my room?'}</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h3>UHomes Items - EXACT LIST (0)</h3>
+                    <div class="items-list">
+                        <ul>
+                            <li>No items found</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <h3 style="color: #2e7d32;">✅ Unique to Amber - Competitive Advantage (EXACT COUNT: 12)</h3>
+            <div class="items-list">
+                <ul>
+                    <li class="unique-item">{'answer': 'All your utility bills – water, electric, gas, internet, gym and use of all the social spaces – are included in the price. There are no hidden charges, what you see on your contract is what you pay (besides any damage to the room or fees you incur).', 'question': 'What’s included in the price?'}</li><li class="unique-item">{'answer': "You are welcome to have guests through the daytime, and an overnight guest for a reasonable amount of nights. You'll need to get permission from management for an extended period. They will need to provide a form of ID to check in through your resident portal, and you will be responsible for them throughout their stay. Please note, you will also need written consent from management if your overnight guest is under 18 years of age.", 'question': 'Am I allowed to have guests to stay?'}</li><li class="unique-item">{'answer': 'They have CCTV in and around each property, an electronic key entry system for the main entrance, common areas, each flat and bedroom. There is also staff on site 24 hours a day, 7 days a week.', 'question': 'How secure is the accommodation?'}</li><li class="unique-item">{'answer': 'In the UK, students are exempt from paying council tax – you won’t need to pay this, but if the council do mistakenly bill you, you will need to provide details to prove that you are in full time education.', 'question': 'Will I need to pay council tax?'}</li><li class="unique-item">{'answer': "If you bring your own TV, or want to watch or record programmes as they are shown live (including on mobile phones, tablets or computers), you will need to apply and pay for a TV License. This also includes TV's provided by the management.", 'question': 'Do I need a tv licence?'}</li><li class="unique-item">{'answer': 'If you’re having any problems with your room, a shared living space, or one of the communal areas, you have two options. You can log the issue via the Resident portal, providing details so their maintenance team can get this sorted for you as soon as possible. Alternatively, you can come down to the front desk and talk to a member of the team so they can log it on your behalf.', 'question': 'What if something in my apartment breaks down?'}</li><li class="unique-item">{'answer': 'Unfortunately, you are not allowed to keep any pets in your room or any shared living spaces.', 'question': 'Can I have pets?'}</li><li class="unique-item">{'answer': 'They want your university experience to be as positive as possible – if you are having any issues with your flat mates, please let them know. They will do their best to help resolve any problems you might be having.', 'question': 'What happens if I don’t get on with my new flat mates?'}</li><li class="unique-item">{'answer': 'Lockable mailboxes located in the lobby (or speak to the front desk team to locate yours) - your room keycard may also give you access to this (please check with the front desk team to know more). If any larger packages, or anything that requires a signature arrives for you, they’ll hold onto it and let you know via text or email so you can come and collect it. For security reasons, you will need to provide photo ID and give a signature to confirm collection. Post will not be given out to other residents on your behalf without written authorisation', 'question': 'Can I receive post and parcels?'}</li><li class="unique-item">{'answer': 'They are more than happy to accommodate groups as well as individuals. Let them know who you’re planning to live with, and they’ll do their best to accommodate you in the same flat.', 'question': 'Can I live with my friends?'}</li><li class="unique-item">{'answer': 'As a minimum age requirement, property residents need to be or have turned 18 during their tenancy with them. This is due to the legally binding tenancy agreement that each resident is required to sign before arrival. They have no upper age limits on their accommodation, so long as the resident is in full time education for the duration of their stay.', 'question': 'Is there an age limit for booking accommodation with the management?'}</li><li class="unique-item">{'answer': 'All rooms come with a bed, desk and chair. Extras such as kettles, toasters and lamps are not provided.', 'question': 'What appliances and furniture are included in my room?'}</li>
+                </ul>
+            </div>
+            <p style="color: #2e7d32; font-weight: bold; margin-top: 10px;">
+                📊 Amber is ahead by <strong>12</strong> faqs
+            </p>
+            
+        </div>
+        
+
+        <div class="section">
+            <h2 class="section-title">Nearby Properties</h2>
+            
+            <div class="score-comparison">
+                <div class="score-box amber">
+                    <div>Amber Score</div>
+                    <div class="score-value">0.5</div>
+                </div>
+                <div class="score-box uhomes">
+                    <div>UHomes Score</div>
+                    <div class="score-value">0.5</div>
+                </div>
+            </div>
+        
+            
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Metric</th>
+                        <th>Amber</th>
+                        <th>UHomes</th>
+                        <th>Difference</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Count</strong></td>
+                        <td><span class="count-badge count-amber">0</span></td>
+                        <td><span class="count-badge count-uhomes">0</span></td>
+                        <td><span class="count-badge count-diff">+0</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        
+            
+        </div>
+        
+
+        <div class="section">
+            <h2 class="section-title">University Links</h2>
+            
+            <div class="score-comparison">
+                <div class="score-box amber">
+                    <div>Amber Score</div>
+                    <div class="score-value">1.5</div>
+                </div>
+                <div class="score-box uhomes">
+                    <div>UHomes Score</div>
+                    <div class="score-value">5.0</div>
+                </div>
+            </div>
+        
+            
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Metric</th>
+                        <th>Amber</th>
+                        <th>UHomes</th>
+                        <th>Difference</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Count</strong></td>
+                        <td><span class="count-badge count-amber">2</span></td>
+                        <td><span class="count-badge count-uhomes">7</span></td>
+                        <td><span class="count-badge count-diff">+5</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0;">
+                <div>
+                    <h3>Amber Items - EXACT LIST (2)</h3>
+                    <div class="items-list">
+                        <ul>
+                            <li class="common-item">London Metropolitan University</li><li class="common-item">Kings College</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h3>UHomes Items - EXACT LIST (7)</h3>
+                    <div class="items-list">
+                        <ul>
+                            <li class="common-item">UCL</li><li class="common-item">KCL</li><li class="common-item">LSE</li><li class="common-item">SOAS</li><li class="common-item">CSM</li><li class="common-item">IC</li><li class="common-item">CITY</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <h3 style="color: #c62828;">⚠️ Missing Items - Amber Needs to Add (EXACT COUNT: 7)</h3>
+            <div class="items-list">
+                <ul>
+                    <li class="missing-item">UCL</li><li class="missing-item">KCL</li><li class="missing-item">LSE</li><li class="missing-item">SOAS</li><li class="missing-item">CSM</li><li class="missing-item">IC</li><li class="missing-item">CITY</li>
+                </ul>
+            </div>
+            <p style="color: #c62828; font-weight: bold; margin-top: 10px;">
+                📊 Amber is behind by <strong>7</strong> university links
+            </p>
+            
+            <h3 style="color: #2e7d32;">✅ Unique to Amber - Competitive Advantage (EXACT COUNT: 2)</h3>
+            <div class="items-list">
+                <ul>
+                    <li class="unique-item">London Metropolitan University</li><li class="unique-item">Kings College</li>
+                </ul>
+            </div>
+            <p style="color: #2e7d32; font-weight: bold; margin-top: 10px;">
+                📊 Amber is ahead by <strong>2</strong> university links
+            </p>
+            
+        </div>
+        
+        
+        <div class="footer">
+            <p>Property Comparison Report | Generated on 2025-12-08 16:17:43</p>
+            <p>This report contains detailed content comparison between Amber and UHomes properties.</p>
+        </div>
+        
+    </div>
+</body>
+</html>

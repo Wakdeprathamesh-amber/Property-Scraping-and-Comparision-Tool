@@ -1,0 +1,5243 @@
+{
+  "house": {
+    "house_id": 158981,
+    "sku": "S00158981",
+    "type_id": 3,
+    "sub_type_id": 1,
+    "cust_id": 0,
+    "supplier_id": 32,
+    "city_id": 7,
+    "country_id": 826,
+    "house_status": 2,
+    "publish_type": 0,
+    "title": "Chapter Lewisham",
+    "bed_num": 0,
+    "favorite_count": 2945,
+    "booking_status": 1,
+    "sub_type": 1,
+    "built_date": "2016",
+    "renovate_date": "2016",
+    "unit_count": 611,
+    "bed_count": 611,
+    "cover_image": {
+      "media_id": "01J5FFW4EFP94085D5W3VCNJB4",
+      "path": "image/1383/01J5FFW4EFP94085D5W3VCNJB4.webp",
+      "suffix": [
+        "g",
+        "h"
+      ]
+    },
+    "staticmap_image": "https://img.uhzcdn.com/images/staticmap/mapbox/750x300/14_51.466211_-0.016240.png",
+    "installment_count": 0,
+    "lease_unit": "WEEK",
+    "currency": {
+      "abbr": "GBP"
+    },
+    "rent_amount": {
+      "amount": 283,
+      "abbr": "GBP"
+    },
+    "promo_amount": {
+      "amount": 283,
+      "abbr": "GBP"
+    },
+    "original_amount": {
+      "amount": 292,
+      "abbr": "GBP"
+    },
+    "has_final_promo_value": 1,
+    "amenities": [
+      {
+        "id": 2146
+      },
+      {
+        "id": 2462
+      },
+      {
+        "id": 111
+      },
+      {
+        "id": 2166
+      },
+      {
+        "id": 2526
+      },
+      {
+        "id": 2528
+      },
+      {
+        "id": 2531
+      },
+      {
+        "id": 2097
+      },
+      {
+        "id": 2295
+      },
+      {
+        "id": 2084
+      },
+      {
+        "id": 2086
+      },
+      {
+        "id": 2537
+      },
+      {
+        "id": 2162
+      },
+      {
+        "id": 2517
+      },
+      {
+        "id": 117
+      },
+      {
+        "id": 86
+      },
+      {
+        "id": 2021
+      },
+      {
+        "id": 2446
+      },
+      {
+        "id": 2076
+      },
+      {
+        "id": 2245
+      },
+      {
+        "id": 2271
+      },
+      {
+        "id": 2306
+      },
+      {
+        "id": 2258
+      },
+      {
+        "id": 2516
+      },
+      {
+        "id": 2463
+      },
+      {
+        "id": 101
+      },
+      {
+        "id": 44
+      },
+      {
+        "id": 2083
+      },
+      {
+        "id": 3
+      },
+      {
+        "id": 2513
+      },
+      {
+        "id": 2113
+      },
+      {
+        "id": 113
+      },
+      {
+        "id": 2093
+      },
+      {
+        "id": 2090
+      },
+      {
+        "id": 2270
+      },
+      {
+        "id": 2288
+      },
+      {
+        "id": 40
+      },
+      {
+        "id": 2077
+      }
+    ],
+    "utilities": {
+      "items": [
+        {
+          "id": 2004,
+          "description": ""
+        },
+        {
+          "id": 2002,
+          "description": ""
+        },
+        {
+          "id": 2005,
+          "description": ""
+        },
+        {
+          "id": 2452,
+          "description": ""
+        }
+      ],
+      "extra_charges": null
+    },
+    "payment_method": [
+      6
+    ],
+    "house_url": "uk/london/detail-apartments-158981",
+    "media_count": 134,
+    "country_unique_name": "uk"
+  },
+  "building_attribute": {
+    "items": [
+      {
+        "block_name": "A",
+        "total_floors": 11,
+        "storey_height": 0
+      },
+      {
+        "block_name": "B",
+        "total_floors": 11,
+        "storey_height": 0
+      }
+    ],
+    "block_name": "A, B",
+    "highest_floor": 11,
+    "storey_height": 0
+  },
+  "location": {
+    "address": "46 Thurston Road, London SE13 7SD, United Kingdom",
+    "zipcode": "SE13 7SD",
+    "lat": 51.466211,
+    "lng": -0.01624,
+    "place_id": "ChIJaazKQGQCdkgRSkuTLhcDuS0",
+    "street_view_lat": 0,
+    "street_view_lng": 0
+  },
+  "country": {
+    "country_name": "United Kingdom",
+    "country_id": 826,
+    "country_unique_name": "uk",
+    "ab": "UK",
+    "lang": {
+      "zh_cn": "英国",
+      "en_us": "United Kingdom",
+      "zh_tc": "英國"
+    }
+  },
+  "state": {
+    "state_name": "England",
+    "state_id": 2,
+    "state_unique_name": "",
+    "lang": {
+      "zh_cn": "英格兰",
+      "en_us": "England",
+      "zh_tc": "英格蘭"
+    }
+  },
+  "city": {
+    "city_name": "London",
+    "lang": {
+      "zh_cn": "伦敦",
+      "en_us": "London",
+      "zh_tc": "倫敦"
+    },
+    "city_id": 7,
+    "city_unique_name": "london"
+  },
+  "about": {
+    "text": "<p style=\"color: #0e101a; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; margin-top: 0pt; margin-bottom: 0pt;\"><strong>#FREE WEEKDAY BREAKFAST &amp; BI-WEEKLY ROOM CLEANS#</strong></p><p style=\"color: #0e101a; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; margin-top: 0pt; margin-bottom: 0pt;\"><strong>Chapter Lewisham</strong> is a&nbsp;<a href=\"https://en.uhomes.com/uk/london\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #ff5a5f;\"><strong>student accommodation in London</strong></span></a>, located at 46 Thurston Road. 46 Thurston Road, London SE13 7SD, United Kingdom. Chapter Lewisham student residence offers Studios, En-suites, and Apartments to students in the South East London area of Lewisham. It is steps away from vibrant New Cross, tranquil Blackheath, and Greenwich, where you can experience bustling nightlife in these areas. All our designs and facilities are in place to give you a home away from home. Chapter Lewisham student accommodation offers <span style=\"color: #0e101a;\">free weekday breakfast service and bi-weekly room cleans, ensuring a hassle-free stay.</span> Gym, comfortable social and study areas, laundry room, and bicycle storage are at your disposal to enhance your quality of life. Located in Zone 2, the property is also in proximity to <strong><span style=\"color: #ff5a5f;\"><a style=\"color: #ff5a5f;\" href=\"https://en.uhomes.com/uk/london/goldsmiths-university-of-london\" target=\"_blank\" rel=\"noopener\">Goldsmith University</a></span></strong>&nbsp;and <a href=\"https://en.uhomes.com/uk/london/university-of-greenwich-greenwich-campus\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #ff5a5f;\"><strong>Greenwich University</strong></span></a>, making it convenient for students to commute.</p><h3><span style=\"font-size: 18px;\"><strong>What's Included in Chapter Lewisham Student Accommodation?</strong></span></h3><p style=\"color: #0e101a; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; margin-top: 0pt; margin-bottom: 0pt;\">Chapter Lewisham student accommodation offers various room options to students, from </span><span style=\"background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; margin-top: 0pt; margin-bottom: 0pt;\">Bronze En-suites and </span>Silver&nbsp;<span style=\"background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; margin-top: 0pt; margin-bottom: 0pt;\">Studios to </span><span style=\"background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; margin-top: 0pt; margin-bottom: 0pt;\">3-bed Apartments. Choose your vibe according to your preference and budget.</span><span style=\"background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; margin-top: 0pt; margin-bottom: 0pt;\"> Each room comes with compact double bed,</span> study desk, ample storage, bathroom, and kitchen. Chapter Lewisham student residence covers all utility bills and super-speed Wi-Fi, ensuring a worry-free stay. Our <span style=\"background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; margin-top: 0pt; margin-bottom: 0pt;\">student accommodation also offers many modern amenities to students, such as a gym, a study space, a courtyard, and a games area. </span>Every day feels like a blend of comfort and convenience.&nbsp;</p><ul><li style=\"color: #0e101a; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; margin-top: 0pt; margin-bottom: 0pt;\"><strong>On-site gym</strong>: Sweat it out with top-tier Technogym gear and free weights</span></li><li style=\"color: #0e101a; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; margin-top: 0pt; margin-bottom: 0pt;\"><strong>Study spaces</strong>: Help you find your focus</span></li><li style=\"color: #0e101a; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; margin-top: 0pt; margin-bottom: 0pt;\"><strong>Games area</strong>: Unwind and connect in our social games zone</span></li><li style=\"color: #0e101a; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; margin-top: 0pt; margin-bottom: 0pt;\"><strong>Courtyard</strong>: Picnic with friends</span></li><li style=\"color: #0e101a; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; margin-top: 0pt; margin-bottom: 0pt;\"><strong>On-site laundry</strong>: Wash the clothes via the My Chapter app</span></li><li><strong>Free weekday breakfast service</strong>: Snag pastries, fruit, and coffee on busy mornings</li><li><strong>Free bi-weekly room cleans</strong>: Tidy your space</li></ul><h3><span style=\"font-size: 18px;\"><strong>What's Nearby Chapter Lewisham London?</strong></span></h3><p>Chapter Lewisham accommodation is located in the London area of <a href=\"https://en.uhomes.com/uk/london/place/lewisham\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #ff5a5f;\"><strong>Lewisham</strong></span></a>. Living here, you are close to all of the action, from top universities to restaurants and supermarkets.</p><h4><strong>1. Nearby Universities:</strong></h4><p>Chapter Lewisham student accommodation is within easy reach of many famous institutions, like University of Greenwich, Goldsmiths University of London, and King's College London.</p><ul><li style=\"color: #0e101a; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"color: #0e101a;\"><span style=\"color: #000000;\"><strong>Goldsmiths, University of London</strong>:&nbsp;</span>12 minutes by bus</span></li><li style=\"color: #0e101a; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"color: #0e101a;\"><strong>Oxford International Education Group</strong>: 16 minutes by bus</span></li><li style=\"color: #0e101a; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"color: #0e101a;\"><strong><span style=\"color: #ff5a5f;\"><span style=\"color: #000000;\">University of Greenwich</span></span></strong>: 17 minutes by train</span></li><li style=\"color: #0e101a; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"color: #0e101a;\"><a href=\"https://en.uhomes.com/uk/london/university-of-sunderland-in-london-a\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #ff5a5f;\"><strong><strong>University of </strong>Sunderland London Campus</strong></span></a>: 18 minutes by train</span></li><li style=\"color: #0e101a; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"color: #0e101a;\"><a href=\"https://en.uhomes.com/uk/london/kings-college-london-kcl\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #ff5a5f;\"><strong>King's College London (KCL)</strong></span></a>: 26 minutes by train</span></li><li style=\"color: #0e101a; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"color: #0e101a;\"><a href=\"https://en.uhomes.com/uk/london/london-school-of-economics-and-political-science\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #ff5a5f;\"><strong>London School of Economics (LSE)</strong></span></a>: 37 minutes by tube</span></li><li style=\"color: #0e101a; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"color: #0e101a;\"><span style=\"color: #000000;\"><a href=\"https://en.uhomes.com/uk/london/university-college-london\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #ff5a5f;\"><strong>University College London (UCL)</strong></span></a>: 4</span>5 minutes by train</span></li></ul><h4><strong>2. City Highlights:</strong></h4><p>Chapter Lewisham London is close to plenty of popular restaurants, trendy bars, shopping centres, and cultural attractions.</p><ul><li><strong>Bar Beach Grill</strong>: Enjoy great cocktails and chicken wings right nearby</li><li><strong>Sweet1ne Restaurant &amp; Lounge</strong>: Taste authentic Caribbean flavours like Rasta Pasta and Seafood Boil within 0.2 miles</li><li><strong>New Cross Inn</strong>: Admire live music performances, 13 minutes away by bus</li><li><strong>Lewisham Shopping Centre</strong>: Go on a shopping spree, 16 minutes away on foot</li><li><strong>Greenwich Park &amp; Royal Observatory</strong>: Take a stroll after dinner with a 30-minute bus ride</li><li><strong>O2 Arena &amp; Tower Bridge</strong>: Explore the charm of this historic and cultural city, with 30&mdash;40 minutes away by train or bus</li></ul><h3><span style=\"font-size: 18px;\"><strong>How Can You Commute from Chapter Lewisham London?</strong></span></h3><p style=\"color: #0e101a; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; margin-top: 0pt; margin-bottom: 0pt;\">Chapter Lewisham London is located in transit-rich Zone 2. Getting around is a breeze for residents in Chapter Lewisham, London, with multiple transport stations close by. Lewisham and St John's Train Stations are just at the doorstep of our Lewisham student housing. The other transport options close by include:</p><ul><li><strong>Lewisham Train Station</strong>: 1 minute on foot</li><li><strong>St John's Train Station</strong>: 2 minutes on foot</li><li><strong>Thurston Road Bus Stop</strong>: 1 minute on foot</li><li><strong>Jerrard Street Bus Stop</strong>: 1 minute on foot</li><li><strong>Loampit Vale Bus Stop</strong>: 2 minutes on foot</li></ul><h3><span style=\"font-size: 18px;\"><strong><span style=\"background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"color: #0e101a;\">What Services &amp; Security&nbsp;</span></span></strong><strong><span style=\"background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"color: #0e101a;\">Are&nbsp;</span></span></strong><strong><span style=\"background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"color: #0e101a;\">Provided in Chapter Lewisham Accommodation?</span></span></strong></span></h3><p><span style=\"background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"color: #0e101a;\">Chapter Lewisham residence always puts students' safety and comfort first. It has various practical services to increase your happiness.</span></span></p><ul><li><strong>Free weekday breakfast service</strong>: Fuel your day without the cost</li><li><strong>Free bi-weekly room cleans</strong>: Enjoy a consistently clean space without the chores</li><li><span style=\"color: #0e101a;\"><strong>Short stay options</strong>: Adapt to your schedule</span></li><li><span style=\"color: #0e101a;\"><strong>Vlogger tour</strong>: See real rooms before you book</span></li><li><span style=\"color: #0e101a;\"><strong>On-site team</strong>: Always ready to help&mdash;from parcel collection to maintenance</span></li><li><span style=\"color: #0e101a;\"><strong>Video surveillance</strong>: Sleep easy</span></li><li><span style=\"color: #0e101a;\"><strong>Parcel collection</strong>: Securely hold packages</span></li></ul><h3><span style=\"color: #0e101a; font-size: 18px;\">Why Choose Chapter Lewisham Student Residence?</span></h3><p><span style=\"color: #0e101a;\">Chapter Lewisham is a modern student residence in London designed for comfort and convenience. Here's what makes it popular among students.</span></p><ul><li><span style=\"color: #0e101a;\">Prime location in South East London of Zone 2</span></li><li><span style=\"color: #0e101a;\">Proximity to popular areas, such as New Cross, Blackheath, and Greenwich</span></li><li><span style=\"color: #0e101a;\">Multiple room options, including Studios, En-suites, and Apartments</span></li><li>Warm-hearted services, like free weekday breakfast and bi-weekly cleaning</li><li>Top amenities, like study spaces, games areas, a courtyard, and&nbsp;TV snug</li><li>Utility bills and super-fast Wi-Fi included</li></ul><h3><span style=\"font-size: 18px;\">How to Book a Room at Chapter Lewisham Student Accommodation?</span></h3><p>Booking a room at Chapter Lewisham student accommodation is simple and convenient. Only through 3 steps can you finish the whole process.</p><ul><li>Choose your favourite room at Chapter Lewisham student residence and check its availability, price, and tenancy.</li><li>Reserve an in-person or virtual room tour if needed.</li><li>Contact our property manager and complete the booking online.</li></ul>",
+    "text_strip_html": "#FREE WEEKDAY BREAKFAST & BI-WEEKLY ROOM CLEANS#Chapter Lewisham is a student accommodation in London, located at 46 Thurston Road. 46 Thurston Road, London SE13 7SD, United Kingdom. Chapter Lewisham student residence offers Studios, En-suites, and Apartments to students in the South East London area of Lewisham. It is steps away from vibrant New Cross, tranquil Blackheath, and Greenwich, where you can experience bustling nightlife in these areas. All our designs and facilities are in place to give you a home away from home. Chapter Lewisham student accommodation offers free weekday breakfast service and bi-weekly room cleans, ensuring a hassle-free stay. Gym, comfortable social and study areas, laundry room, and bicycle storage are at your disposal to enhance your quality of life. Located in Zone 2, the property is also in proximity to Goldsmith University and Greenwich University, making it convenient for students to commute.What's Included in Chapter Lewisham Student Accommodation?Chapter Lewisham student accommodation offers various room options to students, from Bronze En-suites and Silver Studios to 3-bed Apartments. Choose your vibe according to your preference and budget. Each room comes with compact double bed, study desk, ample storage, bathroom, and kitchen. Chapter Lewisham student residence covers all utility bills and super-speed Wi-Fi, ensuring a worry-free stay. Our student accommodation also offers many modern amenities to students, such as a gym, a study space, a courtyard, and a games area. Every day feels like a blend of comfort and convenience. On-site gym: Sweat it out with top-tier Technogym gear and free weightsStudy spaces: Help you find your focusGames area: Unwind and connect in our social games zoneCourtyard: Picnic with friendsOn-site laundry: Wash the clothes via the My Chapter appFree weekday breakfast service: Snag pastries, fruit, and coffee on busy morningsFree bi-weekly room cleans: Tidy your spaceWhat's Nearby Chapter Lewisham London?\nChapter Lewisham accommodation is located in the London area of Lewisham. Living here, you are close to all of the action, from top universities to restaurants and supermarkets.1. Nearby Universities:\nChapter Lewisham student accommodation is within easy reach of many famous institutions, like University of Greenwich, Goldsmiths University of London, and King's College London.Goldsmiths, University of London: 12 minutes by busOxford International Education Group: 16 minutes by busUniversity of Greenwich: 17 minutes by trainUniversity of Sunderland London Campus: 18 minutes by trainKing's College London (KCL): 26 minutes by trainLondon School of Economics (LSE): 37 minutes by tubeUniversity College London (UCL): 45 minutes by train2. City Highlights:\nChapter Lewisham London is close to plenty of popular restaurants, trendy bars, shopping centres, and cultural attractions.Bar Beach Grill: Enjoy great cocktails and chicken wings right nearbySweet1ne Restaurant & Lounge: Taste authentic Caribbean flavours like Rasta Pasta and Seafood Boil within 0.2 milesNew Cross Inn: Admire live music performances, 13 minutes away by busLewisham Shopping Centre: Go on a shopping spree, 16 minutes away on footGreenwich Park & Royal Observatory: Take a stroll after dinner with a 30-minute bus rideO2 Arena & Tower Bridge: Explore the charm of this historic and cultural city, with 30—40 minutes away by train or busHow Can You Commute from Chapter Lewisham London?Chapter Lewisham London is located in transit-rich Zone 2. Getting around is a breeze for residents in Chapter Lewisham, London, with multiple transport stations close by. Lewisham and St John's Train Stations are just at the doorstep of our Lewisham student housing. The other transport options close by include:Lewisham Train Station: 1 minute on footSt John's Train Station: 2 minutes on footThurston Road Bus Stop: 1 minute on footJerrard Street Bus Stop: 1 minute on footLoampit Vale Bus Stop: 2 minutes on footWhat Services & Security Are Provided in Chapter Lewisham Accommodation?\nChapter Lewisham residence always puts students' safety and comfort first. It has various practical services to increase your happiness.Free weekday breakfast service: Fuel your day without the costFree bi-weekly room cleans: Enjoy a consistently clean space without the choresShort stay options: Adapt to your scheduleVlogger tour: See real rooms before you bookOn-site team: Always ready to help—from parcel collection to maintenanceVideo surveillance: Sleep easyParcel collection: Securely hold packagesWhy Choose Chapter Lewisham Student Residence?\nChapter Lewisham is a modern student residence in London designed for comfort and convenience. Here's what makes it popular among students.Prime location in South East London of Zone 2Proximity to popular areas, such as New Cross, Blackheath, and GreenwichMultiple room options, including Studios, En-suites, and ApartmentsWarm-hearted services, like free weekday breakfast and bi-weekly cleaningTop amenities, like study spaces, games areas, a courtyard, and TV snugUtility bills and super-fast Wi-Fi includedHow to Book a Room at Chapter Lewisham Student Accommodation?\nBooking a room at Chapter Lewisham student accommodation is simple and convenient. Only through 3 steps can you finish the whole process.Choose your favourite room at Chapter Lewisham student residence and check its availability, price, and tenancy.Reserve an in-person or virtual room tour if needed.Contact our property manager and complete the booking online.",
+    "need_translate": 0
+  },
+  "supplier": {
+    "name": "Chapter",
+    "logo": "",
+    "originated": 0,
+    "sub_type_id": 1
+  },
+  "contacts": {
+    "first_name": null,
+    "last_name": null,
+    "email": "Lew****@chapter-living.com",
+    "phone": "020****9197",
+    "country_code": "44",
+    "address": "",
+    "contact_id": 1225,
+    "language": [
+      "English"
+    ],
+    "is_company": 0,
+    "office": [
+      {
+        "id": 2626,
+        "am": "09:00",
+        "pm": "17:00",
+        "type_id": "1",
+        "status": 1
+      }
+    ]
+  },
+  "features": [
+    {
+      "hf_id": 2677674,
+      "id": 2146,
+      "sub_type": 11,
+      "icon_font": "&#xe7a9;",
+      "name": "24 hours security",
+      "icon_class": "icon-anbaorenyuan"
+    },
+    {
+      "hf_id": 2677667,
+      "id": 2462,
+      "sub_type": 11,
+      "icon_font": "&#xe7a9;",
+      "name": "Doorman",
+      "icon_class": "icon-anbaorenyuan"
+    },
+    {
+      "hf_id": 311,
+      "id": 111,
+      "sub_type": 11,
+      "icon_font": "&#xe665;",
+      "name": "CCTV",
+      "icon_class": "icon-dianyoux-1"
+    },
+    {
+      "hf_id": 2677666,
+      "id": 2166,
+      "sub_type": 11,
+      "icon_font": "&#xe885;",
+      "name": "Fire system",
+      "icon_class": "icon-sheshibuwei"
+    },
+    {
+      "hf_id": 2677668,
+      "id": 2526,
+      "sub_type": 11,
+      "icon_font": "&#xe666;",
+      "name": "Controlled Access",
+      "icon_class": "icon-dianyoux-2"
+    },
+    {
+      "hf_id": 2677670,
+      "id": 2528,
+      "sub_type": 11,
+      "icon_font": "&#xe7a9;",
+      "name": "Security Guard",
+      "icon_class": "icon-anbaorenyuan"
+    },
+    {
+      "hf_id": 2677671,
+      "id": 2531,
+      "sub_type": 11,
+      "icon_font": "&#xe81b;",
+      "name": "Elevator Access Control",
+      "icon_class": "icon-dianti"
+    },
+    {
+      "hf_id": 2675695,
+      "id": 2097,
+      "sub_type": 55,
+      "icon_font": "&#xe7ab;",
+      "name": "Reception",
+      "icon_class": "icon-qiantai"
+    },
+    {
+      "hf_id": 2677676,
+      "id": 2295,
+      "sub_type": 55,
+      "icon_font": "&#xe88f;",
+      "name": "Package Room",
+      "icon_class": "icon-baoguo"
+    },
+    {
+      "hf_id": 2677672,
+      "id": 2084,
+      "sub_type": 55,
+      "icon_font": "&#xe88f;",
+      "name": "Delivery Alert System",
+      "icon_class": "icon-baoguo"
+    },
+    {
+      "hf_id": 2677673,
+      "id": 2086,
+      "sub_type": 55,
+      "icon_font": "&#xe6b7;",
+      "name": "Dry Cleaning Service",
+      "icon_class": "icon-xiyijix-"
+    },
+    {
+      "hf_id": 2863739,
+      "id": 2537,
+      "sub_type": 55,
+      "icon_font": "&#xe885;",
+      "name": "Housekeeping",
+      "icon_class": "icon-sheshibuwei"
+    },
+    {
+      "hf_id": 2677675,
+      "id": 2162,
+      "sub_type": 55,
+      "icon_font": "&#xe881;",
+      "name": "Social events",
+      "icon_class": "icon-dianying"
+    },
+    {
+      "hf_id": 2677678,
+      "id": 2517,
+      "sub_type": 55,
+      "icon_font": "&#xe885;",
+      "name": "Pest Control",
+      "icon_class": "icon-sheshibuwei"
+    },
+    {
+      "hf_id": 2632759,
+      "id": 117,
+      "sub_type": 56,
+      "icon_font": "&#xe81b;",
+      "name": "Elevator",
+      "icon_class": "icon-dianti"
+    },
+    {
+      "hf_id": 174535,
+      "id": 86,
+      "sub_type": 56,
+      "icon_font": "&#xe6b7;",
+      "name": "Laundry Room",
+      "icon_class": "icon-xiyijix-"
+    },
+    {
+      "hf_id": 174536,
+      "id": 2021,
+      "sub_type": 56,
+      "icon_font": "&#xe6b3;",
+      "name": "Wi-Fi",
+      "icon_class": "icon-wuxianyoux-1"
+    },
+    {
+      "hf_id": 2677677,
+      "id": 2446,
+      "sub_type": 56,
+      "icon_font": "&#xe892;",
+      "name": "Free Printing",
+      "icon_class": "icon-dayinji"
+    },
+    {
+      "hf_id": 1436,
+      "id": 2076,
+      "sub_type": 56,
+      "icon_font": "&#xe88a;",
+      "name": "Lounge",
+      "icon_class": "icon-kafei"
+    },
+    {
+      "hf_id": 2677681,
+      "id": 2245,
+      "sub_type": 56,
+      "icon_font": "&#xe770;",
+      "name": "Conference Room",
+      "icon_class": "icon-shafax-"
+    },
+    {
+      "hf_id": 2677682,
+      "id": 2271,
+      "sub_type": 56,
+      "icon_font": "&#xe88b;",
+      "name": "Mailroom",
+      "icon_class": "icon-xinxiang"
+    },
+    {
+      "hf_id": 2677683,
+      "id": 2306,
+      "sub_type": 56,
+      "icon_font": "&#xe6c2;",
+      "name": "Communal Kitchen",
+      "icon_class": "icon-chufangx-"
+    },
+    {
+      "hf_id": 174533,
+      "id": 2258,
+      "sub_type": 56,
+      "icon_font": "&#xe898;",
+      "name": "Study Room",
+      "icon_class": "icon-xuexi"
+    },
+    {
+      "hf_id": 2677684,
+      "id": 2516,
+      "sub_type": 56,
+      "icon_font": "&#xe868;",
+      "name": "Trash Room",
+      "icon_class": "icon-icon_lajichuli"
+    },
+    {
+      "hf_id": 2675691,
+      "id": 2463,
+      "sub_type": 56,
+      "icon_font": "&#xe770;",
+      "name": "Lobby",
+      "icon_class": "icon-shafax-"
+    },
+    {
+      "hf_id": 2677679,
+      "id": 101,
+      "sub_type": 56,
+      "icon_font": "&#xe840;",
+      "name": "Vending Machine",
+      "icon_class": "icon-huifang_bianli"
+    },
+    {
+      "hf_id": 312,
+      "id": 44,
+      "sub_type": 56,
+      "icon_font": "&#xe83d;",
+      "name": "Bike Storage",
+      "icon_class": "icon-huifang_peitaofuwu"
+    },
+    {
+      "hf_id": 2677680,
+      "id": 2083,
+      "sub_type": 56,
+      "icon_font": "&#xe770;",
+      "name": "Business Center",
+      "icon_class": "icon-shafax-"
+    },
+    {
+      "hf_id": 309,
+      "id": 3,
+      "sub_type": 57,
+      "icon_font": "&#xe83f;",
+      "name": "Gym",
+      "icon_class": "icon-huifang_yundong"
+    },
+    {
+      "hf_id": 2675694,
+      "id": 2513,
+      "sub_type": 57,
+      "icon_font": "&#xe88a;",
+      "name": "Coffee Bar",
+      "icon_class": "icon-kafei"
+    },
+    {
+      "hf_id": 174534,
+      "id": 2113,
+      "sub_type": 57,
+      "icon_font": "&#xe883;",
+      "name": "Game Room",
+      "icon_class": "icon-yuleyouxi"
+    },
+    {
+      "hf_id": 2677685,
+      "id": 113,
+      "sub_type": 57,
+      "icon_font": "&#xe881;",
+      "name": "Cinema room",
+      "icon_class": "icon-dianying"
+    },
+    {
+      "hf_id": 2677686,
+      "id": 2093,
+      "sub_type": 57,
+      "icon_font": "&#xe6b0;",
+      "name": "Table Tennis",
+      "icon_class": "icon-zhuozix-1"
+    },
+    {
+      "hf_id": 2675692,
+      "id": 2090,
+      "sub_type": 57,
+      "icon_font": "&#xe6b0;",
+      "name": "Pool Table",
+      "icon_class": "icon-zhuozix-1"
+    },
+    {
+      "hf_id": 2677687,
+      "id": 2270,
+      "sub_type": 57,
+      "icon_font": "&#xe88e;",
+      "name": "Table Football",
+      "icon_class": "icon-qiuchang"
+    },
+    {
+      "hf_id": 2749989,
+      "id": 2288,
+      "sub_type": 58,
+      "icon_font": "&#xe760;",
+      "name": "Terrace",
+      "icon_class": "icon-shaixuanziyuan2"
+    },
+    {
+      "hf_id": 2638243,
+      "id": 40,
+      "sub_type": 58,
+      "icon_font": "&#xe760;",
+      "name": "Balcony",
+      "icon_class": "icon-shaixuanziyuan2"
+    },
+    {
+      "hf_id": 2675693,
+      "id": 2077,
+      "sub_type": 58,
+      "icon_font": "&#xe887;",
+      "name": "Courtyard",
+      "icon_class": "icon-huayuan"
+    },
+    {
+      "hf_id": 4609891,
+      "id": 21,
+      "sub_type": 59,
+      "icon_font": "&#xe6b3;",
+      "name": "Wi-Fi",
+      "icon_class": "icon-wuxianyoux-1"
+    },
+    {
+      "hf_id": 4609890,
+      "id": 13,
+      "sub_type": 59,
+      "icon_font": "&#xe6b4;",
+      "name": "Heating",
+      "icon_class": "icon-nuanqi-"
+    },
+    {
+      "hf_id": 6185672,
+      "id": 2486,
+      "sub_type": 62,
+      "icon_font": "&#xe757;",
+      "name": "Shower room",
+      "icon_class": "icon-weiyuhuasa"
+    },
+    {
+      "hf_id": 6541870,
+      "id": 2496,
+      "sub_type": 61,
+      "icon_font": "&#xe81c;",
+      "name": "Window",
+      "icon_class": "icon-chuangjing"
+    },
+    {
+      "hf_id": 4609893,
+      "id": 54,
+      "sub_type": 60,
+      "icon_font": "&#xe6bc;",
+      "name": "Microwave",
+      "icon_class": "icon-weiboluyoux-"
+    },
+    {
+      "hf_id": 4609896,
+      "id": 2196,
+      "sub_type": 60,
+      "icon_font": "&#xe833;",
+      "name": "Electric Stove",
+      "icon_class": "icon-luzao"
+    },
+    {
+      "hf_id": 6185673,
+      "id": 2501,
+      "sub_type": 62,
+      "icon_font": "&#xe76f;",
+      "name": "Mirror",
+      "icon_class": "icon-jingzix-"
+    },
+    {
+      "hf_id": 6541871,
+      "id": 2380,
+      "sub_type": 64,
+      "icon_font": "&#xe851;",
+      "name": "Porch",
+      "icon_class": "icon-yangtai32x32"
+    },
+    {
+      "hf_id": 4609894,
+      "id": 55,
+      "sub_type": 60,
+      "icon_font": "&#xe6b9;",
+      "name": "Refrigerator",
+      "icon_class": "icon-bingxiangyoux-"
+    },
+    {
+      "hf_id": 4609901,
+      "id": 2194,
+      "sub_type": 62,
+      "icon_font": "&#xe757;",
+      "name": "Shower",
+      "icon_class": "icon-weiyuhuasa"
+    },
+    {
+      "hf_id": 6185674,
+      "id": 2384,
+      "sub_type": 63,
+      "icon_font": "&#xe88d;",
+      "name": "Hardwood Floors",
+      "icon_class": "icon-diban"
+    },
+    {
+      "hf_id": 6541879,
+      "id": 2499,
+      "sub_type": 62,
+      "icon_font": "&#xe81c;",
+      "name": "Window",
+      "icon_class": "icon-chuangjing"
+    },
+    {
+      "hf_id": 4609897,
+      "id": 92,
+      "sub_type": 61,
+      "icon_font": "&#xe6af;",
+      "name": "Bed",
+      "icon_class": "icon-chuangyoux-1"
+    },
+    {
+      "hf_id": 6185667,
+      "id": 2479,
+      "sub_type": 59,
+      "icon_font": "&#xe885;",
+      "name": "No smoking",
+      "icon_class": "icon-sheshibuwei"
+    },
+    {
+      "hf_id": 6185675,
+      "id": 2503,
+      "sub_type": 63,
+      "icon_font": "&#xe81c;",
+      "name": "Window",
+      "icon_class": "icon-chuangjing"
+    },
+    {
+      "hf_id": 6541880,
+      "id": 2253,
+      "sub_type": 62,
+      "icon_font": "&#xe6c4;",
+      "name": "Toilet",
+      "icon_class": "icon-weishengjianx-"
+    },
+    {
+      "hf_id": 4609898,
+      "id": 93,
+      "sub_type": 61,
+      "icon_font": "&#xe6b0;",
+      "name": "Desk",
+      "icon_class": "icon-zhuozix-1"
+    },
+    {
+      "hf_id": 6185668,
+      "id": 2518,
+      "sub_type": 59,
+      "icon_font": "&#xe818;",
+      "name": "Stairs",
+      "icon_class": "icon-sheshibuwei"
+    },
+    {
+      "hf_id": 6541835,
+      "id": 2407,
+      "sub_type": 63,
+      "icon_font": "&#xe76d;",
+      "name": "Window Coverings",
+      "icon_class": "icon-chuanglian-"
+    },
+    {
+      "hf_id": 6881647,
+      "id": 2214,
+      "sub_type": 61,
+      "icon_font": "&#xe893;",
+      "name": "Lamp",
+      "icon_class": "icon-deng"
+    },
+    {
+      "hf_id": 4609899,
+      "id": 2006,
+      "sub_type": 61,
+      "icon_font": "&#xe6b1;",
+      "name": "Chairs",
+      "icon_class": "icon-yiziyoux-1"
+    },
+    {
+      "hf_id": 6185669,
+      "id": 2,
+      "sub_type": 59,
+      "icon_font": "&#xe6b7;",
+      "name": "Washer/Dryer",
+      "icon_class": "icon-xiyijix-"
+    },
+    {
+      "hf_id": 6541876,
+      "id": 2492,
+      "sub_type": 60,
+      "icon_font": "&#xe81c;",
+      "name": "Window",
+      "icon_class": "icon-chuangjing"
+    },
+    {
+      "hf_id": 6881648,
+      "id": 2489,
+      "sub_type": 64,
+      "icon_font": "&#xe760;",
+      "name": "Terrace",
+      "icon_class": "icon-shaixuanziyuan2"
+    },
+    {
+      "hf_id": 4609900,
+      "id": 2012,
+      "sub_type": 61,
+      "icon_font": "&#xe6ae;",
+      "name": "Closets",
+      "icon_class": "icon-yimaojianx-"
+    },
+    {
+      "hf_id": 6185670,
+      "id": 2056,
+      "sub_type": 61,
+      "icon_font": "&#xe76b;",
+      "name": "Mattress",
+      "icon_class": "icon-chuangdianx-"
+    },
+    {
+      "hf_id": 6541877,
+      "id": 2544,
+      "sub_type": 61,
+      "icon_font": "&#xe885;",
+      "name": "Bed Table",
+      "icon_class": "icon-sheshibuwei"
+    },
+    {
+      "hf_id": 6881649,
+      "id": 2062,
+      "sub_type": 63,
+      "icon_font": "&#xe770;",
+      "name": "Sofa",
+      "icon_class": "icon-shafax-"
+    },
+    {
+      "hf_id": 4609895,
+      "id": 58,
+      "sub_type": 60,
+      "icon_font": "&#xe6b8;",
+      "name": "Oven",
+      "icon_class": "icon-kaoxiang-"
+    },
+    {
+      "hf_id": 4609892,
+      "id": 2066,
+      "sub_type": 59,
+      "icon_font": "&#xe775;",
+      "name": "Storage room",
+      "icon_class": "icon-chucunkongjianx-"
+    },
+    {
+      "hf_id": 6185671,
+      "id": 2251,
+      "sub_type": 62,
+      "icon_font": "&#xe759;",
+      "name": "Sink",
+      "icon_class": "icon-sheshibuwei"
+    },
+    {
+      "hf_id": 6541878,
+      "id": 2494,
+      "sub_type": 61,
+      "icon_font": "&#xe76d;",
+      "name": "Window coverings",
+      "icon_class": "icon-chuanglian-"
+    }
+  ],
+  "features_image": [
+    {
+      "id": 3,
+      "description": "",
+      "media_img": {
+        "media_id": "01HVCJP6SFNG1Q7FM6F04SRC4N",
+        "path": "image/1383/01HVCJP6SFNG1Q7FM6F04SRC4N.webp",
+        "suffix": [
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 2097,
+      "description": "",
+      "media_img": {
+        "media_id": "01HVCJPE6VBZQPXARQV0E2BDY0",
+        "path": "image/1381/01HVCJPE6VBZQPXARQV0E2BDY0.webp",
+        "suffix": [
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 2258,
+      "description": "",
+      "media_img": {
+        "media_id": "01HVCJPHVMAAKVGAB5Y6NGDXDV",
+        "path": "image/1391/01HVCJPHVMAAKVGAB5Y6NGDXDV.webp",
+        "suffix": [
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 2076,
+      "description": "",
+      "media_img": {
+        "media_id": "01HVCJPNYN9RYWJ1XRH803FPZP",
+        "path": "image/1393/01HVCJPNYN9RYWJ1XRH803FPZP.webp",
+        "suffix": [
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 2513,
+      "description": "",
+      "media_img": {
+        "media_id": "01HVCJPSR1G5VSTS39MAB6WRY4",
+        "path": "image/1389/01HVCJPSR1G5VSTS39MAB6WRY4.webp",
+        "suffix": [
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 86,
+      "description": "",
+      "media_img": {
+        "media_id": "01HVCJPXG4B9D8P0TEKSMFT7K3",
+        "path": "image/1385/01HVCJPXG4B9D8P0TEKSMFT7K3.webp",
+        "suffix": [
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 44,
+      "description": "",
+      "media_img": {
+        "media_id": "01HVCJQ1KVEMF5KDKE79W6W2AV",
+        "path": "image/1399/01HVCJQ1KVEMF5KDKE79W6W2AV.webp",
+        "suffix": [
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 2077,
+      "description": "",
+      "media_img": {
+        "media_id": "01HVCJQ68M6ZKY4JJKSTAJ8SAP",
+        "path": "image/1381/01HVCJQ68M6ZKY4JJKSTAJ8SAP.webp",
+        "suffix": [
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 2113,
+      "description": "",
+      "media_img": {
+        "media_id": "01HVCJQ9VPJSZNWMWCE0DN9X8X",
+        "path": "image/1393/01HVCJQ9VPJSZNWMWCE0DN9X8X.webp",
+        "suffix": [
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 2113,
+      "description": "",
+      "media_img": {
+        "media_id": "01HVCJQE42S2AFNFMY4BD8SS09",
+        "path": "image/1397/01HVCJQE42S2AFNFMY4BD8SS09.webp",
+        "suffix": [
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 2090,
+      "description": "",
+      "media_img": {
+        "media_id": "01HVCJQJ8KWE38MKNBSRH01FG8",
+        "path": "image/1383/01HVCJQJ8KWE38MKNBSRH01FG8.webp",
+        "suffix": [
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 117,
+      "description": "",
+      "media_img": {
+        "media_id": "01HVCJQNSCB6NYZYAEKWJ9PQBG",
+        "path": "image/1385/01HVCJQNSCB6NYZYAEKWJ9PQBG.webp",
+        "suffix": [
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 2463,
+      "description": "",
+      "media_img": {
+        "media_id": "01HVCJQTJ3AW6CCHKGPCTYW144",
+        "path": "image/1395/01HVCJQTJ3AW6CCHKGPCTYW144.webp",
+        "suffix": [
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 3,
+      "description": "",
+      "media_img": {
+        "media_id": "01HVCJTS8A6XE0B2Q4TQ8K4R49",
+        "path": "image/1399/01HVCJTS8A6XE0B2Q4TQ8K4R49.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 2
+    },
+    {
+      "id": 2258,
+      "description": "",
+      "media_img": {
+        "media_id": "01HVCJTVZ4HR831M00S27CDBVZ",
+        "path": "image/1387/01HVCJTVZ4HR831M00S27CDBVZ.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 2
+    },
+    {
+      "id": 86,
+      "description": "",
+      "media_img": {
+        "media_id": "01HVCJTYH0ZAYE894V08Q85M78",
+        "path": "image/1397/01HVCJTYH0ZAYE894V08Q85M78.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 2
+    },
+    {
+      "id": 3,
+      "description": "",
+      "media_img": {
+        "media_id": "01HVCJV0ZATWNK27SHTM1WH8F5",
+        "path": "image/1393/01HVCJV0ZATWNK27SHTM1WH8F5.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 2
+    },
+    {
+      "id": 2097,
+      "description": "",
+      "media_img": {
+        "media_id": "01HVCJV3GGTMSHEAJH8QK1FKFB",
+        "path": "image/1395/01HVCJV3GGTMSHEAJH8QK1FKFB.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 2
+    },
+    {
+      "id": 3,
+      "description": "",
+      "media_img": {
+        "media_id": "01J41D41527T6VJQN6MKN8EBMD",
+        "path": "image/1385/01J41D41527T6VJQN6MKN8EBMD.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 2
+    },
+    {
+      "id": 3,
+      "description": "",
+      "media_img": {
+        "media_id": "01J4A11QK7VBB2QCWNNAK251H5",
+        "path": "image/1395/01J4A11QK7VBB2QCWNNAK251H5.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 2
+    },
+    {
+      "id": 2090,
+      "description": "",
+      "media_img": {
+        "media_id": "01J474VWMT86MCB8XKV90FSVW4",
+        "path": "image/1381/01J474VWMT86MCB8XKV90FSVW4.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 2
+    },
+    {
+      "id": 2258,
+      "description": "",
+      "media_img": {
+        "media_id": "01J4R603DCX6MTYNF36ZNWSPXM",
+        "path": "image/1385/01J4R603DCX6MTYNF36ZNWSPXM.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 2
+    },
+    {
+      "id": 2258,
+      "description": "",
+      "media_img": {
+        "media_id": "01J46NSB8KX7580XS0ANPD36ED",
+        "path": "image/1389/01J46NSB8KX7580XS0ANPD36ED.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 2
+    },
+    {
+      "id": 2288,
+      "description": "",
+      "media_img": {
+        "media_id": "01J44P18B25STGFQJ8Q3DMSQZ4",
+        "path": "image/1395/01J44P18B25STGFQJ8Q3DMSQZ4.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 2
+    },
+    {
+      "id": 2271,
+      "description": "",
+      "media_img": {
+        "media_id": "01J447CETQ6AFRAEH840CC388A",
+        "path": "image/1391/01J447CETQ6AFRAEH840CC388A.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 2
+    },
+    {
+      "id": 2258,
+      "description": "",
+      "media_img": {
+        "media_id": "01J43MRPJ6SAZN4X8PFCH3FV71",
+        "path": "image/1381/01J43MRPJ6SAZN4X8PFCH3FV71.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 2
+    },
+    {
+      "id": 2146,
+      "description": "",
+      "media_img": {
+        "media_id": "01J4NX11M3QX7JT4BA5ZYN9E3N",
+        "path": "image/1383/01J4NX11M3QX7JT4BA5ZYN9E3N.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 2
+    },
+    {
+      "id": 2076,
+      "description": "",
+      "media_img": {
+        "media_id": "01J5FBS9GKEK7V71Z7HNBNN02V",
+        "path": "image/1383/01J5FBS9GKEK7V71Z7HNBNN02V.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 2
+    },
+    {
+      "id": 2076,
+      "description": "",
+      "media_img": {
+        "media_id": "01J5CRCAMMB989P03T6SQK011E",
+        "path": "image/1393/01J5CRCAMMB989P03T6SQK011E.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 2
+    },
+    {
+      "id": 3,
+      "description": "",
+      "media_img": {
+        "media_id": "01J7P8E8TG57PTBR7Z5JKE1RNF",
+        "path": "image/1389/01J7P8E8TG57PTBR7Z5JKE1RNF.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 3,
+      "description": "",
+      "media_img": {
+        "media_id": "01J7P96WBMKWR47PM1H99R7FSK",
+        "path": "image/1393/01J7P96WBMKWR47PM1H99R7FSK.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 3,
+      "description": "",
+      "media_img": {
+        "media_id": "01J7P8RA3YR5MXFRP6RDG7GQZG",
+        "path": "image/1381/01J7P8RA3YR5MXFRP6RDG7GQZG.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 3,
+      "description": "",
+      "media_img": {
+        "media_id": "01J7P1X89SMF6JN2KAQXDDAH48",
+        "path": "image/1399/01J7P1X89SMF6JN2KAQXDDAH48.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 3,
+      "description": "",
+      "media_img": {
+        "media_id": "01J7P6CANMJE3A8TYHTEZ7RQ96",
+        "path": "image/1381/01J7P6CANMJE3A8TYHTEZ7RQ96.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 3,
+      "description": "",
+      "media_img": {
+        "media_id": "01J7NVQ4M6RJ7HWGYN9G2D7000",
+        "path": "image/1391/01J7NVQ4M6RJ7HWGYN9G2D7000.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 86,
+      "description": "",
+      "media_img": {
+        "media_id": "01J7NZRS0EHZ7N0A23JK6WQA95",
+        "path": "image/1385/01J7NZRS0EHZ7N0A23JK6WQA95.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 86,
+      "description": "",
+      "media_img": {
+        "media_id": "01J7NY5110ZK65NVG7SHRWBCJ7",
+        "path": "image/1391/01J7NY5110ZK65NVG7SHRWBCJ7.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 3,
+      "description": "",
+      "media_img": {
+        "media_id": "01JM2E132FFC1ZA4AR8VMZ7G5N",
+        "path": "image/1397/01JM2E132FFC1ZA4AR8VMZ7G5N.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 3,
+      "description": "",
+      "media_img": {
+        "media_id": "01JM2DR91Z39D8DPC7A9N8DXRA",
+        "path": "image/1389/01JM2DR91Z39D8DPC7A9N8DXRA.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 3,
+      "description": "",
+      "media_img": {
+        "media_id": "01JM2E8NRREVDWQN9Y2PJ2T5QD",
+        "path": "image/1393/01JM2E8NRREVDWQN9Y2PJ2T5QD.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 3,
+      "description": "",
+      "media_img": {
+        "media_id": "01JM2ET0CARW3122DV14MNWJVG",
+        "path": "image/1391/01JM2ET0CARW3122DV14MNWJVG.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 2288,
+      "description": "",
+      "media_img": {
+        "media_id": "01JM2DHN9Q9V422N8KT8V05TFC",
+        "path": "image/1395/01JM2DHN9Q9V422N8KT8V05TFC.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 2288,
+      "description": "",
+      "media_img": {
+        "media_id": "01JM2DFHZEXH2KW2R0YHT6YRM3",
+        "path": "image/1399/01JM2DFHZEXH2KW2R0YHT6YRM3.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 2288,
+      "description": "",
+      "media_img": {
+        "media_id": "01JM2E96FF916WB4ABM2XTA2KE",
+        "path": "image/1383/01JM2E96FF916WB4ABM2XTA2KE.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 2097,
+      "description": "",
+      "media_img": {
+        "media_id": "01JM2D122VQM5FVMHHSZCMQ0A2",
+        "path": "image/1395/01JM2D122VQM5FVMHHSZCMQ0A2.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 2097,
+      "description": "",
+      "media_img": {
+        "media_id": "01JM2CMC1E1FY64VGTB5BMCZFQ",
+        "path": "image/1393/01JM2CMC1E1FY64VGTB5BMCZFQ.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 2097,
+      "description": "",
+      "media_img": {
+        "media_id": "01JM2F0D4B46A813GYJGYMAVXX",
+        "path": "image/1381/01JM2F0D4B46A813GYJGYMAVXX.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 2097,
+      "description": "",
+      "media_img": {
+        "media_id": "01JM2DSWJWB1PG37SXVHXHT62B",
+        "path": "image/1397/01JM2DSWJWB1PG37SXVHXHT62B.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 86,
+      "description": "",
+      "media_img": {
+        "media_id": "01JM2DW1BM624GYMVAHPZVQZH9",
+        "path": "image/1385/01JM2DW1BM624GYMVAHPZVQZH9.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 2270,
+      "description": "",
+      "media_img": {
+        "media_id": "01JM2CV8J2WXXY0W0332WZ3Y0S",
+        "path": "image/1389/01JM2CV8J2WXXY0W0332WZ3Y0S.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 2090,
+      "description": "",
+      "media_img": {
+        "media_id": "01JM2DB02CWETJ00N11BV6R0V6",
+        "path": "image/1393/01JM2DB02CWETJ00N11BV6R0V6.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 2271,
+      "description": "",
+      "media_img": {
+        "media_id": "01JM2CFD5RARTENHC46XGH5842",
+        "path": "image/1389/01JM2CFD5RARTENHC46XGH5842.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 1
+    },
+    {
+      "id": 2090,
+      "description": "",
+      "media_img": {
+        "media_id": "01K74PWV7MSRZJA2THS2Q75WGW",
+        "path": "image/1393/01K74PWV7MSRZJA2THS2Q75WGW.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 2
+    },
+    {
+      "id": 2097,
+      "description": "",
+      "media_img": {
+        "media_id": "01K74N3FH3Z1QQA5KHBEGN8ASE",
+        "path": "image/1387/01K74N3FH3Z1QQA5KHBEGN8ASE.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 2
+    },
+    {
+      "id": 2306,
+      "description": "",
+      "media_img": {
+        "media_id": "01K74Q1XSGM5YS38AVSY928EEN",
+        "path": "image/1381/01K74Q1XSGM5YS38AVSY928EEN.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 2
+    },
+    {
+      "id": 2077,
+      "description": "",
+      "media_img": {
+        "media_id": "01K74P0HA0FA3N1H1EW4SNV89A",
+        "path": "image/1387/01K74P0HA0FA3N1H1EW4SNV89A.webp",
+        "suffix": [
+          "g",
+          "h"
+        ]
+      },
+      "source_type": 2
+    }
+  ],
+  "features_faq": [],
+  "features_type": [
+    {
+      "sub_type": 11,
+      "name": "Safety",
+      "sort": 10
+    },
+    {
+      "sub_type": 55,
+      "name": "Property Services",
+      "sort": 10
+    },
+    {
+      "sub_type": 56,
+      "name": "Shared Community",
+      "sort": 10
+    },
+    {
+      "sub_type": 57,
+      "name": "Fitness & Recreation",
+      "sort": 10
+    },
+    {
+      "sub_type": 58,
+      "name": "Outdoor Features",
+      "sort": 10
+    },
+    {
+      "sub_type": 59,
+      "name": "General",
+      "sort": 10
+    },
+    {
+      "sub_type": 60,
+      "name": "Kitchen",
+      "sort": 10
+    },
+    {
+      "sub_type": 61,
+      "name": "Bedroom",
+      "sort": 10
+    },
+    {
+      "sub_type": 62,
+      "name": "Bathroom",
+      "sort": 10
+    },
+    {
+      "sub_type": 63,
+      "name": "Living Room",
+      "sort": 10
+    },
+    {
+      "sub_type": 64,
+      "name": "Outdoor Space",
+      "sort": 10
+    }
+  ],
+  "price_trend": [
+    {
+      "name": "3 Bed Apartment",
+      "unit_id": 415257,
+      "items": [
+        {
+          "tenancy_id": 1240752,
+          "lease_time": 44,
+          "lease_unit": "WEEK",
+          "count": 6
+        },
+        {
+          "tenancy_id": 1240753,
+          "lease_time": 51,
+          "lease_unit": "WEEK",
+          "count": 6
+        }
+      ],
+      "count": 12,
+      "sort": 2
+    },
+    {
+      "name": "3 Bed Apartment - Dual-View",
+      "unit_id": 854,
+      "items": [
+        {
+          "tenancy_id": 121552,
+          "lease_time": 44,
+          "lease_unit": "WEEK",
+          "count": 6
+        },
+        {
+          "tenancy_id": 1447659,
+          "lease_time": 51,
+          "lease_unit": "WEEK",
+          "count": 6
+        }
+      ],
+      "count": 12,
+      "sort": 2
+    },
+    {
+      "name": "Silver Studio",
+      "unit_id": 884,
+      "items": [
+        {
+          "tenancy_id": 901,
+          "lease_time": 44,
+          "lease_unit": "WEEK",
+          "count": 4
+        },
+        {
+          "tenancy_id": 1462521,
+          "lease_time": 51,
+          "lease_unit": "WEEK",
+          "count": 4
+        }
+      ],
+      "count": 8,
+      "sort": 1
+    }
+  ],
+  "floor_plan": [],
+  "installment": [
+    {
+      "term": "2025/26",
+      "items": [
+        {
+          "text": {
+            "condition": ""
+          },
+          "guarantor": 3,
+          "lease_unit": "WEEK",
+          "price_unit": "WEEK",
+          "promo_amount": {
+            "type": 0,
+            "amount": 0,
+            "price_unit": "",
+            "currency_id": 0
+          },
+          "staging_list": [
+            {
+              "amount": 8.7,
+              "end_date": "2025-07-31",
+              "staging_number": 1
+            },
+            {
+              "amount": 15.3,
+              "end_date": "2025-10-05",
+              "staging_number": 2
+            },
+            {
+              "amount": 15.4,
+              "end_date": "2026-01-11",
+              "staging_number": 3
+            },
+            {
+              "amount": 4.6,
+              "end_date": "2026-04-05",
+              "staging_number": 4
+            }
+          ],
+          "extend_amount": {
+            "type": 1,
+            "amount": 0,
+            "currency_id": 0,
+            "currency": ""
+          },
+          "staging_number": 4,
+          "guarantor_tips": "Guarantor required (United Kingdom nationality not restricted)"
+        },
+        {
+          "text": {
+            "condition": ""
+          },
+          "guarantor": 3,
+          "lease_unit": "WEEK",
+          "price_unit": "WEEK",
+          "promo_amount": {
+            "type": 0,
+            "amount": 0,
+            "price_unit": "",
+            "currency_id": 0
+          },
+          "staging_list": [
+            {
+              "amount": 22.3,
+              "end_date": "2025-07-31",
+              "staging_number": 1
+            },
+            {
+              "amount": 21.7,
+              "end_date": "2026-01-11",
+              "staging_number": 2
+            }
+          ],
+          "extend_amount": {
+            "type": 1,
+            "amount": 0,
+            "currency_id": 0,
+            "currency": ""
+          },
+          "staging_number": 2,
+          "guarantor_tips": "Guarantor required (United Kingdom nationality not restricted)"
+        },
+        {
+          "text": {
+            "condition": ""
+          },
+          "guarantor": 0,
+          "lease_unit": "WEEK",
+          "price_unit": "WEEK",
+          "promo_amount": {
+            "type": 0,
+            "amount": 0,
+            "price_unit": "",
+            "currency_id": 0
+          },
+          "staging_list": [
+            {
+              "amount": 0,
+              "end_date": "2025-07-31",
+              "staging_number": 1
+            }
+          ],
+          "extend_amount": {
+            "type": 1,
+            "amount": 0,
+            "currency_id": 0,
+            "currency": ""
+          },
+          "staging_number": 1,
+          "guarantor_tips": ""
+        }
+      ],
+      "is_show": 1
+    }
+  ],
+  "utilities": [
+    {
+      "id": 2108,
+      "type": 29,
+      "name": "Content Insurance"
+    },
+    {
+      "id": 2452,
+      "type": 29,
+      "name": "Internet"
+    },
+    {
+      "id": 2461,
+      "type": 29,
+      "name": "Air Conditioning"
+    },
+    {
+      "id": 2002,
+      "type": 29,
+      "name": "Water is included"
+    },
+    {
+      "id": 2004,
+      "type": 29,
+      "name": "Electricity"
+    },
+    {
+      "id": 2005,
+      "type": 29,
+      "name": "Gas"
+    },
+    {
+      "id": 2020,
+      "type": 29,
+      "name": "Heating"
+    },
+    {
+      "id": 2541,
+      "type": 29,
+      "name": "No Bills included"
+    },
+    {
+      "id": 2037,
+      "type": 29,
+      "name": "Trash fee"
+    },
+    {
+      "id": 2038,
+      "type": 29,
+      "name": "Cable bill"
+    },
+    {
+      "id": 2039,
+      "type": 29,
+      "name": "Sewer fee"
+    },
+    {
+      "id": 2040,
+      "type": 29,
+      "name": "Parking fee"
+    }
+  ],
+  "payment_method": [
+    {
+      "value": 1,
+      "name": "Alipay"
+    },
+    {
+      "value": 2,
+      "name": "Visa/Master"
+    },
+    {
+      "value": 4,
+      "name": "WeChat"
+    },
+    {
+      "value": 5,
+      "name": "UnionPay"
+    },
+    {
+      "value": 6,
+      "name": "International bank transfer"
+    },
+    {
+      "value": 7,
+      "name": "Cash cheque"
+    },
+    {
+      "value": 8,
+      "name": "Money Order"
+    },
+    {
+      "value": 9,
+      "name": "Destination country/region bank debit card"
+    },
+    {
+      "value": 10,
+      "name": "TransferMate"
+    },
+    {
+      "value": 11,
+      "name": "Visa/Master"
+    }
+  ],
+  "fees": {
+    "deposit": {
+      "price_id": 7,
+      "title": "Advance rent",
+      "tips": "The Advance Rent is treated as payment towards your payment of rent and will be credited to your rent.",
+      "payment_policy": "",
+      "payment_method": [
+        2,
+        6,
+        5,
+        9
+      ],
+      "payment_time": "Pay on booking",
+      "sort": 2,
+      "description": "The Advance Rent is treated as payment towards your payment of rent and will be credited to your rent.",
+      "rmb_amount": 185,
+      "amount": {
+        "amount": 185,
+        "abbr": "GBP"
+      },
+      "lease_time": 0,
+      "people": 0,
+      "lease_unit": "",
+      "amount_lease": 0,
+      "amount_lease_unit": "WEEK",
+      "symbol": "£",
+      "people_unit": 1,
+      "people_unit_lang": "person"
+    },
+    "other_fees": [
+      {
+        "price_id": 7,
+        "title": "Advance rent",
+        "tips": "The Advance Rent is treated as payment towards your payment of rent and will be credited to your rent.",
+        "payment_policy": "",
+        "payment_method": [
+          2,
+          6,
+          5,
+          9
+        ],
+        "payment_time": "Pay on booking",
+        "sort": 2,
+        "description": "The Advance Rent is treated as payment towards your payment of rent and will be credited to your rent.",
+        "rmb_amount": 185,
+        "amount": {
+          "amount": 185,
+          "abbr": "GBP"
+        },
+        "lease_time": 0,
+        "people": 0,
+        "lease_unit": "",
+        "amount_lease": 0,
+        "amount_lease_unit": "WEEK",
+        "symbol": "£",
+        "people_unit": 1,
+        "people_unit_lang": "person"
+      }
+    ],
+    "rent_fees": [
+      {
+        "type": "rent_amount",
+        "amount": {
+          "amount": 283,
+          "abbr": "GBP"
+        }
+      },
+      {
+        "amount": {
+          "amount": 185,
+          "abbr": "GBP"
+        },
+        "type": "advance"
+      }
+    ]
+  },
+  "tags": [
+    {
+      "color": "#0C7094",
+      "bg_color": "#E7F2F5",
+      "name": "No Service Fee"
+    },
+    {
+      "tag_id": 11227,
+      "name": "near the chinese super league",
+      "color": "#555555",
+      "activity_time": 0,
+      "expire_time": 0,
+      "bg_color": "#F5F5F5",
+      "sort": 15
+    },
+    {
+      "tag_id": 13742,
+      "name": "Near Bargain Supermarket",
+      "color": "#555555",
+      "activity_time": 0,
+      "expire_time": 0,
+      "bg_color": "#F5F5F5",
+      "sort": 14
+    },
+    {
+      "tag_id": 13228,
+      "name": "Free regular cleaning",
+      "color": "#555555",
+      "activity_time": 0,
+      "expire_time": 0,
+      "bg_color": "#F5F5F5",
+      "sort": 13
+    },
+    {
+      "tag_id": 13219,
+      "name": "Breakfast included",
+      "color": "#555555",
+      "activity_time": 0,
+      "expire_time": 0,
+      "bg_color": "#F5F5F5",
+      "sort": 12
+    },
+    {
+      "tag_id": 1353,
+      "name": "Near supermarket",
+      "color": "#555555",
+      "activity_time": 0,
+      "expire_time": 0,
+      "bg_color": "#F5F5F5",
+      "sort": 10
+    },
+    {
+      "tag_id": 13205,
+      "name": "Gym",
+      "color": "#555555",
+      "activity_time": 0,
+      "expire_time": 0,
+      "bg_color": "#F5F5F5",
+      "sort": 9
+    },
+    {
+      "tag_id": 13222,
+      "name": "Bills included",
+      "color": "#555555",
+      "activity_time": 0,
+      "expire_time": 0,
+      "bg_color": "#F5F5F5",
+      "sort": 8
+    },
+    {
+      "tag_id": 13214,
+      "name": "24 hours security",
+      "color": "#555555",
+      "activity_time": 0,
+      "expire_time": 0,
+      "bg_color": "#F5F5F5",
+      "sort": 7
+    }
+  ],
+  "service_tags": [
+    {
+      "type": "exclusive_offer",
+      "name": "Exclusive Offer"
+    }
+  ],
+  "rules": [
+    {
+      "cancel_policy_special_desc": "",
+      "cancel_policy_time_limit_desc": "",
+      "dateline_cancel_policy_desc": "",
+      "is_show_cancel_policy": 1,
+      "items": [
+        {
+          "facilities_id": 2109,
+          "title": "No Visa No Pay",
+          "description": "Your application for a visa has been declined. Please note that this does not include situations where your visa has been granted and subsequently withdrawn.\nIf you meet any of the above Cancellation Criteria and can provide us with evidence demonstrating that you meet the above criteria, your request for cancellation will be granted. If you have already accepted your Tenancy Agreement and paid your first instalment of Rent at the date your cancellation request is granted, we will refund you the first instalment of Rent less any Holding Fee paid (or an amount equivalent to the Holding Fee if you booked your room after 31st July)."
+        },
+        {
+          "facilities_id": 2110,
+          "title": "No Place No Pay",
+          "description": "You have failed to obtain your grades to study at university and as such do not have student status.\nIf you meet any of the above Cancellation Criteria and can provide us with evidence demonstrating that you meet the above criteria, your request for cancellation will be granted. If you have already accepted your Tenancy Agreement and paid your first instalment of Rent at the date your cancellation request is granted, we will refund you the first instalment of Rent less any Holding Fee paid (or an amount equivalent to the Holding Fee if you booked your room after 31st July)."
+        }
+      ],
+      "policy_text": {
+        "text": "Cancellation Policy\n\nTo secure your Room prior to 31st July, you must do the following within 3 days of receipt of this Tenancy Agreement (these 3 days being known as the \"Decision Making Period\"):\n\n1. Pay your Holding Fee (which will be deducted off your first instalment of Rent if your booking is not cancelled).\n\n2. Both the Tenant and the Guarantor must sign the Tenancy Agreement.\n\nIf you have not paid the first instalment of Rent on the date of booking, this must be paid on or before 31 July, otherwise, we reserve the right to cancel your booking.\n\nFor bookings made after 31st July, to secure your Room you must do the following within the Decision Making Period:\n\n1. Pay your first instalment of Rent.\n\n2. Both the Tenant and the Guarantor must sign the Tenancy Agreement.\n\nA Holding Fee will not be required for bookings made on or after 1st August.\n\nFailure to secure your Room within the required timescales may result in the cancellation of your booking by us.\n\nCancelling within the Decision Making Period\n\nThe Holding Fee is refundable if you provide us with notice of your intention to cancel within the Decision Making Period. If you cancel your booking after the Decision Making Period but prior to 31st July, any advance payment of Rent will be refunded to you less your Holding Fee, which will not be refunded.\n\nTaking no action throughout the Decision Making Period\n\nIf at the end of the Decision Making Period you have taken no action, i.e. not signed and accepted your Tenancy Agreement and/or not paid your Holding Fee and/or your first instalment of Rent then your offer will be cancelled on our system and your Room will be made available for someone else to book.\n\nCancelling on or after 1 August after accepting your Tenancy Agreement and having paid your first instalment of Rent\n\nTo request to cancel your booking outside of the Decision Making Period on or after 31st July but prior to the Tenancy Start Date as set out in the Tenancy Agreement, you must meet any of the following criteria:\n\n1. Your application for a visa has been declined. Please note that this does not include situations where your visa has been granted and subsequently withdrawn.\n\n2. You have failed to obtain your grades to study at university and as such do not have student status.\n\n(the \"Cancellation Criteria\")\n\nIf you meet any of the above Cancellation Criteria and can provide us with evidence demonstrating that you meet the above criteria, your request for cancellation will be granted. If you have already accepted your Tenancy Agreement and paid your first instalment of Rent at the date your cancellation request is granted, we will refund you the first instalment of Rent less any Holding Fee paid (or an amount equivalent to the Holding Fee if you booked your room after 31st July).\n\nIf you need to cancel your booking outside of the Decision Making Period on or after 31st July but prior to the Tenancy Start Date as set out in the Tenancy Agreement after accepting your Tenancy Agreement and having paid your first instalment of Rent but cannot meet the above Cancellation Criteria you will remain liable in full for the Rent for the full term of the Tenancy Agreement. This is unless a suitable replacement tenant can be found by you, acceptance of which will be at our sole discretion. Please note that we will not agree to a replacement tenant unless all outstanding accounts with us are settled.\n\nAny decision made to release you from your Tenancy Agreement for any reason that does not fall within the Cancellation Criteria is made by us, at our sole discretion on a case by case basis.\n\nAfter the Tenancy Start Date as set out in the Tenancy Agreement, requests for room moves or for us to accept a replacement tenant to take over you tenancy will be managed based on availability and at our sole discretion. An Administration Fee of £50 will be payable in each instance if agreed to by us and you will be responsible for cleaning the room in accordance with the terms of the Tenancy Agreement.\n\nRequests for replacement tenants received after 1 June within the Tenancy Period will not be accepted.",
+        "need_translate": 0
+      },
+      "policy_type": "cancel",
+      "show_cancel_policy_desc": "Where No Visa No Pay or No Place No Pay policies apply, students are entitled to cancellation and refund in accordance with specific terms and conditions.",
+      "sort": 1
+    },
+    {
+      "items": [
+        {
+          "title": "No Pet",
+          "description": ""
+        }
+      ],
+      "policy_type": "pets",
+      "sort": 3
+    },
+    {
+      "is_double_policy": 1,
+      "items": [
+        {
+          "title": "Silver Studio",
+          "description": "Increase of £100 per Week"
+        }
+      ],
+      "policy_text": {
+        "text": "每周租金上加100£"
+      },
+      "policy_type": "double_occupancy",
+      "sort": 4
+    },
+    {
+      "policy_type": "renewal",
+      "sort": 5,
+      "title": "Students can re-book through the student portal or contact the concierge to make an application."
+    },
+    {
+      "policy_type": "early_check_in",
+      "sort": 6,
+      "title": "Student can make an inquiry through Chapter email to apply for early check in."
+    },
+    {
+      "policy_type": "refund",
+      "sort": 7,
+      "title": "To secure your Room prior to 31st July, you must do the following within 3 days of receipt of this Tenancy Agreement (these 3 days being known as the \"Decision Making Period\"):\n\n1. Pay your Holding Fee (which will be deducted off your first instalment of Rent if your booking is not cancelled).\n\n2. Both the Tenant and the Guarantor must sign the Tenancy Agreement.\n\nIf you have not paid the first instalment of Rent on the date of booking, this must be paid on or before 31 July, otherwise, we reserve the right to cancel your booking.\n\nFor bookings made after 31st July, to secure your Room you must do the following within the Decision Making Period:\n\n1. Pay your first instalment of Rent.\n\n2. Both the Tenant and the Guarantor must sign the Tenancy Agreement.\n\nA Holding Fee will not be required for bookings made on or after 1st August.\n\nFailure to secure your Room within the required timescales may result in the cancellation of your booking by us.\n\nCancelling within the Decision Making Period\n\nThe Holding Fee is refundable if you provide us with notice of your intention to cancel within the Decision Making Period. If you cancel your booking after the Decision Making Period but prior to 31st July, any advance payment of Rent will be refunded to you less your Holding Fee, which will not be refunded.\n\nTaking no action throughout the Decision Making Period\n\nIf at the end of the Decision Making Period you have taken no action, i.e. not signed and accepted your Tenancy Agreement and/or not paid your Holding Fee and/or your first instalment of Rent then your offer will be cancelled on our system and your Room will be made available for someone else to book.\n\nCancelling on or after 1 August after accepting your Tenancy Agreement and having paid your first instalment of Rent\n\nTo request to cancel your booking outside of the Decision Making Period on or after 31st July but prior to the Tenancy Start Date as set out in the Tenancy Agreement, you must meet any of the following criteria:\n\n1. Your application for a visa has been declined. Please note that this does not include situations where your visa has been granted and subsequently withdrawn.\n\n2. You have failed to obtain your grades to study at university and as such do not have student status.\n\n(the \"Cancellation Criteria\")\n\nIf you meet any of the above Cancellation Criteria and can provide us with evidence demonstrating that you meet the above criteria, your request for cancellation will be granted. If you have already accepted your Tenancy Agreement and paid your first instalment of Rent at the date your cancellation request is granted, we will refund you the first instalment of Rent less any Holding Fee paid (or an amount equivalent to the Holding Fee if you booked your room after 31st July).\n\nIf you need to cancel your booking outside of the Decision Making Period on or after 31st July but prior to the Tenancy Start Date as set out in the Tenancy Agreement after accepting your Tenancy Agreement and having paid your first instalment of Rent but cannot meet the above Cancellation Criteria you will remain liable in full for the Rent for the full term of the Tenancy Agreement. This is unless a suitable replacement tenant can be found by you, acceptance of which will be at our sole discretion. Please note that we will not agree to a replacement tenant unless all outstanding accounts with us are settled.\n\nAny decision made to release you from your Tenancy Agreement for any reason that does not fall within the Cancellation Criteria is made by us, at our sole discretion on a case by case basis."
+    },
+    {
+      "policy_type": "room_assignment",
+      "sort": 8,
+      "title": "You can choose your room"
+    },
+    {
+      "policy_type": "room_change",
+      "sort": 9,
+      "title": "We want your university experience to be as positive as possible – if you are having any issues with your flat mates, please let us know. We will do our best to help resolve any problems you might be having"
+    },
+    {
+      "policy_type": "subletting",
+      "sort": 10,
+      "title": "After the Tenancy Start Date as set out in the Tenancy Agreement, requests for room moves or for us to accept a replacement tenant to take over you tenancy will be managed based on availability and at our sole discretion. An Administration Fee of £50 will be payable in each instance if agreed to by us and you will be responsible for cleaning the room in accordance with the terms of the Tenancy Agreement.\n\nRequests for replacement tenants received after 1 June within the Tenancy Period will not be accepted."
+    },
+    {
+      "policy_type": "termination",
+      "sort": 11,
+      "title": "Not Applicable, if students tend to terminate their current contract, after the Tenancy Start Date as set out in the Tenancy Agreement, requests for room moves or for us to accept a replacement tenant to take over you tenancy will be managed based on availability and at our sole discretion. An Administration Fee of £50 will be payable in each instance if agreed to by us and you will be responsible for cleaning the room in accordance with the terms of the Tenancy Agreement.\n\nRequests for replacement tenants received after 1 June within the Tenancy Period will not be accepted."
+    },
+    {
+      "policy_type": "smoking",
+      "sort": 12,
+      "title": "No smoking"
+    },
+    {
+      "policy_type": "check_in_guide",
+      "sort": 13,
+      "title": "https://img.uhzcdn.com/files/31/04/e03e50522b6e9b693f0408a644a09c53c2cae1.pdf"
+    },
+    {
+      "policy_type": "check_out_guide",
+      "sort": 14,
+      "title": "By no later than 10am on the last day of the Tenancy Period (however and whenever it ends) you agree to:\n1 return the Room and Flat Common Parts, the Contents and the key and/or fob to the Room to us in the same condition as\nrecorded on the Inventory excluding fair wear and tear;"
+    }
+  ],
+  "reviews": {
+    "avg_score": 4.4,
+    "review_count": 92,
+    "max_score": 5,
+    "score_desc": "Fabulous"
+  },
+  "switch": {
+    "is_favorite": 0,
+    "is_submit_from": 0,
+    "is_live_video_tour": 0,
+    "is_show_only_enquire": 0,
+    "is_show_pickup": 0,
+    "is_show_tuition": 0,
+    "is_show_roommate": 1,
+    "is_call_for_rent": 0,
+    "show_review_count": 5,
+    "is_show_price_trend": 1,
+    "on_site_verification": 1,
+    "on_site_video": 0,
+    "is_outer_booking": 0,
+    "is_has_room": 0,
+    "is_has_sublease": 0,
+    "is_show_bed": 0,
+    "is_price_payment_pledge": 1,
+    "is_show_waiting": 0,
+    "is_show_floor_plan": 0,
+    "is_show_ai_rec": 1,
+    "is_exclusive_listing": 0,
+    "is_exclusive_offer": 2,
+    "is_exclusive_partner": 0,
+    "is_china_exclusive_partner": 0,
+    "lease_time_range": [
+      {
+        "min": 50,
+        "max": 60
+      },
+      {
+        "min": 40,
+        "max": 50
+      }
+    ],
+    "is_show_digital_human": 0,
+    "is_house_report": 0,
+    "is_agent_report": 0,
+    "is_crm_roommate": 0,
+    "is_lock_room_type_info": 0,
+    "is_has_image": 1,
+    "is_has_video": 1
+  },
+  "tips": {
+    "on_site_verification": "As part of our commitment to safety and transparency, uhomes.com conducts on-site verification of student housing, providing authentic and dependable information of properties to everyone.",
+    "on_site_verification_images": [
+      {
+        "media_img": {
+          "media_id": "01JKZVQ2H3CPBR1D6XR0VGE2P0",
+          "path": "image/1399/01JKZVQ2H3CPBR1D6XR0VGE2P0.webp",
+          "suffix": [
+            "g",
+            "h"
+          ]
+        },
+        "created_at": 1739411778
+      },
+      {
+        "media_img": {
+          "media_id": "01HVCJRS5R7SHM586BNMP7BBXE",
+          "path": "image/1387/01HVCJRS5R7SHM586BNMP7BBXE.webp",
+          "suffix": [
+            "g",
+            "h"
+          ]
+        },
+        "created_at": 1689737410
+      },
+      {
+        "media_img": {
+          "media_id": "01HVCJPAP9N62ZH1V3197SM45E",
+          "path": "image/1381/01HVCJPAP9N62ZH1V3197SM45E.webp",
+          "suffix": [
+            "h"
+          ]
+        },
+        "created_at": 1697280415
+      }
+    ],
+    "on_site_verification_videos": [],
+    "room": "View the specific room details of the apartment type, this may support you in making  a choice.",
+    "sub_type": {
+      "title": "Student Accommodation",
+      "sub_title": "",
+      "items": [
+        {
+          "title": "Residents",
+          "content": "Students only"
+        },
+        {
+          "title": "Management",
+          "content": "Centrally managed"
+        },
+        {
+          "title": "Management Team",
+          "content": "Large student apartment companies"
+        },
+        {
+          "title": "Facilities",
+          "content": "Well-equipped"
+        },
+        {
+          "title": "Security",
+          "content": "CCTV, security team, access cards"
+        }
+      ]
+    },
+    "outer_booking": "Book without waiting for the consultant to respond. But the room still can be cancelled if you don't pay the deposit in time.",
+    "media_bottom": [
+      {
+        "is_exclusive_offer": 2,
+        "expired_time": 1766332799,
+        "remain_time": 1142175,
+        "offer_amount": {
+          "amount": 638,
+          "abbr": "GBP"
+        },
+        "desc": "Exclusive offers up to ",
+        "type": "exclusive_offer"
+      }
+    ],
+    "live_video_tour": "With the live video tour, you can interact directly with the landlord. Choose rooms, pay a refundable deposit. Landlord confirms during the live session. If not, full deposit refund. Join the live tour and have fun!",
+    "peace_of_mind": "",
+    "consult_count": 20,
+    "price_guarantee": {
+      "title": "Lower Price Guarantee",
+      "guarantee_title": "uhomes.com will provide a better offer for the property if you find a lower price on other websites. Price- match guarantee applies to group order cashback, recommendation bonus, and other promotions.",
+      "items": [
+        {
+          "sub_title": "We will provide you with a higher discount price if the property meets the following conditions:",
+          "items": [
+            {
+              "desc": "The room type and tenancy of the selected property are exactly the same."
+            },
+            {
+              "desc": "The final number of people who book the property in the group buy offers are completely the same."
+            },
+            {
+              "desc": "The price and offers provided by the third party are real and effective (verified by uhomes.com)."
+            }
+          ]
+        },
+        {
+          "sub_title": "The price-match guarantee will be failed under the following conditions:",
+          "items": [
+            {
+              "desc": "The discount price is provided by vendors instead of other third party apartment booking platforms."
+            },
+            {
+              "desc": "The apartment/room type have not been listed or provided by uhomes.com."
+            },
+            {
+              "desc": "The discount contains extra service that uhomes.com does not provide."
+            },
+            {
+              "desc": "You have successfully booked a property on uhomes.com."
+            }
+          ]
+        },
+        {
+          "sub_title": "To ensure you get the price-match guarantee, please:",
+          "items": [
+            {
+              "desc": "Provide us with the property and offer links so that we can check if they are true and meet the requirements.\""
+            },
+            {
+              "desc": "Inform us before the booking."
+            }
+          ]
+        }
+      ]
+    },
+    "room_type_intro": [
+      {
+        "type_id": 2,
+        "name": "Studio",
+        "intro": "",
+        "intro_icon": "",
+        "intro_pc_icon": "",
+        "description": "A studio room is a self-contained living space that typically includes a bedroom, a kitchenette, and a private bathroom all in one room. It is designed for single occupancy.",
+        "icon": "https://img.uhzcdn.com/static/app/2020/12/Studio3x.png"
+      },
+      {
+        "type_id": 3,
+        "name": "Shared Room",
+        "intro": "",
+        "intro_icon": "",
+        "intro_pc_icon": "",
+        "description": "A shared room typically refers to an individual space for relaxing and study with shared bedrooms, shared kitchenette and shared living spaces.",
+        "icon": "https://img.uhzcdn.com/static/app/2020/12/SharedRoom3x.png"
+      },
+      {
+        "type_id": 4,
+        "name": "1B",
+        "intro": "",
+        "intro_icon": "",
+        "intro_pc_icon": "",
+        "description": "\"1B\" typically refers to a one-bedroom apartment. It includes a separate bedroom, a living area, a kitchen, and a bathroom.",
+        "icon": "https://img.uhzcdn.com/static/app/2020/12/1B3x.png"
+      },
+      {
+        "type_id": 5,
+        "name": "2B",
+        "intro": "",
+        "intro_icon": "",
+        "intro_pc_icon": "",
+        "description": "\"2B\" typically refers to a two-bedroom apartment. It includes two separate bedrooms, a living area, a kitchen, and a bathroom.",
+        "icon": "https://img.uhzcdn.com/static/app/2020/12/2B3x.png"
+      },
+      {
+        "type_id": 6,
+        "name": "3B",
+        "intro": "",
+        "intro_icon": "",
+        "intro_pc_icon": "",
+        "description": "\"3B\" typically refers to a three-bedroom apartment. It includes three separate bedrooms, a living area, a kitchen, and one or more bathrooms.",
+        "icon": "https://img.uhzcdn.com/static/app/2020/12/3B3x.png"
+      },
+      {
+        "type_id": 7,
+        "name": "4B",
+        "intro": "",
+        "intro_icon": "",
+        "intro_pc_icon": "",
+        "description": "\"4B\" typically refers to a four-bedroom apartment. It includes four separate bedrooms, a living area, a kitchen, and one or more bathrooms.",
+        "icon": "https://img.uhzcdn.com/static/app/2020/12/4B3x.png"
+      },
+      {
+        "type_id": 8,
+        "name": "En-suite",
+        "intro": "",
+        "intro_icon": "",
+        "intro_pc_icon": "",
+        "description": "An en-suite room is a bedroom that includes a private bathroom attached to the room. It offers greater privacy and convenience.",
+        "icon": "https://img.uhzcdn.com/static/app/2020/12/SingleRoom3x.png"
+      },
+      {
+        "type_id": 9,
+        "name": "Non En-suite",
+        "intro": "",
+        "intro_icon": "",
+        "intro_pc_icon": "",
+        "description": "A non en-suite room is a bedroom without a private bathroom. Residents usually share a communal bathroom with others in the accommodation.",
+        "icon": "https://img.uhzcdn.com/static/app/2020/12/non-en-suite3x.png"
+      },
+      {
+        "type_id": 10,
+        "name": "5B+",
+        "intro": "",
+        "intro_icon": "",
+        "intro_pc_icon": "",
+        "description": "\"5B+\" typically refers to apartment with five or more bedrooms. It includes five or more separate bedrooms, a living area, a kitchen, and one or more bathrooms.",
+        "icon": "https://img.uhzcdn.com/static/template/5b.png"
+      }
+    ],
+    "cancellation_cooling_period": null,
+    "final_promo_value": "Price may change with market conditions. For the final price and discounts, please refer to the contract.",
+    "exclusive_introduce": {
+      "title": "Properties with these icons have been awarded uhomes.com exclusive policy for homes.",
+      "introduce": [
+        {
+          "title": "Exclusive Listings",
+          "introduce": "Properties with the \"Exclusive Listings\" tag on uhomes.com are available only for booking better floors and orientations through uhomes.com."
+        },
+        {
+          "title": "Exclusive Offer",
+          "introduce": "Properties with the \"Exclusive Offers\" tag on uhomes.com offer the lowest prices online, available only to customers who book through uhomes.com."
+        }
+      ]
+    },
+    "is_show_available_room": 0,
+    "available_room": 0,
+    "digital_human_videos": {
+      "items": [
+        {
+          "thumb_url": "https://img.uhzcdn.com/images/library/b2/9a440ac76dc96db73c251ef8f2faa7f8a19e41.jpg",
+          "video_url": "https://video.uhzcdn.com/library/house/7625f8e22c8d4c7a8cca26488d651192/mp4_sd/969455b40001827b44f10cdfe684e81a922afa.mp4",
+          "duration": 116
+        }
+      ],
+      "thumb_url": "https://static.uhzcdn.com/static/app/house/digital_human.gif",
+      "desc": "Enter your rental information, and our top consultants will introduce you to Chapter Lewisham for free! Prices start at £283. Enjoy exclusive discounts!",
+      "house": {
+        "title": "Chapter Lewisham",
+        "house_id": 158981,
+        "city_id": 7,
+        "country_id": 826,
+        "rent_amount": {
+          "amount": "283",
+          "currency": "GBP"
+        }
+      }
+    },
+    "term": {
+      "term": "2026/27",
+      "year": "2026Fall",
+      "short_year": "26Fall",
+      "desc": "The 2026Fall prices are not fully released yet, and current prices and lease terms may differ from the actual ones. You can submit your information in advance to secure your spot and enjoy exclusive offers, exclusive listings, and free gifts. For details, please contact your consultant. "
+    },
+    "top_picks_rank": null,
+    "live_with_ceos": {
+      "is_live_with_ceos": 0,
+      "live_with_ceo_type": 0,
+      "logo": null
+    },
+    "installment_remind": "If booking date is after any rent installment due date, all prior rent must be paid in full at booking."
+  },
+  "room_types": {
+    "bathroom": [
+      {
+        "id": 38,
+        "name": "Shared bathroom"
+      },
+      {
+        "id": 39,
+        "name": "Private bathroom"
+      }
+    ],
+    "bed_size": [
+      {
+        "id": 74,
+        "name": "48\"x75\""
+      }
+    ],
+    "bed_style": [
+      {
+        "id": 115,
+        "name": "Small Double"
+      }
+    ],
+    "kitchen": [
+      {
+        "id": 79,
+        "name": "Private kitchen"
+      },
+      {
+        "id": 80,
+        "name": "Shared kitchen"
+      }
+    ],
+    "orientation": [
+      {
+        "id": 42,
+        "name": "south"
+      },
+      {
+        "id": 43,
+        "name": "north"
+      },
+      {
+        "id": 44,
+        "name": "east"
+      },
+      {
+        "id": 45,
+        "name": "west"
+      },
+      {
+        "id": 81,
+        "name": "southeast"
+      },
+      {
+        "id": 82,
+        "name": "southwest"
+      },
+      {
+        "id": 83,
+        "name": "northeast"
+      },
+      {
+        "id": 84,
+        "name": "northwest"
+      }
+    ],
+    "room_type": [
+      {
+        "type_id": 9,
+        "name": "Non En-suite",
+        "intro": "",
+        "intro_icon": "",
+        "intro_pc_icon": "",
+        "description": "A non en-suite room is a bedroom without a private bathroom. Residents usually share a communal bathroom with others in the accommodation.",
+        "icon": "https://img.uhzcdn.com/static/app/2020/12/non-en-suite3x.png",
+        "sort": 1
+      },
+      {
+        "type_id": 8,
+        "name": "En-suite",
+        "intro": "",
+        "intro_icon": "",
+        "intro_pc_icon": "",
+        "description": "An en-suite room is a bedroom that includes a private bathroom attached to the room. It offers greater privacy and convenience.",
+        "icon": "https://img.uhzcdn.com/static/app/2020/12/SingleRoom3x.png",
+        "sort": 2
+      },
+      {
+        "type_id": 2,
+        "name": "Studio",
+        "intro": "",
+        "intro_icon": "",
+        "intro_pc_icon": "",
+        "description": "A studio room is a self-contained living space that typically includes a bedroom, a kitchenette, and a private bathroom all in one room. It is designed for single occupancy.",
+        "icon": "https://img.uhzcdn.com/static/app/2020/12/Studio3x.png",
+        "sort": 4
+      }
+    ],
+    "room_type_items": [
+      {
+        "media": {
+          "image": [
+            {
+              "media_id": "01K7782K5ZHK6F48TX1ZR66T4Z",
+              "path": "image/1395/01K7782K5ZHK6F48TX1ZR66T4Z.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            },
+            {
+              "media_id": "01K777Y9Y3XCFBZQKT0Y8V36K0",
+              "path": "image/1397/01K777Y9Y3XCFBZQKT0Y8V36K0.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            },
+            {
+              "media_id": "01K778EETWD3RXMR15E8VN9X83",
+              "path": "image/1389/01K778EETWD3RXMR15E8VN9X83.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            },
+            {
+              "media_id": "01K779QATVS22GXN1XGNR07XRK",
+              "path": "image/1389/01K779QATVS22GXN1XGNR07XRK.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            },
+            {
+              "media_id": "01K77805GKD7Z3PAEXZKBW13GF",
+              "path": "image/1387/01K77805GKD7Z3PAEXZKBW13GF.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            }
+          ],
+          "meta": {
+            "image_count": 7,
+            "video_count": 0,
+            "live_count": 0,
+            "vr_link_count": 1,
+            "by_tenant_count": 0
+          }
+        },
+        "room_type": {
+          "unit_id": 854,
+          "sku": "S001589810005",
+          "type_id": 9,
+          "booking_status": 1,
+          "sort": 0,
+          "name": "3 Bed Apartment - Dual-View",
+          "bed_count": 1,
+          "bathroom_count": 0,
+          "bathroom_style_id": 38,
+          "kitchen_type": 80,
+          "lease_unit": "WEEK",
+          "roommate_count": "",
+          "price_unit": 0,
+          "rent_amount": {
+            "amount": 283,
+            "abbr": "GBP"
+          },
+          "promo_price": {
+            "amount": 283,
+            "abbr": "GBP"
+          },
+          "original_price": {
+            "amount": 292,
+            "abbr": "GBP"
+          },
+          "has_final_promo_value": 1,
+          "bedroom_count": 1,
+          "unit_person_count": [
+            3
+          ],
+          "check_in_people": {
+            "min": 0,
+            "max": 0
+          },
+          "area_sqm": {
+            "min": 9,
+            "max": 0
+          },
+          "area_sqft": {
+            "min": 96.88,
+            "max": 0
+          },
+          "bed_info": [
+            {
+              "bed_style_id": 115,
+              "bed_size_id": 74,
+              "count": 1,
+              "icon_font": "&#xe7ed;"
+            }
+          ],
+          "orientation": []
+        },
+        "floor_plan": [
+          {
+            "media_id": "01HVESA2HYYHXVV1CN4F3KT2J3",
+            "path": "image/1395/01HVESA2HYYHXVV1CN4F3KT2J3.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          }
+        ],
+        "double_policy": {
+          "is_double_policy": 2,
+          "double_policy_type": 0,
+          "description": ""
+        },
+        "amenities": [
+          {
+            "id": 21
+          },
+          {
+            "id": 13
+          },
+          {
+            "id": 2486
+          },
+          {
+            "id": 2496
+          },
+          {
+            "id": 54
+          },
+          {
+            "id": 2196
+          },
+          {
+            "id": 2501
+          },
+          {
+            "id": 2380
+          },
+          {
+            "id": 55
+          },
+          {
+            "id": 2194
+          },
+          {
+            "id": 2384
+          },
+          {
+            "id": 2499
+          },
+          {
+            "id": 92
+          },
+          {
+            "id": 2479
+          },
+          {
+            "id": 2503
+          },
+          {
+            "id": 2253
+          },
+          {
+            "id": 93
+          },
+          {
+            "id": 2518
+          },
+          {
+            "id": 2407
+          },
+          {
+            "id": 2214
+          },
+          {
+            "id": 2006
+          },
+          {
+            "id": 2
+          },
+          {
+            "id": 2492
+          },
+          {
+            "id": 2489
+          },
+          {
+            "id": 2012
+          },
+          {
+            "id": 2056
+          },
+          {
+            "id": 2544
+          },
+          {
+            "id": 2062
+          },
+          {
+            "id": 58
+          },
+          {
+            "id": 2066
+          },
+          {
+            "id": 2251
+          },
+          {
+            "id": 2494
+          }
+        ],
+        "tags": [
+          {
+            "color": "#555555",
+            "bg_color": "#F5F5F5",
+            "name": "VR Viewing"
+          }
+        ],
+        "tenancies": [
+          {
+            "tenancy_id": 1447659,
+            "lease_time": 51,
+            "lease_time_max": 0,
+            "lease_unit": "WEEK",
+            "booking_status": 1,
+            "start_date": "2026-09-05",
+            "start_date_max": "",
+            "end_date": "2027-08-27",
+            "end_date_max": "",
+            "price_unit": 0,
+            "is_portal_booking": 0,
+            "term": "2026/27",
+            "has_final_promo_value": 1,
+            "discount_lease_term": null,
+            "service_tags": [
+              {
+                "type": "exclusive_offer",
+                "name": "Exclusive Offer"
+              }
+            ],
+            "rent_amount": {
+              "amount": 292,
+              "abbr": "GBP"
+            },
+            "rent_amount_max": {
+              "amount": 0,
+              "abbr": "GBP"
+            },
+            "promo_amount": {
+              "amount": 283,
+              "abbr": "GBP"
+            },
+            "switch": {
+              "is_show_price_trend": 1,
+              "is_portal_booking": 0,
+              "is_outer_booking": 0,
+              "is_instant_booking": 0,
+              "is_lease_time_free": 0,
+              "is_start_date_free": 0,
+              "is_end_date_free": 0,
+              "is_show_waiting": 0,
+              "button_type": 1,
+              "is_show_cancel_cooling_period": true,
+              "sort": 1,
+              "booking_status_sort": 1,
+              "price_sort": 283,
+              "lease_time_sort": 51
+            },
+            "sort": 1,
+            "has_promo": 0
+          },
+          {
+            "tenancy_id": 121552,
+            "lease_time": 44,
+            "lease_time_max": 0,
+            "lease_unit": "WEEK",
+            "booking_status": 1,
+            "start_date": "2026-09-05",
+            "start_date_max": "",
+            "end_date": "2027-07-09",
+            "end_date_max": "",
+            "price_unit": 0,
+            "is_portal_booking": 0,
+            "term": "2026/27",
+            "has_final_promo_value": 1,
+            "discount_lease_term": null,
+            "service_tags": [
+              {
+                "type": "exclusive_offer",
+                "name": "Exclusive Offer"
+              }
+            ],
+            "rent_amount": {
+              "amount": 320,
+              "abbr": "GBP"
+            },
+            "rent_amount_max": {
+              "amount": 0,
+              "abbr": "GBP"
+            },
+            "promo_amount": {
+              "amount": 310,
+              "abbr": "GBP"
+            },
+            "switch": {
+              "is_show_price_trend": 1,
+              "is_portal_booking": 0,
+              "is_outer_booking": 0,
+              "is_instant_booking": 0,
+              "is_lease_time_free": 0,
+              "is_start_date_free": 0,
+              "is_end_date_free": 0,
+              "is_show_waiting": 0,
+              "button_type": 1,
+              "is_show_cancel_cooling_period": true,
+              "sort": 2,
+              "booking_status_sort": 1,
+              "price_sort": 310,
+              "lease_time_sort": 44
+            },
+            "sort": 1,
+            "has_promo": 0
+          },
+          {
+            "tenancy_id": 2231960,
+            "lease_time": 27,
+            "lease_time_max": 0,
+            "lease_unit": "WEEK",
+            "booking_status": 1,
+            "start_date": "2026-01-03",
+            "start_date_max": "",
+            "end_date": "2026-07-10",
+            "end_date_max": "",
+            "price_unit": 0,
+            "is_portal_booking": 0,
+            "term": "2025/26",
+            "has_final_promo_value": 0,
+            "discount_lease_term": null,
+            "service_tags": [],
+            "rent_amount": {
+              "amount": 293,
+              "abbr": "GBP"
+            },
+            "rent_amount_max": {
+              "amount": 0,
+              "abbr": "GBP"
+            },
+            "promo_amount": {
+              "amount": 0,
+              "abbr": "GBP"
+            },
+            "switch": {
+              "is_show_price_trend": 0,
+              "is_portal_booking": 0,
+              "is_outer_booking": 0,
+              "is_instant_booking": 0,
+              "is_lease_time_free": 0,
+              "is_start_date_free": 0,
+              "is_end_date_free": 0,
+              "is_show_waiting": 0,
+              "button_type": 1,
+              "is_show_cancel_cooling_period": true,
+              "sort": 3,
+              "booking_status_sort": 1,
+              "price_sort": 293,
+              "lease_time_sort": 27
+            },
+            "sort": 1,
+            "has_promo": 0
+          }
+        ],
+        "switch": {
+          "is_favorite": 0,
+          "is_show_roommate": 1,
+          "is_has_room": 0,
+          "is_outer_booking": 0,
+          "is_show_waiting": 0,
+          "is_pre_sale": 0,
+          "sort": 1,
+          "booking_status_sort": 1,
+          "price_sort": 282.24,
+          "lease_time_sort": 51
+        },
+        "has_promo": 0
+      },
+      {
+        "media": {
+          "image": [
+            {
+              "media_id": "01KABNFEMMDBYKXW6SXXQJ57JX",
+              "path": "image/1383/01KABNFEMMDBYKXW6SXXQJ57JX.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            },
+            {
+              "media_id": "01KABMWGGGZXGYH9SMD6J7FPRC",
+              "path": "image/1387/01KABMWGGGZXGYH9SMD6J7FPRC.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            },
+            {
+              "media_id": "01KABMJRXVEX7M2A62DJ5KA22Y",
+              "path": "image/1385/01KABMJRXVEX7M2A62DJ5KA22Y.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            },
+            {
+              "media_id": "01KABN4T22S4WS8S6GKMZSTYSN",
+              "path": "image/1385/01KABN4T22S4WS8S6GKMZSTYSN.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            },
+            {
+              "media_id": "01KABMJQCATF5HXNDZXJF84XVG",
+              "path": "image/1387/01KABMJQCATF5HXNDZXJF84XVG.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            }
+          ],
+          "meta": {
+            "image_count": 10,
+            "video_count": 0,
+            "live_count": 0,
+            "vr_link_count": 0,
+            "by_tenant_count": 0
+          }
+        },
+        "room_type": {
+          "unit_id": 724778,
+          "sku": "S001589810048",
+          "type_id": 8,
+          "booking_status": 1,
+          "sort": 0,
+          "name": "Gold Ensuite-Dual-View",
+          "bed_count": 0,
+          "bathroom_count": 0,
+          "bathroom_style_id": 39,
+          "kitchen_type": 80,
+          "lease_unit": "WEEK",
+          "roommate_count": "",
+          "price_unit": 0,
+          "rent_amount": {
+            "amount": 309,
+            "abbr": "GBP"
+          },
+          "promo_price": {
+            "amount": 309,
+            "abbr": "GBP"
+          },
+          "original_price": {
+            "amount": 312,
+            "abbr": "GBP"
+          },
+          "has_final_promo_value": 1,
+          "bedroom_count": 1,
+          "unit_person_count": [],
+          "check_in_people": {
+            "min": 0,
+            "max": 0
+          },
+          "area_sqm": {
+            "min": 0,
+            "max": 13
+          },
+          "area_sqft": {
+            "min": 0,
+            "max": 139.93
+          },
+          "bed_info": [
+            {
+              "bed_style_id": 115,
+              "bed_size_id": 74,
+              "count": 1,
+              "icon_font": "&#xe7ed;"
+            }
+          ],
+          "orientation": []
+        },
+        "floor_plan": [
+          {
+            "media_id": "01KA95DERHKY8PBHWBY2F4D3FC",
+            "path": "image/1385/01KA95DERHKY8PBHWBY2F4D3FC.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          }
+        ],
+        "double_policy": {
+          "is_double_policy": 2,
+          "double_policy_type": 0,
+          "description": ""
+        },
+        "amenities": [],
+        "tags": [],
+        "tenancies": [
+          {
+            "tenancy_id": 2220731,
+            "lease_time": 51,
+            "lease_time_max": 0,
+            "lease_unit": "WEEK",
+            "booking_status": 1,
+            "start_date": "2026-09-05",
+            "start_date_max": "",
+            "end_date": "2027-08-27",
+            "end_date_max": "",
+            "price_unit": 0,
+            "is_portal_booking": 0,
+            "term": "2026/27",
+            "has_final_promo_value": 1,
+            "discount_lease_term": null,
+            "service_tags": [
+              {
+                "type": "exclusive_offer",
+                "name": "Exclusive Offer"
+              }
+            ],
+            "rent_amount": {
+              "amount": 312,
+              "abbr": "GBP"
+            },
+            "rent_amount_max": {
+              "amount": 0,
+              "abbr": "GBP"
+            },
+            "promo_amount": {
+              "amount": 309,
+              "abbr": "GBP"
+            },
+            "switch": {
+              "is_show_price_trend": 0,
+              "is_portal_booking": 0,
+              "is_outer_booking": 0,
+              "is_instant_booking": 0,
+              "is_lease_time_free": 0,
+              "is_start_date_free": 0,
+              "is_end_date_free": 0,
+              "is_show_waiting": 0,
+              "button_type": 1,
+              "is_show_cancel_cooling_period": true,
+              "sort": 1,
+              "booking_status_sort": 1,
+              "price_sort": 309,
+              "lease_time_sort": 51
+            },
+            "sort": 1,
+            "has_promo": 0
+          },
+          {
+            "tenancy_id": 2220732,
+            "lease_time": 44,
+            "lease_time_max": 0,
+            "lease_unit": "WEEK",
+            "booking_status": 1,
+            "start_date": "2026-09-05",
+            "start_date_max": "",
+            "end_date": "2027-07-09",
+            "end_date_max": "",
+            "price_unit": 0,
+            "is_portal_booking": 0,
+            "term": "2026/27",
+            "has_final_promo_value": 1,
+            "discount_lease_term": null,
+            "service_tags": [
+              {
+                "type": "exclusive_offer",
+                "name": "Exclusive Offer"
+              }
+            ],
+            "rent_amount": {
+              "amount": 345,
+              "abbr": "GBP"
+            },
+            "rent_amount_max": {
+              "amount": 0,
+              "abbr": "GBP"
+            },
+            "promo_amount": {
+              "amount": 341,
+              "abbr": "GBP"
+            },
+            "switch": {
+              "is_show_price_trend": 0,
+              "is_portal_booking": 0,
+              "is_outer_booking": 0,
+              "is_instant_booking": 0,
+              "is_lease_time_free": 0,
+              "is_start_date_free": 0,
+              "is_end_date_free": 0,
+              "is_show_waiting": 0,
+              "button_type": 1,
+              "is_show_cancel_cooling_period": true,
+              "sort": 2,
+              "booking_status_sort": 1,
+              "price_sort": 341,
+              "lease_time_sort": 44
+            },
+            "sort": 1,
+            "has_promo": 0
+          }
+        ],
+        "switch": {
+          "is_favorite": 0,
+          "is_show_roommate": 1,
+          "is_has_room": 0,
+          "is_outer_booking": 0,
+          "is_show_waiting": 0,
+          "is_pre_sale": 0,
+          "sort": 2,
+          "booking_status_sort": 1,
+          "price_sort": 308.08,
+          "lease_time_sort": 51
+        },
+        "has_promo": 0
+      },
+      {
+        "media": {
+          "image": [
+            {
+              "media_id": "01KA93AACJ3XP6TDJVKVGHB834",
+              "path": "image/1385/01KA93AACJ3XP6TDJVKVGHB834.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            },
+            {
+              "media_id": "01KA9332FR7ANDQMTMZAXKF0GX",
+              "path": "image/1387/01KA9332FR7ANDQMTMZAXKF0GX.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            },
+            {
+              "media_id": "01KA950PXEQ6KKYR2TGE56ZA4M",
+              "path": "image/1381/01KA950PXEQ6KKYR2TGE56ZA4M.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            },
+            {
+              "media_id": "01KA943VJNBE3DMADYCVMCZNG9",
+              "path": "image/1387/01KA943VJNBE3DMADYCVMCZNG9.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            },
+            {
+              "media_id": "01KA93C1NGCF1E4Y1128JVPG7F",
+              "path": "image/1391/01KA93C1NGCF1E4Y1128JVPG7F.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            }
+          ],
+          "meta": {
+            "image_count": 10,
+            "video_count": 0,
+            "live_count": 0,
+            "vr_link_count": 0,
+            "by_tenant_count": 0
+          }
+        },
+        "room_type": {
+          "unit_id": 724776,
+          "sku": "S001589810047",
+          "type_id": 8,
+          "booking_status": 1,
+          "sort": 0,
+          "name": "Gold Ensuite",
+          "bed_count": 0,
+          "bathroom_count": 0,
+          "bathroom_style_id": 39,
+          "kitchen_type": 80,
+          "lease_unit": "WEEK",
+          "roommate_count": "",
+          "price_unit": 0,
+          "rent_amount": {
+            "amount": 313,
+            "abbr": "GBP"
+          },
+          "promo_price": {
+            "amount": 313,
+            "abbr": "GBP"
+          },
+          "original_price": {
+            "amount": 316,
+            "abbr": "GBP"
+          },
+          "has_final_promo_value": 1,
+          "bedroom_count": 1,
+          "unit_person_count": [],
+          "check_in_people": {
+            "min": 0,
+            "max": 0
+          },
+          "area_sqm": {
+            "min": 0,
+            "max": 13
+          },
+          "area_sqft": {
+            "min": 0,
+            "max": 139.93
+          },
+          "bed_info": [
+            {
+              "bed_style_id": 115,
+              "bed_size_id": 74,
+              "count": 1,
+              "icon_font": "&#xe7ed;"
+            }
+          ],
+          "orientation": []
+        },
+        "floor_plan": [
+          {
+            "media_id": "01KABRMVHZZ7KAVA4DDBQ5HABX",
+            "path": "image/1385/01KABRMVHZZ7KAVA4DDBQ5HABX.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          }
+        ],
+        "double_policy": {
+          "is_double_policy": 2,
+          "double_policy_type": 0,
+          "description": ""
+        },
+        "amenities": [],
+        "tags": [],
+        "tenancies": [
+          {
+            "tenancy_id": 2220728,
+            "lease_time": 51,
+            "lease_time_max": 0,
+            "lease_unit": "WEEK",
+            "booking_status": 1,
+            "start_date": "2026-09-05",
+            "start_date_max": "",
+            "end_date": "2027-08-27",
+            "end_date_max": "",
+            "price_unit": 0,
+            "is_portal_booking": 0,
+            "term": "2026/27",
+            "has_final_promo_value": 1,
+            "discount_lease_term": null,
+            "service_tags": [
+              {
+                "type": "exclusive_offer",
+                "name": "Exclusive Offer"
+              }
+            ],
+            "rent_amount": {
+              "amount": 316,
+              "abbr": "GBP"
+            },
+            "rent_amount_max": {
+              "amount": 0,
+              "abbr": "GBP"
+            },
+            "promo_amount": {
+              "amount": 313,
+              "abbr": "GBP"
+            },
+            "switch": {
+              "is_show_price_trend": 0,
+              "is_portal_booking": 0,
+              "is_outer_booking": 0,
+              "is_instant_booking": 0,
+              "is_lease_time_free": 0,
+              "is_start_date_free": 0,
+              "is_end_date_free": 0,
+              "is_show_waiting": 0,
+              "button_type": 1,
+              "is_show_cancel_cooling_period": true,
+              "sort": 1,
+              "booking_status_sort": 1,
+              "price_sort": 313,
+              "lease_time_sort": 51
+            },
+            "sort": 1,
+            "has_promo": 0
+          }
+        ],
+        "switch": {
+          "is_favorite": 0,
+          "is_show_roommate": 1,
+          "is_has_room": 0,
+          "is_outer_booking": 0,
+          "is_show_waiting": 0,
+          "is_pre_sale": 0,
+          "sort": 3,
+          "booking_status_sort": 1,
+          "price_sort": 312.08,
+          "lease_time_sort": 51
+        },
+        "has_promo": 0
+      },
+      {
+        "media": {
+          "image": [
+            {
+              "media_id": "01KBJAV0CZBHA4Q1NQATB1NDZE",
+              "path": "image/1393/01KBJAV0CZBHA4Q1NQATB1NDZE.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            },
+            {
+              "media_id": "01KBJCEJG00QG8D3VMKNSJHT33",
+              "path": "image/1391/01KBJCEJG00QG8D3VMKNSJHT33.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            },
+            {
+              "media_id": "01HVESAG70HPWTZYW33NS6J7DP",
+              "path": "image/1397/01HVESAG70HPWTZYW33NS6J7DP.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            }
+          ],
+          "meta": {
+            "image_count": 3,
+            "video_count": 0,
+            "live_count": 0,
+            "vr_link_count": 1,
+            "by_tenant_count": 0
+          }
+        },
+        "room_type": {
+          "unit_id": 884,
+          "sku": "S001589810035",
+          "type_id": 2,
+          "booking_status": 1,
+          "sort": 0,
+          "name": "Silver Studio",
+          "bed_count": 1,
+          "bathroom_count": 0,
+          "bathroom_style_id": 39,
+          "kitchen_type": 79,
+          "lease_unit": "WEEK",
+          "roommate_count": "",
+          "price_unit": 0,
+          "rent_amount": {
+            "amount": 328,
+            "abbr": "GBP"
+          },
+          "promo_price": {
+            "amount": 328,
+            "abbr": "GBP"
+          },
+          "original_price": {
+            "amount": 338,
+            "abbr": "GBP"
+          },
+          "has_final_promo_value": 1,
+          "bedroom_count": 1,
+          "unit_person_count": [],
+          "check_in_people": {
+            "min": 0,
+            "max": 0
+          },
+          "area_sqm": {
+            "min": 23,
+            "max": 0
+          },
+          "area_sqft": {
+            "min": 247.57,
+            "max": 0
+          },
+          "bed_info": [
+            {
+              "bed_style_id": 115,
+              "bed_size_id": 74,
+              "count": 1,
+              "icon_font": "&#xe7ed;"
+            }
+          ],
+          "orientation": []
+        },
+        "floor_plan": [
+          {
+            "media_id": "01HVESAG70HPWTZYW33NS6J7DP",
+            "path": "image/1397/01HVESAG70HPWTZYW33NS6J7DP.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          }
+        ],
+        "double_policy": {
+          "is_double_policy": 1,
+          "double_policy_type": 1,
+          "description": "Increase of £100 per Week"
+        },
+        "amenities": [
+          {
+            "id": 21
+          },
+          {
+            "id": 13
+          },
+          {
+            "id": 2486
+          },
+          {
+            "id": 2496
+          },
+          {
+            "id": 54
+          },
+          {
+            "id": 2196
+          },
+          {
+            "id": 2501
+          },
+          {
+            "id": 2380
+          },
+          {
+            "id": 55
+          },
+          {
+            "id": 2194
+          },
+          {
+            "id": 2384
+          },
+          {
+            "id": 2499
+          },
+          {
+            "id": 92
+          },
+          {
+            "id": 2479
+          },
+          {
+            "id": 2503
+          },
+          {
+            "id": 2253
+          },
+          {
+            "id": 93
+          },
+          {
+            "id": 2518
+          },
+          {
+            "id": 2407
+          },
+          {
+            "id": 2214
+          },
+          {
+            "id": 2006
+          },
+          {
+            "id": 2
+          },
+          {
+            "id": 2492
+          },
+          {
+            "id": 2489
+          },
+          {
+            "id": 2012
+          },
+          {
+            "id": 2056
+          },
+          {
+            "id": 2544
+          },
+          {
+            "id": 2062
+          },
+          {
+            "id": 58
+          },
+          {
+            "id": 2066
+          },
+          {
+            "id": 2251
+          },
+          {
+            "id": 2494
+          }
+        ],
+        "tags": [
+          {
+            "color": "#555555",
+            "bg_color": "#F5F5F5",
+            "name": "VR Viewing"
+          }
+        ],
+        "tenancies": [
+          {
+            "tenancy_id": 1462521,
+            "lease_time": 51,
+            "lease_time_max": 0,
+            "lease_unit": "WEEK",
+            "booking_status": 1,
+            "start_date": "2026-09-05",
+            "start_date_max": "",
+            "end_date": "2027-08-27",
+            "end_date_max": "",
+            "price_unit": 0,
+            "is_portal_booking": 0,
+            "term": "2026/27",
+            "has_final_promo_value": 1,
+            "discount_lease_term": null,
+            "service_tags": [
+              {
+                "type": "exclusive_offer",
+                "name": "Exclusive Offer"
+              }
+            ],
+            "rent_amount": {
+              "amount": 338,
+              "abbr": "GBP"
+            },
+            "rent_amount_max": {
+              "amount": 0,
+              "abbr": "GBP"
+            },
+            "promo_amount": {
+              "amount": 328,
+              "abbr": "GBP"
+            },
+            "switch": {
+              "is_show_price_trend": 1,
+              "is_portal_booking": 0,
+              "is_outer_booking": 0,
+              "is_instant_booking": 0,
+              "is_lease_time_free": 0,
+              "is_start_date_free": 0,
+              "is_end_date_free": 0,
+              "is_show_waiting": 0,
+              "button_type": 1,
+              "is_show_cancel_cooling_period": true,
+              "sort": 1,
+              "booking_status_sort": 1,
+              "price_sort": 328,
+              "lease_time_sort": 51
+            },
+            "sort": 1,
+            "has_promo": 0
+          },
+          {
+            "tenancy_id": 901,
+            "lease_time": 44,
+            "lease_time_max": 0,
+            "lease_unit": "WEEK",
+            "booking_status": 1,
+            "start_date": "2026-09-05",
+            "start_date_max": "",
+            "end_date": "2027-07-09",
+            "end_date_max": "",
+            "price_unit": 0,
+            "is_portal_booking": 0,
+            "term": "2026/27",
+            "has_final_promo_value": 1,
+            "discount_lease_term": null,
+            "service_tags": [
+              {
+                "type": "exclusive_offer",
+                "name": "Exclusive Offer"
+              }
+            ],
+            "rent_amount": {
+              "amount": 363,
+              "abbr": "GBP"
+            },
+            "rent_amount_max": {
+              "amount": 0,
+              "abbr": "GBP"
+            },
+            "promo_amount": {
+              "amount": 352,
+              "abbr": "GBP"
+            },
+            "switch": {
+              "is_show_price_trend": 1,
+              "is_portal_booking": 0,
+              "is_outer_booking": 0,
+              "is_instant_booking": 0,
+              "is_lease_time_free": 0,
+              "is_start_date_free": 0,
+              "is_end_date_free": 0,
+              "is_show_waiting": 0,
+              "button_type": 1,
+              "is_show_cancel_cooling_period": true,
+              "sort": 2,
+              "booking_status_sort": 1,
+              "price_sort": 352,
+              "lease_time_sort": 44
+            },
+            "sort": 1,
+            "has_promo": 0
+          },
+          {
+            "tenancy_id": 2231956,
+            "lease_time": 27,
+            "lease_time_max": 0,
+            "lease_unit": "WEEK",
+            "booking_status": 1,
+            "start_date": "2026-01-03",
+            "start_date_max": "",
+            "end_date": "2026-07-10",
+            "end_date_max": "",
+            "price_unit": 0,
+            "is_portal_booking": 0,
+            "term": "2025/26",
+            "has_final_promo_value": 0,
+            "discount_lease_term": null,
+            "service_tags": [],
+            "rent_amount": {
+              "amount": 354,
+              "abbr": "GBP"
+            },
+            "rent_amount_max": {
+              "amount": 0,
+              "abbr": "GBP"
+            },
+            "promo_amount": {
+              "amount": 0,
+              "abbr": "GBP"
+            },
+            "switch": {
+              "is_show_price_trend": 0,
+              "is_portal_booking": 0,
+              "is_outer_booking": 0,
+              "is_instant_booking": 0,
+              "is_lease_time_free": 0,
+              "is_start_date_free": 0,
+              "is_end_date_free": 0,
+              "is_show_waiting": 0,
+              "button_type": 1,
+              "is_show_cancel_cooling_period": true,
+              "sort": 3,
+              "booking_status_sort": 1,
+              "price_sort": 354,
+              "lease_time_sort": 27
+            },
+            "sort": 1,
+            "has_promo": 0
+          }
+        ],
+        "switch": {
+          "is_favorite": 0,
+          "is_show_roommate": 0,
+          "is_has_room": 0,
+          "is_outer_booking": 0,
+          "is_show_waiting": 0,
+          "is_pre_sale": 0,
+          "sort": 4,
+          "booking_status_sort": 1,
+          "price_sort": 327.32,
+          "lease_time_sort": 51
+        },
+        "has_promo": 0
+      },
+      {
+        "media": {
+          "image": [
+            {
+              "media_id": "01K74PATNKXFW12R3ZJQJEGYQ0",
+              "path": "image/1381/01K74PATNKXFW12R3ZJQJEGYQ0.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            },
+            {
+              "media_id": "01K74NEJARCKRTQ752ZKSASN6F",
+              "path": "image/1395/01K74NEJARCKRTQ752ZKSASN6F.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            },
+            {
+              "media_id": "01K74P0FJE60TPNZP0ZR5J3BR5",
+              "path": "image/1397/01K74P0FJE60TPNZP0ZR5J3BR5.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            },
+            {
+              "media_id": "01K74QWNZ2QPE706WMWA65J69C",
+              "path": "image/1381/01K74QWNZ2QPE706WMWA65J69C.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            },
+            {
+              "media_id": "01K74PH7S9PY8BZKPFW10EX74Y",
+              "path": "image/1383/01K74PH7S9PY8BZKPFW10EX74Y.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            }
+          ],
+          "meta": {
+            "image_count": 7,
+            "video_count": 0,
+            "live_count": 0,
+            "vr_link_count": 1,
+            "by_tenant_count": 0
+          }
+        },
+        "room_type": {
+          "unit_id": 415257,
+          "sku": "S001589810044",
+          "type_id": 9,
+          "booking_status": 1,
+          "sort": 0,
+          "name": "3 Bed Apartment",
+          "bed_count": 1,
+          "bathroom_count": 0,
+          "bathroom_style_id": 38,
+          "kitchen_type": 80,
+          "lease_unit": "WEEK",
+          "roommate_count": "",
+          "price_unit": 0,
+          "rent_amount": {
+            "amount": 334,
+            "abbr": "GBP"
+          },
+          "promo_price": {
+            "amount": 334,
+            "abbr": "GBP"
+          },
+          "original_price": {
+            "amount": 345,
+            "abbr": "GBP"
+          },
+          "has_final_promo_value": 1,
+          "bedroom_count": 1,
+          "unit_person_count": [
+            3
+          ],
+          "check_in_people": {
+            "min": 0,
+            "max": 0
+          },
+          "area_sqm": {
+            "min": 9,
+            "max": 0
+          },
+          "area_sqft": {
+            "min": 96.88,
+            "max": 0
+          },
+          "bed_info": [
+            {
+              "bed_style_id": 115,
+              "bed_size_id": 74,
+              "count": 1,
+              "icon_font": "&#xe7ed;"
+            }
+          ],
+          "orientation": []
+        },
+        "floor_plan": [
+          {
+            "media_id": "01KAGVRTZSYGVFQN0HDEH6D8X6",
+            "path": "image/1389/01KAGVRTZSYGVFQN0HDEH6D8X6.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          }
+        ],
+        "double_policy": {
+          "is_double_policy": 2,
+          "double_policy_type": 0,
+          "description": ""
+        },
+        "amenities": [
+          {
+            "id": 21
+          },
+          {
+            "id": 13
+          },
+          {
+            "id": 2006
+          },
+          {
+            "id": 2486
+          },
+          {
+            "id": 2544
+          },
+          {
+            "id": 2066
+          },
+          {
+            "id": 2012
+          },
+          {
+            "id": 2501
+          },
+          {
+            "id": 2494
+          },
+          {
+            "id": 54
+          },
+          {
+            "id": 2194
+          },
+          {
+            "id": 2384
+          },
+          {
+            "id": 2499
+          },
+          {
+            "id": 55
+          },
+          {
+            "id": 2479
+          },
+          {
+            "id": 2503
+          },
+          {
+            "id": 2253
+          },
+          {
+            "id": 58
+          },
+          {
+            "id": 2518
+          },
+          {
+            "id": 2407
+          },
+          {
+            "id": 2214
+          },
+          {
+            "id": 2196
+          },
+          {
+            "id": 2
+          },
+          {
+            "id": 2496
+          },
+          {
+            "id": 2489
+          },
+          {
+            "id": 92
+          },
+          {
+            "id": 2056
+          },
+          {
+            "id": 2380
+          },
+          {
+            "id": 2062
+          },
+          {
+            "id": 93
+          },
+          {
+            "id": 2251
+          },
+          {
+            "id": 2492
+          }
+        ],
+        "tags": [
+          {
+            "color": "#555555",
+            "bg_color": "#F5F5F5",
+            "name": "VR Viewing"
+          }
+        ],
+        "tenancies": [
+          {
+            "tenancy_id": 1240752,
+            "lease_time": 44,
+            "lease_time_max": 0,
+            "lease_unit": "WEEK",
+            "booking_status": 1,
+            "start_date": "2026-09-05",
+            "start_date_max": "",
+            "end_date": "2027-07-09",
+            "end_date_max": "",
+            "price_unit": 0,
+            "is_portal_booking": 0,
+            "term": "2026/27",
+            "has_final_promo_value": 1,
+            "discount_lease_term": null,
+            "service_tags": [
+              {
+                "type": "exclusive_offer",
+                "name": "Exclusive Offer"
+              }
+            ],
+            "rent_amount": {
+              "amount": 345,
+              "abbr": "GBP"
+            },
+            "rent_amount_max": {
+              "amount": 0,
+              "abbr": "GBP"
+            },
+            "promo_amount": {
+              "amount": 334,
+              "abbr": "GBP"
+            },
+            "switch": {
+              "is_show_price_trend": 1,
+              "is_portal_booking": 0,
+              "is_outer_booking": 0,
+              "is_instant_booking": 0,
+              "is_lease_time_free": 0,
+              "is_start_date_free": 0,
+              "is_end_date_free": 0,
+              "is_show_waiting": 0,
+              "button_type": 1,
+              "is_show_cancel_cooling_period": true,
+              "sort": 1,
+              "booking_status_sort": 1,
+              "price_sort": 334,
+              "lease_time_sort": 44
+            },
+            "sort": 1,
+            "has_promo": 0
+          },
+          {
+            "tenancy_id": 1240753,
+            "lease_time": 51,
+            "lease_time_max": 0,
+            "lease_unit": "WEEK",
+            "booking_status": 2,
+            "start_date": "2026-09-05",
+            "start_date_max": "",
+            "end_date": "2027-08-27",
+            "end_date_max": "",
+            "price_unit": 0,
+            "is_portal_booking": 0,
+            "term": "2026/27",
+            "has_final_promo_value": 1,
+            "discount_lease_term": null,
+            "service_tags": [
+              {
+                "type": "exclusive_offer",
+                "name": "Exclusive Offer"
+              }
+            ],
+            "rent_amount": {
+              "amount": 292,
+              "abbr": "GBP"
+            },
+            "rent_amount_max": {
+              "amount": 0,
+              "abbr": "GBP"
+            },
+            "promo_amount": {
+              "amount": 282,
+              "abbr": "GBP"
+            },
+            "switch": {
+              "is_show_price_trend": 1,
+              "is_portal_booking": 0,
+              "is_outer_booking": 0,
+              "is_instant_booking": 0,
+              "is_lease_time_free": 0,
+              "is_start_date_free": 0,
+              "is_end_date_free": 0,
+              "is_show_waiting": 1,
+              "button_type": 2,
+              "is_show_cancel_cooling_period": true,
+              "sort": 2,
+              "booking_status_sort": 2,
+              "price_sort": 282,
+              "lease_time_sort": 51
+            },
+            "sort": 2,
+            "has_promo": 0
+          }
+        ],
+        "switch": {
+          "is_favorite": 0,
+          "is_show_roommate": 1,
+          "is_has_room": 0,
+          "is_outer_booking": 0,
+          "is_show_waiting": 0,
+          "is_pre_sale": 0,
+          "sort": 5,
+          "booking_status_sort": 1,
+          "price_sort": 333.55,
+          "lease_time_sort": 51
+        },
+        "has_promo": 0
+      },
+      {
+        "media": {
+          "image": [
+            {
+              "media_id": "01KA93S20QP6JBEGXEZ7RBM9F4",
+              "path": "image/1389/01KA93S20QP6JBEGXEZ7RBM9F4.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            },
+            {
+              "media_id": "01KA93KDVHNHBJ8ND9MEFC5FSX",
+              "path": "image/1393/01KA93KDVHNHBJ8ND9MEFC5FSX.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            },
+            {
+              "media_id": "01KA92MBAHWW5YJJF7AJB4K1EV",
+              "path": "image/1385/01KA92MBAHWW5YJJF7AJB4K1EV.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            },
+            {
+              "media_id": "01KA92SB2V9QM2TDJMFTBC5KRT",
+              "path": "image/1385/01KA92SB2V9QM2TDJMFTBC5KRT.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            },
+            {
+              "media_id": "01KA938509KSQ1SPM2MXH82936",
+              "path": "image/1381/01KA938509KSQ1SPM2MXH82936.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            }
+          ],
+          "meta": {
+            "image_count": 6,
+            "video_count": 0,
+            "live_count": 0,
+            "vr_link_count": 0,
+            "by_tenant_count": 0
+          }
+        },
+        "room_type": {
+          "unit_id": 724770,
+          "sku": "S001589810045",
+          "type_id": 2,
+          "booking_status": 1,
+          "sort": 0,
+          "name": "Platinum Studio",
+          "bed_count": 0,
+          "bathroom_count": 0,
+          "bathroom_style_id": 39,
+          "kitchen_type": 79,
+          "lease_unit": "WEEK",
+          "roommate_count": "",
+          "price_unit": 0,
+          "rent_amount": {
+            "amount": 397,
+            "abbr": "GBP"
+          },
+          "promo_price": {
+            "amount": 397,
+            "abbr": "GBP"
+          },
+          "original_price": {
+            "amount": 400,
+            "abbr": "GBP"
+          },
+          "has_final_promo_value": 1,
+          "bedroom_count": 1,
+          "unit_person_count": [],
+          "check_in_people": {
+            "min": 0,
+            "max": 0
+          },
+          "area_sqm": {
+            "min": 0,
+            "max": 23
+          },
+          "area_sqft": {
+            "min": 0,
+            "max": 247.57
+          },
+          "bed_info": [
+            {
+              "bed_style_id": 115,
+              "bed_size_id": 74,
+              "count": 1,
+              "icon_font": "&#xe7ed;"
+            }
+          ],
+          "orientation": []
+        },
+        "floor_plan": [
+          {
+            "media_id": "01KA92X1WAE26H1DHFXYP4RK9D",
+            "path": "image/1385/01KA92X1WAE26H1DHFXYP4RK9D.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          }
+        ],
+        "double_policy": {
+          "is_double_policy": 2,
+          "double_policy_type": 0,
+          "description": ""
+        },
+        "amenities": [],
+        "tags": [],
+        "tenancies": [
+          {
+            "tenancy_id": 2220707,
+            "lease_time": 51,
+            "lease_time_max": 0,
+            "lease_unit": "WEEK",
+            "booking_status": 1,
+            "start_date": "2026-09-05",
+            "start_date_max": "",
+            "end_date": "2027-08-27",
+            "end_date_max": "",
+            "price_unit": 0,
+            "is_portal_booking": 0,
+            "term": "2026/27",
+            "has_final_promo_value": 1,
+            "discount_lease_term": null,
+            "service_tags": [
+              {
+                "type": "exclusive_offer",
+                "name": "Exclusive Offer"
+              }
+            ],
+            "rent_amount": {
+              "amount": 400,
+              "abbr": "GBP"
+            },
+            "rent_amount_max": {
+              "amount": 0,
+              "abbr": "GBP"
+            },
+            "promo_amount": {
+              "amount": 397,
+              "abbr": "GBP"
+            },
+            "switch": {
+              "is_show_price_trend": 0,
+              "is_portal_booking": 0,
+              "is_outer_booking": 0,
+              "is_instant_booking": 0,
+              "is_lease_time_free": 0,
+              "is_start_date_free": 0,
+              "is_end_date_free": 0,
+              "is_show_waiting": 0,
+              "button_type": 1,
+              "is_show_cancel_cooling_period": true,
+              "sort": 1,
+              "booking_status_sort": 1,
+              "price_sort": 397,
+              "lease_time_sort": 51
+            },
+            "sort": 1,
+            "has_promo": 0
+          },
+          {
+            "tenancy_id": 2220708,
+            "lease_time": 44,
+            "lease_time_max": 0,
+            "lease_unit": "WEEK",
+            "booking_status": 1,
+            "start_date": "2026-09-05",
+            "start_date_max": "",
+            "end_date": "2027-07-09",
+            "end_date_max": "",
+            "price_unit": 0,
+            "is_portal_booking": 0,
+            "term": "2026/27",
+            "has_final_promo_value": 1,
+            "discount_lease_term": null,
+            "service_tags": [
+              {
+                "type": "exclusive_offer",
+                "name": "Exclusive Offer"
+              }
+            ],
+            "rent_amount": {
+              "amount": 439,
+              "abbr": "GBP"
+            },
+            "rent_amount_max": {
+              "amount": 0,
+              "abbr": "GBP"
+            },
+            "promo_amount": {
+              "amount": 435,
+              "abbr": "GBP"
+            },
+            "switch": {
+              "is_show_price_trend": 0,
+              "is_portal_booking": 0,
+              "is_outer_booking": 0,
+              "is_instant_booking": 0,
+              "is_lease_time_free": 0,
+              "is_start_date_free": 0,
+              "is_end_date_free": 0,
+              "is_show_waiting": 0,
+              "button_type": 1,
+              "is_show_cancel_cooling_period": true,
+              "sort": 2,
+              "booking_status_sort": 1,
+              "price_sort": 435,
+              "lease_time_sort": 44
+            },
+            "sort": 1,
+            "has_promo": 0
+          },
+          {
+            "tenancy_id": 2231957,
+            "lease_time": 27,
+            "lease_time_max": 0,
+            "lease_unit": "WEEK",
+            "booking_status": 1,
+            "start_date": "2026-01-03",
+            "start_date_max": "",
+            "end_date": "2026-07-10",
+            "end_date_max": "",
+            "price_unit": 0,
+            "is_portal_booking": 0,
+            "term": "2025/26",
+            "has_final_promo_value": 0,
+            "discount_lease_term": null,
+            "service_tags": [],
+            "rent_amount": {
+              "amount": 422,
+              "abbr": "GBP"
+            },
+            "rent_amount_max": {
+              "amount": 0,
+              "abbr": "GBP"
+            },
+            "promo_amount": {
+              "amount": 0,
+              "abbr": "GBP"
+            },
+            "switch": {
+              "is_show_price_trend": 0,
+              "is_portal_booking": 0,
+              "is_outer_booking": 0,
+              "is_instant_booking": 0,
+              "is_lease_time_free": 0,
+              "is_start_date_free": 0,
+              "is_end_date_free": 0,
+              "is_show_waiting": 0,
+              "button_type": 1,
+              "is_show_cancel_cooling_period": true,
+              "sort": 3,
+              "booking_status_sort": 1,
+              "price_sort": 422,
+              "lease_time_sort": 27
+            },
+            "sort": 1,
+            "has_promo": 0
+          }
+        ],
+        "switch": {
+          "is_favorite": 0,
+          "is_show_roommate": 0,
+          "is_has_room": 0,
+          "is_outer_booking": 0,
+          "is_show_waiting": 0,
+          "is_pre_sale": 0,
+          "sort": 6,
+          "booking_status_sort": 1,
+          "price_sort": 396.08,
+          "lease_time_sort": 51
+        },
+        "has_promo": 0
+      },
+      {
+        "media": {
+          "image": [
+            {
+              "media_id": "01KA94CZYG86PAQR6J1TPG5HZH",
+              "path": "image/1397/01KA94CZYG86PAQR6J1TPG5HZH.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            },
+            {
+              "media_id": "01KA92G4ZJ800N4C8G79ERKKNK",
+              "path": "image/1385/01KA92G4ZJ800N4C8G79ERKKNK.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            },
+            {
+              "media_id": "01KA93MPA3GPR5PDX5M7D1XE23",
+              "path": "image/1397/01KA93MPA3GPR5PDX5M7D1XE23.webp",
+              "suffix": [
+                "g",
+                "h"
+              ]
+            }
+          ],
+          "meta": {
+            "image_count": 3,
+            "video_count": 0,
+            "live_count": 0,
+            "vr_link_count": 0,
+            "by_tenant_count": 0
+          }
+        },
+        "room_type": {
+          "unit_id": 724772,
+          "sku": "S001589810046",
+          "type_id": 2,
+          "booking_status": 1,
+          "sort": 0,
+          "name": "Diamond Studio",
+          "bed_count": 0,
+          "bathroom_count": 0,
+          "bathroom_style_id": 39,
+          "kitchen_type": 79,
+          "lease_unit": "WEEK",
+          "roommate_count": "",
+          "price_unit": 0,
+          "rent_amount": {
+            "amount": 415,
+            "abbr": "GBP"
+          },
+          "promo_price": {
+            "amount": 415,
+            "abbr": "GBP"
+          },
+          "original_price": {
+            "amount": 418,
+            "abbr": "GBP"
+          },
+          "has_final_promo_value": 1,
+          "bedroom_count": 1,
+          "unit_person_count": [],
+          "check_in_people": {
+            "min": 0,
+            "max": 0
+          },
+          "area_sqm": {
+            "min": 0,
+            "max": 27
+          },
+          "area_sqft": {
+            "min": 0,
+            "max": 290.63
+          },
+          "bed_info": [
+            {
+              "bed_style_id": 115,
+              "bed_size_id": 74,
+              "count": 1,
+              "icon_font": "&#xe7ed;"
+            }
+          ],
+          "orientation": []
+        },
+        "floor_plan": [
+          {
+            "media_id": "01KA93MPA3GPR5PDX5M7D1XE23",
+            "path": "image/1397/01KA93MPA3GPR5PDX5M7D1XE23.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          }
+        ],
+        "double_policy": {
+          "is_double_policy": 2,
+          "double_policy_type": 0,
+          "description": ""
+        },
+        "amenities": [],
+        "tags": [],
+        "tenancies": [
+          {
+            "tenancy_id": 2220718,
+            "lease_time": 51,
+            "lease_time_max": 0,
+            "lease_unit": "WEEK",
+            "booking_status": 1,
+            "start_date": "2026-09-05",
+            "start_date_max": "",
+            "end_date": "2027-08-27",
+            "end_date_max": "",
+            "price_unit": 0,
+            "is_portal_booking": 0,
+            "term": "2026/27",
+            "has_final_promo_value": 1,
+            "discount_lease_term": null,
+            "service_tags": [
+              {
+                "type": "exclusive_offer",
+                "name": "Exclusive Offer"
+              }
+            ],
+            "rent_amount": {
+              "amount": 418,
+              "abbr": "GBP"
+            },
+            "rent_amount_max": {
+              "amount": 0,
+              "abbr": "GBP"
+            },
+            "promo_amount": {
+              "amount": 415,
+              "abbr": "GBP"
+            },
+            "switch": {
+              "is_show_price_trend": 0,
+              "is_portal_booking": 0,
+              "is_outer_booking": 0,
+              "is_instant_booking": 0,
+              "is_lease_time_free": 0,
+              "is_start_date_free": 0,
+              "is_end_date_free": 0,
+              "is_show_waiting": 0,
+              "button_type": 1,
+              "is_show_cancel_cooling_period": true,
+              "sort": 1,
+              "booking_status_sort": 1,
+              "price_sort": 415,
+              "lease_time_sort": 51
+            },
+            "sort": 1,
+            "has_promo": 0
+          },
+          {
+            "tenancy_id": 2220719,
+            "lease_time": 44,
+            "lease_time_max": 0,
+            "lease_unit": "WEEK",
+            "booking_status": 1,
+            "start_date": "2026-09-05",
+            "start_date_max": "",
+            "end_date": "2027-07-09",
+            "end_date_max": "",
+            "price_unit": 0,
+            "is_portal_booking": 0,
+            "term": "2026/27",
+            "has_final_promo_value": 1,
+            "discount_lease_term": null,
+            "service_tags": [
+              {
+                "type": "exclusive_offer",
+                "name": "Exclusive Offer"
+              }
+            ],
+            "rent_amount": {
+              "amount": 445,
+              "abbr": "GBP"
+            },
+            "rent_amount_max": {
+              "amount": 0,
+              "abbr": "GBP"
+            },
+            "promo_amount": {
+              "amount": 441,
+              "abbr": "GBP"
+            },
+            "switch": {
+              "is_show_price_trend": 0,
+              "is_portal_booking": 0,
+              "is_outer_booking": 0,
+              "is_instant_booking": 0,
+              "is_lease_time_free": 0,
+              "is_start_date_free": 0,
+              "is_end_date_free": 0,
+              "is_show_waiting": 0,
+              "button_type": 1,
+              "is_show_cancel_cooling_period": true,
+              "sort": 2,
+              "booking_status_sort": 1,
+              "price_sort": 441,
+              "lease_time_sort": 44
+            },
+            "sort": 1,
+            "has_promo": 0
+          }
+        ],
+        "switch": {
+          "is_favorite": 0,
+          "is_show_roommate": 0,
+          "is_has_room": 0,
+          "is_outer_booking": 0,
+          "is_show_waiting": 0,
+          "is_pre_sale": 0,
+          "sort": 7,
+          "booking_status_sort": 1,
+          "price_sort": 414.08,
+          "lease_time_sort": 51
+        },
+        "has_promo": 0
+      }
+    ],
+    "switch": {
+      "unit_sort_type": 0,
+      "display_type": 1,
+      "_is_show_only_enquire": 0
+    }
+  },
+  "rooms": null,
+  "media": [
+    {
+      "type": "image",
+      "count": 118,
+      "items": [
+        {
+          "media_img": {
+            "media_id": "01HVCJVD7HX3B6A39ESQGPR7GT",
+            "path": "image/1399/01HVCJVD7HX3B6A39ESQGPR7GT.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          },
+          "source_type": 2,
+          "source": "house",
+          "group": "house_1",
+          "photoIndex": 0
+        },
+        {
+          "media_img": {
+            "media_id": "01J41RBH7QEGER7P64E9GQS3M2",
+            "path": "image/1383/01J41RBH7QEGER7P64E9GQS3M2.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          },
+          "source_type": 2,
+          "source": "house",
+          "group": "house_1",
+          "photoIndex": 1
+        },
+        {
+          "media_img": {
+            "media_id": "01HVCJTS8A6XE0B2Q4TQ8K4R49",
+            "path": "image/1399/01HVCJTS8A6XE0B2Q4TQ8K4R49.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          },
+          "source_type": 2,
+          "source": "house",
+          "group": "house_14",
+          "photoIndex": 2
+        },
+        {
+          "media_img": {
+            "media_id": "01HVCJV0ZATWNK27SHTM1WH8F5",
+            "path": "image/1393/01HVCJV0ZATWNK27SHTM1WH8F5.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          },
+          "source_type": 2,
+          "source": "house",
+          "group": "house_14",
+          "photoIndex": 3
+        },
+        {
+          "media_img": {
+            "media_id": "01J41D41527T6VJQN6MKN8EBMD",
+            "path": "image/1385/01J41D41527T6VJQN6MKN8EBMD.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          },
+          "source_type": 2,
+          "source": "house",
+          "group": "house_14",
+          "photoIndex": 4
+        },
+        {
+          "media_img": {
+            "media_id": "01J4A11QK7VBB2QCWNNAK251H5",
+            "path": "image/1395/01J4A11QK7VBB2QCWNNAK251H5.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          },
+          "source_type": 2,
+          "source": "house",
+          "group": "house_14",
+          "photoIndex": 5
+        },
+        {
+          "media_img": {
+            "media_id": "01J474VWMT86MCB8XKV90FSVW4",
+            "path": "image/1381/01J474VWMT86MCB8XKV90FSVW4.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          },
+          "source_type": 2,
+          "source": "house",
+          "group": "house_14",
+          "photoIndex": 6
+        },
+        {
+          "media_img": {
+            "media_id": "01K74PWV7MSRZJA2THS2Q75WGW",
+            "path": "image/1393/01K74PWV7MSRZJA2THS2Q75WGW.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          },
+          "source_type": 2,
+          "source": "house",
+          "group": "house_14",
+          "photoIndex": 7
+        },
+        {
+          "media_img": {
+            "media_id": "01K74MN0W2XMM60GGXQ94WYDBE",
+            "path": "image/1385/01K74MN0W2XMM60GGXQ94WYDBE.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          },
+          "source_type": 2,
+          "source": "house",
+          "group": "house_14",
+          "photoIndex": 8
+        },
+        {
+          "media_img": {
+            "media_id": "01J44P18B25STGFQJ8Q3DMSQZ4",
+            "path": "image/1395/01J44P18B25STGFQJ8Q3DMSQZ4.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          },
+          "source_type": 2,
+          "source": "house",
+          "group": "house_15",
+          "photoIndex": 9
+        },
+        {
+          "media_img": {
+            "media_id": "01K74P0HA0FA3N1H1EW4SNV89A",
+            "path": "image/1387/01K74P0HA0FA3N1H1EW4SNV89A.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          },
+          "source_type": 2,
+          "source": "house",
+          "group": "house_15",
+          "photoIndex": 10
+        },
+        {
+          "media_img": {
+            "media_id": "01HVCJTVZ4HR831M00S27CDBVZ",
+            "path": "image/1387/01HVCJTVZ4HR831M00S27CDBVZ.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          },
+          "source_type": 2,
+          "source": "house",
+          "group": "house_13",
+          "photoIndex": 11
+        },
+        {
+          "media_img": {
+            "media_id": "01HVCJTYH0ZAYE894V08Q85M78",
+            "path": "image/1397/01HVCJTYH0ZAYE894V08Q85M78.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          },
+          "source_type": 2,
+          "source": "house",
+          "group": "house_13",
+          "photoIndex": 12
+        },
+        {
+          "media_img": {
+            "media_id": "01J4R603DCX6MTYNF36ZNWSPXM",
+            "path": "image/1385/01J4R603DCX6MTYNF36ZNWSPXM.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          },
+          "source_type": 2,
+          "source": "house",
+          "group": "house_13",
+          "photoIndex": 13
+        },
+        {
+          "media_img": {
+            "media_id": "01J46NSB8KX7580XS0ANPD36ED",
+            "path": "image/1389/01J46NSB8KX7580XS0ANPD36ED.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          },
+          "source_type": 2,
+          "source": "house",
+          "group": "house_13",
+          "photoIndex": 14
+        },
+        {
+          "media_img": {
+            "media_id": "01J447CETQ6AFRAEH840CC388A",
+            "path": "image/1391/01J447CETQ6AFRAEH840CC388A.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          },
+          "source_type": 2,
+          "source": "house",
+          "group": "house_13",
+          "photoIndex": 15
+        },
+        {
+          "media_img": {
+            "media_id": "01J43MRPJ6SAZN4X8PFCH3FV71",
+            "path": "image/1381/01J43MRPJ6SAZN4X8PFCH3FV71.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          },
+          "source_type": 2,
+          "source": "house",
+          "group": "house_13",
+          "photoIndex": 16
+        },
+        {
+          "media_img": {
+            "media_id": "01J5FBS9GKEK7V71Z7HNBNN02V",
+            "path": "image/1383/01J5FBS9GKEK7V71Z7HNBNN02V.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          },
+          "source_type": 2,
+          "source": "house",
+          "group": "house_13",
+          "photoIndex": 17
+        },
+        {
+          "media_img": {
+            "media_id": "01J5CRCAMMB989P03T6SQK011E",
+            "path": "image/1393/01J5CRCAMMB989P03T6SQK011E.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          },
+          "source_type": 2,
+          "source": "house",
+          "group": "house_13",
+          "photoIndex": 18
+        },
+        {
+          "media_img": {
+            "media_id": "01J5FHTDR1G5E6E7XA8QS01FA8",
+            "path": "image/1381/01J5FHTDR1G5E6E7XA8QS01FA8.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          },
+          "source_type": 2,
+          "source": "house",
+          "group": "house_13",
+          "photoIndex": 19
+        },
+        {
+          "media_img": {
+            "media_id": "01JZ0MTX78Z6DMHR197N5WZCJX",
+            "path": "image/1397/01JZ0MTX78Z6DMHR197N5WZCJX.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          },
+          "source_type": 2,
+          "source": "house",
+          "group": "house_13",
+          "photoIndex": 20
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "count": 8,
+      "items": [
+        {
+          "url": "https://img.uhzcdn.com/images/library/e6/d0f5af45092aa153c2c77ca9ba091068a9e7f5.jpg",
+          "source_type": 1
+        },
+        {
+          "url": "https://img.uhzcdn.com/images/library/b2/9a440ac76dc96db73c251ef8f2faa7f8a19e41.jpg",
+          "source_type": 1
+        },
+        {
+          "url": "https://img.uhzcdn.com/library/house/6a51f787e11d42b5be6370bc63544dc7/1000/00001.jpg",
+          "source_type": 1
+        },
+        {
+          "url": "https://img.uhzcdn.com/library/house/40700ef70a9943ddb50e3a1d77523436/1000/00001.jpg",
+          "source_type": 1
+        },
+        {
+          "url": "https://img.uhzcdn.com/library/house/8cafde97272d4ff793f8e968641f6a5d/1000/00001.jpg",
+          "source_type": 1
+        },
+        {
+          "url": "https://img.uhzcdn.com/library/house/32d223e18a024cc4804acb56a5cf6072/1000/00001.jpg",
+          "source_type": 1
+        },
+        {
+          "url": "https://img.uhzcdn.com/library/house/f4281441a8df4aa386992b539ccca99d/1000/00001.jpg",
+          "source_type": 1
+        },
+        {
+          "url": "https://img.uhzcdn.com/library/house/765ed166b3cb4452acfa60d4363e838c/1000/00001.jpg",
+          "source_type": 1
+        }
+      ]
+    },
+    {
+      "type": "live",
+      "count": 1,
+      "items": [
+        {
+          "url": "https://img.uhzcdn.com/images/live/f2/539a1f014282f4b98b819105524945e7f3126f.png",
+          "source_type": 1
+        }
+      ]
+    },
+    {
+      "type": "vr_link",
+      "count": 6,
+      "items": [
+        {
+          "url": "https://vrpm.captur3d.io/view/vrpm/chapter-lewisham",
+          "media_img": {
+            "media_id": "01J41RBH7QEGER7P64E9GQS3M2",
+            "path": "image/1383/01J41RBH7QEGER7P64E9GQS3M2.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          },
+          "source_type": 2
+        },
+        {
+          "url": "https://my.matterport.com/show/?m=HTh9YTKhgPd",
+          "media_img": {
+            "media_id": "01K74P0HA0FA3N1H1EW4SNV89A",
+            "path": "image/1387/01K74P0HA0FA3N1H1EW4SNV89A.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          },
+          "source_type": 2
+        },
+        {
+          "url": "https://my.matterport.com/show/?m=rH2VzdjHdHu",
+          "media_img": {
+            "media_id": "01K74QQNKAJA0PMZ9XRB34202Q",
+            "path": "image/1397/01K74QQNKAJA0PMZ9XRB34202Q.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          },
+          "source_type": 2
+        },
+        {
+          "url": "https://my.matterport.com/show/?m=rH2VzdjHdHu",
+          "media_img": {
+            "media_id": "01J41RBH7QEGER7P64E9GQS3M2",
+            "path": "image/1383/01J41RBH7QEGER7P64E9GQS3M2.webp",
+            "suffix": [
+              "g",
+              "h"
+            ]
+          },
+          "source_type": 2
+        },
+        {
+          "url": "https://vr.uhomes.com/index.html?hid=UHomes-SHAOJUN_2f18e2eb-9f60-41ed-aeaa-e91ee9e093b9&lang=en",
+          "media_img": {
+            "legacy_url": "https://image.uhzcdn.com/house/97/73d35afc4db0902e0b01d2c9dba71697b2fb2a.jpg"
+          },
+          "source_type": 1
+        },
+        {
+          "url": "https://vr.uhomes.com/index.html?hid=UHomes-LONGYU_2da95d55-7f48-4598-98c3-c4ed409de31c&lang=en",
+          "media_img": {
+            "legacy_url": "https://image.uhzcdn.com/house/a6/5b2bc1b3f82a3934bcbd26f39ae5653e9bd73b.jpg"
+          },
+          "source_type": 1
+        }
+      ]
+    },
+    {
+      "type": "by_tenant",
+      "count": 1,
+      "items": [
+        {
+          "comment_id": 0,
+          "url": "https://img.uhzcdn.com/library/roomlive/adc72068f95a4420b88c3257cd59752f/1000/00001.jpg",
+          "should_pay": 0,
+          "is_paid": 0
+        }
+      ]
+    }
+  ],
+  "school": {
+    "school_id": 29587,
+    "country_id": 826,
+    "city_id": 7,
+    "weight": 2206,
+    "ab": "",
+    "school_unique_name": "goldsmiths-university-of-london",
+    "school_name": "Goldsmiths College, University of London",
+    "location": {
+      "lat": 51.474277,
+      "lng": -0.035417,
+      "address": "8 Lewisham Way, London SE14 6NW",
+      "place_id": "ChIJz9IbH_gCdkgR-NcAI13_LOs"
+    },
+    "house_count_shelve": 1900,
+    "distance": 1.61,
+    "polyline_id": 15525,
+    "traffic": [
+      {
+        "type": "walking",
+        "distance": 1.96,
+        "duration": 24
+      },
+      {
+        "type": "cycling",
+        "distance": 2.15,
+        "duration": 8
+      },
+      {
+        "type": "transit",
+        "distance": 2.14,
+        "duration": 13
+      },
+      {
+        "type": "driving",
+        "distance": 2.4,
+        "duration": 7
+      }
+    ]
+  },
+  "seo": {
+    "videos": [
+      {
+        "duration": 68,
+        "thumb_url": "https://img.uhzcdn.com/images/library/e6/d0f5af45092aa153c2c77ca9ba091068a9e7f5.jpg",
+        "video_url": "https://video.uhzcdn.com/library/house/568c2f1a3e1748bcbe81c252eb9b67b5/mp4_ld/a5a27ca4ded0327f25ed5633934cb434fe31d7.mp4"
+      }
+    ]
+  },
+  "navigate": [
+    {
+      "name": "United Kingdom",
+      "url": "country/uk"
+    },
+    {
+      "name": "London",
+      "url": "uk/london"
+    }
+  ],
+  "tdkData": {
+    "title": "Chapter Lewisham - London Student Accommodation | uhomes.com",
+    "keywords": "Chapter Lewisham​",
+    "description": "Chapter Lewisham is a Zone 2 student accommodation in London that offers Studios, En-suites, and Apartments. It is located in Lewisham, South East London."
+  },
+  "faq": [
+    {
+      "answer": "The price changes in real time, and the final contract price shall prevail.",
+      "question": "What is the total rent price?"
+    },
+    {
+      "answer": "Chapter Lewisham is situated at 46 Thurston Road, London SE13 7SD, United Kingdom.",
+      "question": "Where is Chapter Lewisham located in London?"
+    },
+    {
+      "answer": "Chapter Lewisham offers various room options to cater to your diverse budgets and needs. To ensure your comfort and convenience, a £150 Oyster Card, free weekday breakfast service, and bi-weekly room cleaning services are provided. In addition, it is also ideal for students studying at nearby universities, like Goldsmiths and Greenwich University. With comfortable social and study spaces and many community amenities, you will have an unforgettable and unparalleled university experience. View more ",
+      "question": "Why choose Chapter Lewisham in London?"
+    },
+    {
+      "answer": "View more         ",
+      "question": "Why choose Chapter Lewisham in London? Chapter Lewisham offers various room options to cater to your diverse budgets and needs. To ensure your comfort and convenience, a £150 Oyster Card, free weekday breakfast service, and bi-weekly room cleaning services are provided. In addition, it is also ideal for students studying at nearby universities, like Goldsmiths and Greenwich University. With comfortable social and study spaces and many community amenities, you will have an unforgettable and unparalleled university experience."
+    },
+    {
+      "answer": "The universities close to Chapter Lewisham, London, include University of Greenwich, Goldsmiths, University of London, Sunderland University London Campus, and King's College London.",
+      "question": "Which universities are close to Chapter Lewisham?"
+    },
+    {
+      "answer": "Chapter Lewisham, London​, offers various modern amenities to students, like an on-site gym, study rooms, a TV snug, a terrace, games rooms, and laundry facilities.",
+      "question": "What on-site facilities are included at Chapter Lewisham, London​?"
+    },
+    {
+      "answer": "Chapter Lewisham, London, offers Studios, En-suites, and Apartments to students.",
+      "question": "What types of rooms are available at Chapter Lewisham, London​?"
+    },
+    {
+      "answer": "View more         ",
+      "question": "When is the due date for rent payment? Please log in to your mailbox to check the email with Docusign, click on the yellow part to enter the contract query interface, the contract indicates the deadline for rent payment, usually before July 31, and the specific date shown in the contract shall prevail. To pay rent. The corresponding key information is [Balance] The current total amount to be paid for this payment item [Due Date] Payment deadline (format day/month/year) Please pay the rent before the due date"
+    },
+    {
+      "answer": "Please log in to your mailbox to check the email with Docusign, click on the yellow part to enter the contract query interface, the contract indicates the deadline for rent payment, usually before July 31, and the specific date shown in the contract shall prevail. To pay rent. The corresponding key information is [Balance] The current total amount to be paid for this payment item [Due Date] Payment deadline (format day/month/year) Please pay the rent before the due date",
+      "question": "When is the due date for rent payment?"
+    },
+    {
+      "answer": "Payments can be made via Bank Transfer, Visa, and MasterCard. You can choose to pay in full or in 2 or 4 instalments with a local or international guarantor.",
+      "question": "How do I pay rent for Chapter Lewisham?"
+    },
+    {
+      "answer": "Everest Curry King Restaurant London, Sweet1ne Restaurant & Lounge, and Bar Beach Grill are very good restaurants close to Lewisham Chapter​.",
+      "question": "What are some good restaurants near Chapter Lewisham, London?"
+    },
+    {
+      "answer": "Yes, Chapter Lewisham is a purpose-built student accommodation exclusively for students. If you are not a student, you can also take a look at our affordable and comfortable flats, such as YOHO LCC Camberwell & Goldsmith and 74 Ashburnham Place.",
+      "question": "Is Chapter Lewisham only for students?"
+    },
+    {
+      "answer": "Absolutely. To ensure your safety, Chapter Lewisham is equipped with video surveillance and an on-site team.",
+      "question": "Is it safe to live in Chapter Lewisham?"
+    },
+    {
+      "answer": "There are many top attractions close to Chapter Lewisham, London, like London Bridge, One Canada Square, the Royal Observatory, and the National Maritime Museum.",
+      "question": "What are the top attractions close to Chapter Lewisham, London​?"
+    },
+    {
+      "answer": "Transportation from Chapter Lewisham, London, is convenient, within walking distance of the Blackheath and Elverson Road stations and bus stops like Jerrard Street offering routes 47 and 225.",
+      "question": "Where is the nearest public transport to Chapter Lewisham, London?"
+    },
+    {
+      "answer": "Since the Flexible Booking Policy is reviewed and decided by the apartment case by case, there is no strict uniform standard. Please confirm your revised payment amount and payment deadline with the apartment separately after you successfully apply for the Flexible Booking Policy.",
+      "question": "Due to delays, I communicated the Flexible Booking Policy to the apartment. When should I pay the re"
+    },
+    {
+      "answer": "Please refer to the detailed rules of the corresponding activities provided by the apartment when you make a reservation, or have proofs such as screenshots of participating activities at that time, and then please accept the corresponding detailed rules with the apartment.",
+      "question": "I have a special discount for the apartment when I make a reservation, how can I redeem it?"
+    },
+    {
+      "answer": "Of course you can. Please tell our booking consultant who you want to live with, and we will try our best to arrange for you and your friends to live together.",
+      "question": "Can I choose a roommate at Chapter Lewisham?"
+    },
+    {
+      "answer": "If you need to check in early, please contact your consultant teacher. If there are vacancies in the apartment for the corresponding lease period, you can arrange early check-in after accepting the corresponding extra rent",
+      "question": "Can I check in early?"
+    },
+    {
+      "answer": "If you are an eligible full-time student, you will be exempt from paying land tax. You must provide proof to the apartment that you are a full-time student",
+      "question": "Do I need to pay land tax?"
+    },
+    {
+      "answer": "You can check in at the beginning of the contract. If you arrive at the apartment during non-working hours, it is best to inform the apartment in advance so that the apartment can arrange check-in.",
+      "question": "When can I check in?"
+    },
+    {
+      "answer": "After completing the check-in process at the front desk, you can get the key card from the apartment front desk",
+      "question": "How do I collect my access card?"
+    },
+    {
+      "answer": "No, for security reasons, your key card can only be collected by yourself.",
+      "question": "Can someone else get the key card for me?"
+    },
+    {
+      "answer": "No, no pets are allowed in Chapter Lewisham.",
+      "question": "Can I keep pets inside Lewisham Chapter?"
+    },
+    {
+      "answer": "1. Apply for repairs by using the apartment software or writing an email 2. Apply for repairs through the front desk of the apartment",
+      "question": "What should I do if I need to report for repair?"
+    },
+    {
+      "answer": "Chapter Lewisham is non-smoking for safety reasons and has smoke alarms. If you need to smoke, please ask the front desk of the apartment where the corresponding smoking area is located.",
+      "question": "Can I smoke inside Lewisham Chapter?"
+    },
+    {
+      "answer": "No, I'm afraid the showerhead in this property is fixed to the wall and cannot be removed or replaced.",
+      "question": "Can I remove the showerhead in my bathroom?"
+    },
+    {
+      "answer": "",
+      "question": "View more"
+    }
+  ]
+}

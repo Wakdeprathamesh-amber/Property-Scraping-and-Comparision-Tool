@@ -29,6 +29,9 @@ env/
 # Environment Variables
 .env
 
+# Google Sheets credentials
+credentials.json
+
 # IDE
 .vscode/
 .idea/
@@ -41,8 +44,9 @@ env/
 logs/
 server.log
 
-# Output files
-ui/outputs/*/
+# Output files (keep directory structure, ignore contents)
+ui/outputs/*
+!ui/outputs/.gitkeep
 ui/uploads/*.json
 outputs/
 
@@ -57,3 +61,8 @@ trace_*.py
 # Documentation (keep only essential)
 *_ARCHIVE.md
 *_OLD.md
+
+# Backup files (optional - can commit if needed)
+# scraped_json_backup/
+# scraped_data_backup/
+# reports/

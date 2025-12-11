@@ -1,0 +1,771 @@
+{
+  "message": "success",
+  "data": {
+    "id": 136708,
+    "source": "Chapter Greystar",
+    "source_id": "123456",
+    "source_dump": null,
+    "source_link": "https://www.chapter-living.com/properties/highbury/",
+    "name": "Chapter Highbury, London",
+    "parent_id": null,
+    "pricing": {
+      "currency": "pound",
+      "duration": "weekly",
+      "max_price": 604,
+      "min_price": 369,
+      "refundable_token": 25,
+      "max_available_price": 559,
+      "min_available_price": 377
+    },
+    "owner": {
+      "emails": [
+        "highbury@chapter-living.com"
+      ],
+      "phones": [
+        "+44 0207 607 8532"
+      ]
+    },
+    "meta": {
+      "facts": [
+        {
+          "name": "recent_booking",
+          "count": 2,
+          "value": "F-Kaiming +2 booked this property recently"
+        },
+        {
+          "name": "enquires_in_15days",
+          "count": 2,
+          "value": "2 students enquired about this property in last 15 days"
+        },
+        {
+          "name": "shortlisted_in_30days",
+          "count": 555,
+          "value": "555 students shortlisted this property in last 30 days"
+        },
+        {
+          "name": "view_in_24hr",
+          "count": 22,
+          "value": "22 students viewed this property in last 24 hours"
+        }
+      ],
+      "floor": "G, 1, 1, 2, 2, 3, 1, 2, 4, 2, 1",
+      "types": [
+        "private_kitchen",
+        "private_bathroom",
+        "entire_place",
+        "private_room",
+        "shared_kitchen"
+      ],
+      "facing": "North , North, South , North, North , North, North , North, South",
+      "payment": true,
+      "ranking": "30",
+      "cro_tags": {
+        "cashback": 300,
+        "amber_sale": {
+          "offer": "Pocket £500 cashback exclusively during Amber Student Housing Fest!",
+          "status": "true"
+        },
+        "is_student_choice": "false",
+        "is_amber_exclusive": "true",
+        "is_filling_fast_v2": "false",
+        "is_immediate_move_in": "false",
+        "is_breakfast_included": "false",
+        "is_property_of_the_day": "false"
+      },
+      "max_area": 30.0,
+      "min_area": 13.0,
+      "area_unit": "sqm",
+      "distances": [
+        {
+          "place": "city center",
+          "distance": "3.2 mi"
+        },
+        {
+          "place": "London Metropolitan University",
+          "distance": "0.2 mi"
+        },
+        {
+          "place": "Royal Veterinary College",
+          "distance": "1.5 mi"
+        },
+        {
+          "place": "Universit Paris-Dauphine (London campus)",
+          "distance": "1.5 mi"
+        },
+        {
+          "place": "Francis Crick Institute",
+          "distance": "1.6 mi"
+        },
+        {
+          "place": "City University of London",
+          "distance": "1.8 mi"
+        }
+      ],
+      "unit_type": "student_accommodation",
+      "jotform_id": "81192082916458",
+      "meta_title": "Chapter Highbury, London Student Accommodation | Amber",
+      "unit_count": 240,
+      "unit_types": [
+        "ensuite",
+        "studio",
+        "student_accommodation"
+      ],
+      "is_internal": false,
+      "is_partnered": true,
+      "payment_type": "refundable_token",
+      "sort_priority": 3.0,
+      "amenity_prices": {
+        "gas": {
+          "price": 5.0,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "country_average",
+          "display_name": "Gas"
+        },
+        "gym": {
+          "price": 7.5,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "country_average",
+          "display_name": "Gym"
+        },
+        "wifi": {
+          "price": 7.37,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "",
+          "display_name": "WiFi"
+        },
+        "water": {
+          "price": 2.53,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "",
+          "display_name": "Water"
+        },
+        "coffee": {
+          "price": 26.25,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "country_average",
+          "display_name": "Coffee"
+        },
+        "cooling": {
+          "price": 0.63,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "",
+          "display_name": "Cooling"
+        },
+        "garbage": {
+          "price": 1.27,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "",
+          "display_name": "Garbage"
+        },
+        "heating": {
+          "price": 3.17,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "",
+          "display_name": "Heating"
+        },
+        "laundry": {
+          "price": 5.0,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "country_average",
+          "display_name": "Laundry"
+        },
+        "breakfast": {
+          "price": 50.0,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "country_average",
+          "display_name": "Breakfast"
+        },
+        "tv licence": {
+          "price": 3.6,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "country_average",
+          "display_name": "TV Licence"
+        },
+        "electricity": {
+          "price": 5.07,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "",
+          "display_name": "Electricity"
+        },
+        "cleaning service": {
+          "price": 12.5,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "country_average",
+          "display_name": "Cleaning Service"
+        },
+        "content insurance": {
+          "price": 2.8,
+          "currency": "GBP",
+          "duration": "weekly",
+          "price_flag": "country_average",
+          "display_name": "Content Insurance"
+        }
+      },
+      "available_types": [
+        "private_kitchen",
+        "private_bathroom",
+        "entire_place",
+        "private_room",
+        "shared_kitchen"
+      ],
+      "is_seo_optimised": true,
+      "max_bedroom_count": 2,
+      "min_bedroom_count": 1,
+      "guarantor_required": "international_local",
+      "max_available_from": "05-09-2026",
+      "max_bathroom_count": 2,
+      "max_lease_duration": 51,
+      "min_available_from": "15-12-2025",
+      "min_bathroom_count": 1,
+      "min_lease_duration": 4,
+      "property_info_tags": [
+        {
+          "type": "total_units",
+          "value": 240
+        },
+        {
+          "type": "highest_floor",
+          "value": 6
+        },
+        {
+          "type": "build_in_year",
+          "value": 2013
+        }
+      ],
+      "total_videos_count": 4,
+      "amenity_prices_type": "country_based",
+      "featured_image_path": "https://assets.amberstudent.com/inventories/212674/35d00b40.jpeg",
+      "lease_duration_unit": "week",
+      "non_students_allowed": false,
+      "year_of_construction": 2013,
+      "amenity_prices_source": "csv_import",
+      "average_property_price": 0,
+      "last_month_leads_count": 2,
+      "max_new_available_from": "05-09-2026",
+      "min_new_available_from": "15-12-2025",
+      "amenity_prices_location": "United Kingdom",
+      "booking_process_doc_url": "https://docs.google.com/document/d/1Fw9U8vJPpC_p_qgNAYg_d_2BbVa5XRM98XJgUikpsvQ/edit",
+      "max_lease_duration_days": 357,
+      "min_lease_duration_days": 28,
+      "amenity_prices_updated_at": "2025-12-08T20:00:18.979+00:00",
+      "total_virtual_views_count": 2,
+      "average_property_commission": 0.0,
+      "max_available_lease_duration": 51,
+      "min_available_lease_duration": 27,
+      "booking_process_doc_updated_at": "2025-11-13T10:48:16+00:00",
+      "max_available_lease_duration_days": 357,
+      "min_available_lease_duration_days": 189,
+      "lead_to_booking_conversion_tag_90d": "low_converting",
+      "lead_to_booking_conversion_rate_90d": "0.0000",
+      "booking_process_doc_recently_updated": false
+    },
+    "description": [
+      {
+        "name": "about",
+        "value": "<p><strong>Chapter Highbury</strong> is a modern <a href=\"https://amberstudent.com/places/search/london-1811028205760\"><strong>student accommodation in London.</strong></a> Located near Arsenal FC’s home Emirates Stadium, the property offers a wide range of shared apartments, en-suites, and studios to choose from. Additionally, <a href=\"https://amberstudent.com/places/search/london-metropolitan-university-1811059660607\"><strong>London Metropolitan University</strong></a> is a 4-minute walk away, and <a href=\"https://amberstudent.com/places/search/royal-veterinary-college-1811056436929\"><strong>Royal Veterinary College</strong></a> is a 10-minute drive away from the property, making accommodation ideal for the students attending these universities.</p>",
+        "display_name": "About"
+      },
+      {
+        "name": "features",
+        "value": "<p>Apartments in the accommodation are specially designed for students. Each room comes with a comfortable bed, study desk, lamp, bookshelves, and plenty of space for storage and if you prefer more privacy, the studio comes with an en-suite bathroom, a fully fitted kitchen, and more living space. The property provides <strong>free high-speed WiFi</strong>, on-site maintenance, laundry facilities, 24hr CCTV surveillance for <strong>safety and security</strong>. Chapter Highbury also has amazing social places such as a <strong>cinema room</strong> to watch the latest movies on a big screen, an on-site gym to workout, a games area with indoor games, study spaces for group study, and a courtyard.</p>",
+        "display_name": "Features"
+      },
+      {
+        "name": "nearby_places",
+        "value": "<p>The property is based in a very popular area of the city and it is surrounded by many restaurants, cafes, and bars. <strong>Koutoukaki Souvlaki</strong> restaurant is just around the corner to eat delicious food or you can visit the <strong>Spice Hut Holloway</strong> for fast food. <strong>Islington Sports Bar &amp; Grill</strong> is nearby to drink and watch live sporting events. <strong>Costa Coffee</strong> is right outside the property to get a cup of coffee on way to the university. <strong>The Emirates Stadium</strong>, the home stadium of Arsenal Football Club is a short walk away to watch premier league football matches on weekends.</p>",
+        "display_name": "Nearby places"
+      },
+      {
+        "name": "commute",
+        "value": "<p>The property is well-connected to public transport with multiple bus stops available within walking distance, making traveling around the city easier. Camden Road (Stop T) bus stop is a 5-minutes walk away and Caledonian Road Camden Road (Stop V) bus stop is 6 minutes away on foot. Furthermore, Holloway Road subway station is just a minute walk away from the property.</p>",
+        "display_name": "Commute"
+      },
+      {
+        "name": "pet_policy",
+        "value": "<p>Unfortunately, you are not allowed to keep any pets in your room or any shared living spaces.</p>",
+        "display_name": "Pet policy"
+      },
+      {
+        "tag": "fully_refundable_holding_fee",
+        "name": "payment",
+        "value": "<ul>\n  <li>This <strong>holding fee</strong> of £25 <strong>prioritises &amp; fast-tracks</strong> your application with our partners.</li>\n  <li>The <strong>£25 holding fee </strong>is <strong>fully refundable</strong> within <strong>6 days of payment</strong>. Full refund is applicable whether your booking is finalized with Amber or even if we're unable to find a suitable match for you.</li>\n</ul>",
+        "display_name": "Fully refundable holding fee",
+        "policy_applicable": "true"
+      },
+      {
+        "tag": "cooling_off_period",
+        "name": "cancellation_policy",
+        "value": "<p>To secure your Room prior to 31st July, you must do the following within 3 days of receipt of the Tenancy Agreement (these 3 days is known as the \"Decision Making Period\"):</p>\n<p>1. Pay your Holding Fee (which will be deducted from your first instalment of Rent if your booking is not cancelled).</p>\n<p>2. Both the Tenant and the Guarantor must sign the Tenancy Agreement.</p>\n<p>If you have not paid the first instalment of Rent on the date of booking, this must be paid on or before 31 July, otherwise, the property reserves the right to cancel your booking.</p>\n<p>For bookings made after 31st July, to secure your Room you must do the following within the Decision-Making Period:</p>\n<p>1. Pay your first instalment of Rent.</p>\n<p>2. Both the Tenant and the Guarantor must sign the Tenancy Agreement.</p>\n<p>A Holding Fee will not be required for bookings made on or after 1st August.</p>\n<p>Failure to secure your Room within the required timescales may result in the cancellation of your booking by the property.</p>\n<p><strong>Cancelling within the Decision Making Period</strong></p>\n<p>The Holding Fee is refundable if you provide the property with notice of your intention to cancel within the Decision Making Period.</p>\n<p><strong>Cancelling after the Decision Making Period</strong></p>\n<p>If you cancel your booking after the Decision Making Period but prior to 31st July, any advance payment of Rent will be refunded to you less your Holding Fee, which will not be refunded.</p>\n<p><strong>Taking no action throughout the Decision Making Period</strong></p>\n<p>If at the end of the Decision Making Period you have taken no action, i.e. not signed and accepted your Tenancy Agreement and/or not paid your Holding Fee and/or your first instalment of Rent then your offer will be cancelled on their system and your Room will be made available for someone else to book.</p>\n<p><strong>Cancelling on or after 1 August after accepting your Tenancy Agreement and having paid your first instalment of Rent</strong></p>\n<p>Any decision made to release you from your Tenancy Agreement for any reason that does not fall within the Cancellation Criteria is made by the property, at their sole discretion on a case-by-case basis.</p>",
+        "short_text": "This property <strong>offers</strong> cooling-off period.",
+        "display_name": "Cooling Off Period",
+        "policy_applicable": "true"
+      },
+      {
+        "tag": "no_visa_no_pay",
+        "name": "cancellation_policy",
+        "value": "<p>To request to cancel your booking outside of the Decision Making Period on or after 31st July but prior to the Tenancy Start Date as set out in the Tenancy Agreement, you must meet the following criteria:</p>\n<p><strong>Your application for a visa has been declined.</strong> Please note that this does not include situations where your visa has been granted and subsequently withdrawn.</p>\n<p>If you meet the above Cancellation Criteria and can provide the property with evidence demonstrating that you meet the above criteria, your request for cancellation will be granted. If you have already accepted your Tenancy Agreement and paid your first instalment of Rent at the date your cancellation request is granted, they will refund you the first instalment of Rent less any Holding Fee paid (or an amount equivalent to the Holding Fee if you booked your room after 31st July).</p>\n<p><strong>Please note: </strong>The relevant visa rejection documents must be provided to the property <strong>within 48 hours </strong>of receiving the same.</p>",
+        "short_text": "This property <strong>allows</strong> cancellation due to visa rejection.",
+        "display_name": "No Visa No Pay",
+        "policy_applicable": "true"
+      },
+      {
+        "tag": "no_place_no_pay",
+        "name": "cancellation_policy",
+        "value": "<p>To request to cancel your booking outside of the Decision Making Period on or after 31st July but prior to the Tenancy Start Date as set out in the Tenancy Agreement, you must meet the following criteria:</p>\n<p><strong>You have failed to obtain your grades to study at university and as such do not have student status.</strong></p>\n<p>If you meet the above Cancellation Criteria and can provide the property with evidence demonstrating that you meet the above criteria, your request for cancellation will be granted. If you have already accepted your Tenancy Agreement and paid your first instalment of Rent at the date your cancellation request is granted, they will refund you the first instalment of Rent less any Holding Fee paid (or an amount equivalent to the Holding Fee if you booked your room after 31st July).</p>\n<p><strong>Please note: </strong>The relevant university rejection documents must be provided to the property <strong>within 48 hours </strong>of receiving the same.</p>",
+        "short_text": "This property <strong>allows</strong> cancellation if admission is not secured.",
+        "display_name": "No Place No Pay",
+        "policy_applicable": "true"
+      },
+      {
+        "tag": "replacement_tenant_found",
+        "name": "cancellation_policy",
+        "value": "<p>If you need to cancel your booking outside of the Decision-Making Period on or after 31st July but prior to the Tenancy Start Date as set out in the Tenancy Agreement after accepting your Tenancy Agreement and having paid your first instalment of Rent but cannot meet the Cancellation Criteria <strong>(no visa no pay, no place no pay, cancellation during the decision making period)</strong> you will remain liable in full for the Rent for the full term of the Tenancy Agreement. This is unless a suitable replacement tenant can be found by you, acceptance of which will be at the property's sole discretion. Please note that they will not agree to a replacement tenant unless all outstanding accounts with them are settled.</p>\n<p>After the Tenancy Start Date as set out in the Tenancy Agreement, requests for room moves or for them to accept a replacement tenant to take over your tenancy will be managed based on availability and at their sole discretion. An Administration Fee of <strong>GBP 50</strong> will be payable in each instance if agreed to by them and you will be responsible for cleaning the room in accordance with the terms of the Tenancy Agreement.</p>\n<p>Requests for replacement tenants received after 1 June within the Tenancy Period will not be accepted.</p>",
+        "short_text": "This property <strong>allows</strong> cancellation upon finding replacement tenant.",
+        "display_name": "Replacement Tenant Accepted",
+        "policy_applicable": "true"
+      },
+      {
+        "tag": "payment_instalment_plan",
+        "name": "payment",
+        "value": "<p>1. You can choose to pay for your lease in <strong>1, 2, or 4 instalments.</strong></p>\n<p>1.1. If you pay in <strong>1 instalment</strong>, your total amount payable will be <strong>2% cheaper</strong> than if you chose to pay in 2 instalments.</p>\n<p>1.2. If you pay in <strong>4 instalments</strong>, your total amount payable will be<strong> 2% more expensive</strong> than if you chose to pay in 2 instalments.</p>",
+        "short_text": "This property offers <strong>1, 2, 4</strong> flexible instalment plans.",
+        "display_name": "Pay In Instalment",
+        "policy_applicable": "true",
+        "payment_installment_option": [
+          1,
+          2,
+          4
+        ]
+      },
+      {
+        "tag": "mode_of_payment",
+        "name": "payment",
+        "value": "<p>You can make payment using a credit or debit card, either on the internet or over the phone. You can also make a payment via bank transfer.</p>\n<p><strong>Please note, that the property does not accept American Express.</strong></p>",
+        "short_text": "Payment via easy transaction modes.",
+        "display_name": "Mode Of Payment",
+        "policy_applicable": "true"
+      },
+      {
+        "tag": "guarantor_requirement",
+        "name": "payment",
+        "value": "<p>1. A guarantor is required for every lease, even if you intend to pay in 1 instalment. This is because they will take responsibility for any unpaid arrears or damage during your tenancy period.</p>\n<p>2. They <strong>do not need to be a UK resident.</strong></p>\n<p>3. Your guarantor will need to be someone who is not in full time education, or living in student housing. Most residents use a parent, guardian, or family member.</p>",
+        "short_text": "Guarantor requirements and policy.",
+        "display_name": "Guarantor Requirement",
+        "policy_applicable": "true"
+      },
+      {
+        "tag": "booking_deposit",
+        "name": "payment",
+        "value": "<p>Property Management is <strong>currently not accepting booking deposits.</strong> To confirm your booking, the first instalment must be paid.</p>",
+        "short_text": "This property <strong>requires</strong> booking deposit.",
+        "display_name": "Booking Deposit",
+        "policy_applicable": "true"
+      }
+    ],
+    "images": [
+      {
+        "path": "https://assets.amberstudent.com/inventories/212674/35d00b40.jpeg",
+        "type": "bedroom",
+        "caption": "Diamond Studio - Bedroom",
+        "base_path": "https://assets.amberstudent.com/inventories/212674/35d00b40.jpeg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/136708/24a0200b.jpeg",
+        "type": "common_area",
+        "caption": "Common Area",
+        "base_path": "https://assets.amberstudent.com/inventories/136708/24a0200b.jpeg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/136708/f7c2158b.jpeg",
+        "type": "exterior",
+        "caption": "Exterior",
+        "base_path": "https://assets.amberstudent.com/inventories/136708/f7c2158b.jpeg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/136708/c626c641.jpeg",
+        "type": "common_area",
+        "caption": "Common Area",
+        "base_path": "https://assets.amberstudent.com/inventories/136708/c626c641.jpeg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/136708/b000eb50.jpeg",
+        "type": "amenities",
+        "caption": "Amenities",
+        "base_path": "https://assets.amberstudent.com/inventories/136708/b000eb50.jpeg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/136708/2f5e68f2.jpeg",
+        "type": "common_area",
+        "caption": "Common Area",
+        "base_path": "https://assets.amberstudent.com/inventories/136708/2f5e68f2.jpeg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/136708/d7310c13.jpeg",
+        "type": "common_area",
+        "caption": "Common Area",
+        "base_path": "https://assets.amberstudent.com/inventories/136708/d7310c13.jpeg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/136708/d6660b55.jpeg",
+        "type": "common_area",
+        "caption": "Common Area",
+        "base_path": "https://assets.amberstudent.com/inventories/136708/d6660b55.jpeg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/136708/2ca56197.jpeg",
+        "type": "common_area",
+        "caption": "Common Area",
+        "base_path": "https://assets.amberstudent.com/inventories/136708/2ca56197.jpeg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/136708/637b491a.jpeg",
+        "type": "amenities",
+        "caption": "Amenities",
+        "base_path": "https://assets.amberstudent.com/inventories/136708/637b491a.jpeg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/136708/54669062.jpeg",
+        "type": "amenities",
+        "caption": "Amenities",
+        "base_path": "https://assets.amberstudent.com/inventories/136708/54669062.jpeg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/136708/dfc224b8.jpg",
+        "type": "exterior",
+        "caption": "Exterior",
+        "base_path": "https://assets.amberstudent.com/inventories/136708/dfc224b8.jpg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/136708/ee9ee665.jpg",
+        "type": "exterior",
+        "caption": "Exterior",
+        "base_path": "https://assets.amberstudent.com/inventories/136708/ee9ee665.jpg"
+      },
+      {
+        "path": "https://assets.amberstudent.com/inventories/136708/da58f03b.jpg",
+        "type": "amenities",
+        "caption": "Amenities",
+        "base_path": "https://assets.amberstudent.com/inventories/136708/da58f03b.jpg"
+      }
+    ],
+    "videos": [
+      {
+        "path": "https://videos.amberstudent.com/res/amberstudent/video/upload/inventories/n2uwmmwb0ys32v9xfmqc/1690854560.mp4?h=720",
+        "type": "live_tour",
+        "caption": "Property Tour",
+        "duration": "44.778067",
+        "platform": "gumlet",
+        "upload_date": "2023-08-01",
+        "thumbnail_url": "https://videos.amberstudent.com/res/amberstudent/video/upload/inventories/n2uwmmwb0ys32v9xfmqc/1690854560.mp4?h=720&thumbnail=true&thumbnail-height=300"
+      },
+      {
+        "path": "https://videos.amberstudent.com/res/amberstudent/video/upload/inventories/xhgoqtndxrns2vfk0egf/1748514381.mp4?h=720",
+        "type": "live_tour",
+        "caption": "Property Tour",
+        "duration": "50.5",
+        "platform": "gumlet",
+        "upload_date": "2025-05-29",
+        "thumbnail_url": "https://videos.amberstudent.com/res/amberstudent/video/upload/inventories/xhgoqtndxrns2vfk0egf/1748514381.mp4?h=720&thumbnail=true&thumbnail-height=300"
+      },
+      {
+        "path": "https://videos.amberstudent.com/res/amberstudent/video/upload/inventories/goazoehdb8ixlcpk80jz/1748514917.mp4?h=720",
+        "type": "tour",
+        "caption": "Property Tour",
+        "duration": "11.9",
+        "platform": "gumlet",
+        "upload_date": "2025-05-29",
+        "thumbnail_url": "https://videos.amberstudent.com/res/amberstudent/video/upload/inventories/goazoehdb8ixlcpk80jz/1748514917.mp4?h=720&thumbnail=true&thumbnail-height=300"
+      }
+    ],
+    "location_coordinates": "POINT (-0.1134245 51.55327980000001)",
+    "location": {
+      "name": "309 Holloway Rd",
+      "route": {
+        "long_name": "Holloway Road",
+        "short_name": "Holloway Rd"
+      },
+      "state": {
+        "long_name": "England",
+        "short_name": "England"
+      },
+      "country": {
+        "long_name": "United Kingdom",
+        "short_name": "GB"
+      },
+      "primary": "309 Holloway Rd",
+      "district": {
+        "long_name": "Greater London",
+        "short_name": "Greater London"
+      },
+      "locality": {
+        "long_name": "London",
+        "short_name": "London"
+      },
+      "secondary": "London N7 9DS, UK",
+      "postal_code": {
+        "long_name": "N7 9DS",
+        "short_name": "N7 9DS"
+      },
+      "street_number": {
+        "long_name": "309",
+        "short_name": "309"
+      },
+      "location_bounds": {
+        "northeast": {
+          "lat": 51.5547705802915,
+          "lng": -0.112052619708498
+        },
+        "southwest": {
+          "lat": 51.5520726197085,
+          "lng": -0.114750580291502
+        }
+      },
+      "location_place_id": "ChIJIenkQnQbdkgRCZejmOhTDRs",
+      "location_coordinates": {
+        "lat": 51.55327980000001,
+        "lng": -0.1134245
+      }
+    },
+    "created_at": "2017-07-31T15:57:27.381+05:30",
+    "updated_at": "2025-12-09T05:31:57.036+05:30",
+    "canonical_name": "chapter-highbury-london-1707319989447",
+    "inventory_no": "1707319989447",
+    "status": "active",
+    "features": [
+      {
+        "name": "Common Amenities",
+        "type": "common_amenities",
+        "values": [
+          {
+            "name": "On-site Gym",
+            "type": "Gym & Fitness",
+            "icon": "https://prod-static-assets.amberstudent.com/images/gym.svg"
+          },
+          {
+            "name": "Study Spaces",
+            "type": "Library & Study Area",
+            "icon": "https://prod-static-assets.amberstudent.com/images/desk.svg"
+          },
+          {
+            "name": "Social Spaces",
+            "type": "Common Social Area",
+            "icon": "https://prod-static-assets.amberstudent.com/images/common-social-area.svg"
+          },
+          {
+            "name": "Games Area",
+            "type": "Games Area",
+            "icon": "https://prod-static-assets.amberstudent.com/images/games-area.svg"
+          },
+          {
+            "name": "Cinema",
+            "type": "Cinema Room",
+            "icon": "https://prod-static-assets.amberstudent.com/images/cinema-room.svg"
+          },
+          {
+            "name": "TV Snug",
+            "type": "Television",
+            "icon": "https://prod-static-assets.amberstudent.com/images/television.svg"
+          },
+          {
+            "name": "Onsite Laundry",
+            "type": "Laundry Facility",
+            "icon": "https://prod-static-assets.amberstudent.com/images/reception-staff.svg"
+          },
+          {
+            "name": "Resident Events",
+            "type": "Social Events",
+            "icon": "https://prod-static-assets.amberstudent.com/images/social-events.svg"
+          },
+          {
+            "name": "Courtyard",
+            "type": "Courtyard",
+            "icon": "https://prod-static-assets.amberstudent.com/images/courtyard.svg"
+          },
+          {
+            "name": "Close to London Metropolitan University",
+            "type": "Location Benefit",
+            "icon": "https://prod-static-assets.amberstudent.com/images/tick-mark.svg"
+          },
+          {
+            "name": "Close to Kings College",
+            "type": "Location Benefit",
+            "icon": "https://prod-static-assets.amberstudent.com/images/tick-mark.svg"
+          },
+          {
+            "name": "Free Bi-Weekly Cleaning",
+            "type": "Others",
+            "icon": "https://prod-static-assets.amberstudent.com/images/tick-mark.svg"
+          }
+        ]
+      },
+      {
+        "name": "Bills Included",
+        "type": "bills_included",
+        "values": [
+          {
+            "name": "Electricity",
+            "type": "Basic Essentials",
+            "price": "5.07",
+            "currency": "GBP",
+            "duration": "weekly",
+            "icon": "https://prod-static-assets.amberstudent.com/images/electricity.svg"
+          },
+          {
+            "name": "Water ",
+            "type": "Basic Essentials",
+            "price": "2.53",
+            "currency": "GBP",
+            "duration": "weekly",
+            "icon": "https://prod-static-assets.amberstudent.com/images/water.svg"
+          },
+          {
+            "name": "Gas",
+            "type": "Basic Essentials",
+            "price": "5",
+            "currency": "GBP",
+            "duration": "weekly",
+            "icon": "https://prod-static-assets.amberstudent.com/images/gas.svg"
+          },
+          {
+            "name": "Internet (Upto 200MB  Dual Band Wifi)",
+            "type": "Internet Access",
+            "price": "7.37",
+            "currency": "GBP",
+            "duration": "weekly",
+            "icon": "https://prod-static-assets.amberstudent.com/images/wifi.svg"
+          },
+          {
+            "name": "Heating",
+            "type": "Basic Essentials",
+            "price": "3.17",
+            "currency": "GBP",
+            "duration": "weekly",
+            "icon": "https://prod-static-assets.amberstudent.com/images/heating.svg"
+          }
+        ]
+      },
+      {
+        "name": "Safety and Security",
+        "type": "safety_security",
+        "values": [
+          {
+            "name": "24/7 On Site Team",
+            "type": "Reception & Staff",
+            "icon": "https://prod-static-assets.amberstudent.com/images/finances.svg"
+          }
+        ]
+      }
+    ],
+    "message": null,
+    "offers": [],
+    "tags": [
+      "laundry_facility",
+      "cinema",
+      "Courtyard"
+    ],
+    "stats": {},
+    "region_id": 14,
+    "source_details": {},
+    "faqs": [
+      {
+        "answer": "All your utility bills – water, electric, gas, internet, gym and use of all the social spaces – are included in the price. There are no hidden charges, what you see on your contract is what you pay (besides any damage to the room or fees you incur).",
+        "question": "What’s included in the price?"
+      },
+      {
+        "answer": "You are welcome to have guests through the daytime, and an overnight guest for a reasonable amount of nights. You'll need to get permission from management for an extended period. They will need to provide a form of ID to check in through your resident portal, and you will be responsible for them throughout their stay. Please note, you will also need written consent from management if your overnight guest is under 18 years of age.",
+        "question": "Am I allowed to have guests to stay?"
+      },
+      {
+        "answer": "They have CCTV in and around each property, an electronic key entry system for the main entrance, common areas, each flat and bedroom. There is also staff on site 24 hours a day, 7 days a week.",
+        "question": "How secure is the accommodation?"
+      },
+      {
+        "answer": "In the UK, students are exempt from paying council tax – you won’t need to pay this, but if the council do mistakenly bill you, you will need to provide details to prove that you are in full time education.",
+        "question": "Will I need to pay council tax?"
+      },
+      {
+        "answer": "If you bring your own TV, or want to watch or record programmes as they are shown live (including on mobile phones, tablets or computers), you will need to apply and pay for a TV License. This also includes TV's provided by the management.",
+        "question": "Do I need a tv licence?"
+      },
+      {
+        "answer": "If you’re having any problems with your room, a shared living space, or one of the communal areas, you have two options. You can log the issue via the Resident portal, providing details so their maintenance team can get this sorted for you as soon as possible. Alternatively, you can come down to the front desk and talk to a member of the team so they can log it on your behalf.",
+        "question": "What if something in my apartment breaks down?"
+      },
+      {
+        "answer": "Unfortunately, you are not allowed to keep any pets in your room or any shared living spaces.",
+        "question": "Can I have pets?"
+      },
+      {
+        "answer": "They want your university experience to be as positive as possible – if you are having any issues with your flat mates, please let them know. They will do their best to help resolve any problems you might be having.",
+        "question": "What happens if I don’t get on with my new flat mates?"
+      },
+      {
+        "answer": "Lockable mailboxes located in the lobby (or speak to the front desk team to locate yours) - your room keycard may also give you access to this (please check with the front desk team to know more). If any larger packages, or anything that requires a signature arrives for you, they’ll hold onto it and let you know via text or email so you can come and collect it. For security reasons, you will need to provide photo ID and give a signature to confirm collection. Post will not be given out to other residents on your behalf without written authorisation",
+        "question": "Can I receive post and parcels?"
+      },
+      {
+        "answer": "They are more than happy to accommodate groups as well as individuals. Let them know who you’re planning to live with, and they’ll do their best to accommodate you in the same flat.",
+        "question": "Can I live with my friends?"
+      },
+      {
+        "answer": "As a minimum age requirement, property residents need to be or have turned 18 during their tenancy with them. This is due to the legally binding tenancy agreement that each resident is required to sign before arrival. They have no upper age limits on their accommodation, so long as the resident is in full time education for the duration of their stay.",
+        "question": "Is there an age limit for booking accommodation with the management?"
+      },
+      {
+        "answer": "All rooms come with a bed, desk and chair. Extras such as kettles, toasters and lamps are not provided.",
+        "question": "What appliances and furniture are included in my room?"
+      }
+    ],
+    "connect_details": {},
+    "virtual_views": [
+      {
+        "id": "https://vrpm.captur3d.io/view/vrpm/chapter-highbury",
+        "type": "Virtual Tour"
+      }
+    ],
+    "provider_id": 328,
+    "entities": [],
+    "message_1": "- Commissionable for 26-27 AY (40 weeks to 51 weeks)\n-Rebooking is commissionable for 26-27 AY (40-51 weeks)\n\n- Commissionable for 25-26 AY (36 weeks to 51 weeks)\n- Commissionable for 25-26 AY Semester Stay 1 (4 weeks to 20 weeks)\n- Commissionable for 25-26 AY Semester Stay 2 (4 weeks to 35 weeks) - Please highlight to the POC if any tenancies beyond 31st March 2026 is visible on the website.\n\n- Rebooking is commissionable for 25-26 AY\n\n- The 39-week tenancy option for Chapter is not eligible to Agents. Only undergraduate students enrolled at UCL for the 2025/26 academic year qualify for this tenancy length- This is an exclusive offer between Greystar and UCL and we cannot take these bookings. Please ask students to book directly should they want 39 weeks.\n\n- From 15th June- 30th June- 2 codes are to be added for every booking under the fest- AmberFest & the referral code AMBER2526\n\n- Free Bi-Weekly Cleaning (https://amberstudent.freshdesk.com/a/tickets/486892)",
+    "check_updated_at": "2025-12-08T22:14:56.762+05:30",
+    "available": true,
+    "custom_form_id": null,
+    "check_interval": 2,
+    "next_check_due_date": "2025-12-10T22:14:56.762+05:30",
+    "recent_bookings_count": 2,
+    "is_local_non_commissionable": null,
+    "payment_before_bookform": null,
+    "links": {},
+    "weekly_price": 377,
+    "highlights": [
+      "Prime Location – Just a 4-minute walk to London Metropolitan University and a stone's throw from the Emirates Stadium.",
+      "Affordable Living – All utility bills included, ensuring no surprise costs and financial ease.",
+      "Safety First – 24/7 on-site security, CCTV, and electronic access make this accommodation secure and safe for students.",
+      "Vibrant Community – Enjoy social spaces like a cinema room, gym, games area, and a courtyard for relaxation and social interactions.",
+      "Study-Friendly Environment – Well-equipped rooms featuring study desks and dedicated study spaces promote a focused academic atmosphere."
+    ],
+    "payment_types": [
+      "refundable_token"
+    ],
+    "show_in_search_results": true,
+    "inventory_visits": 167,
+    "revenue": 1914.759,
+    "is_whitelabel_inventory": null,
+    "supply_content_agent_id": 11491,
+    "inventory_featured_image_path": "https://assets.amberstudent.com/inventories/212674/35d00b40.jpeg",
+    "images_with_featured": null,
+    "is_map_view_enabled": true
+  }
+}
